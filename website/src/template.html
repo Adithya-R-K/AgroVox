@@ -1,0 +1,1891 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgroVox — Smarter Farming, By Voice</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231B7A43'%3E%3Cpath d='M5 21c8 0 14-6 14-14V4h-3C8 4 4 10 4 18v3z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+/* ============================== DESIGN TOKENS ============================== */
+:root {
+  --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Primary Light Theme Palette */
+  --bg-app: #F5F7F3;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #F0F4EE;
+  --bg-hover: #E8EFE5;
+  --border-color: #E2E8E0;
+  --border-subtle: #EDF2EC;
+
+  /* Typography Colors */
+  --text-main: #142217;
+  --text-muted: #5C6E60;
+  --text-dim: #889B8C;
+  --text-inverse: #FFFFFF;
+
+  /* Brand Accents */
+  --brand-green: #1B7A43;
+  --brand-green-dark: #12552E;
+  --brand-green-light: #E7F6EC;
+  --brand-lime: #3FD075;
+  --brand-gold: #D6972B;
+  --brand-gold-light: #FEF6E8;
+  --brand-blue: #2B75C2;
+  --brand-blue-light: #EBF4FC;
+  --brand-teal: #1F8E96;
+  --brand-teal-light: #E7F6F7;
+  --brand-purple: #7952CD;
+  --brand-purple-light: #F2EEFB;
+  --brand-rose: #D94665;
+  --brand-rose-light: #FDEEF2;
+  --brand-amber: #D97724;
+  --brand-amber-light: #FEF3EB;
+
+  /* Sidebar Tokens (Dark Forest) */
+  --sidebar-bg: #0F2818;
+  --sidebar-bg-gradient: linear-gradient(180deg, #102C1B 0%, #0B1E12 100%);
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-text: #E5EFE7;
+  --sidebar-muted: #8AA490;
+  --sidebar-hover: rgba(255, 255, 255, 0.07);
+  --sidebar-active-bg: rgba(63, 208, 117, 0.16);
+  --sidebar-active-text: #FFFFFF;
+  --sidebar-card-bg: rgba(255, 255, 255, 0.06);
+  --sidebar-card-border: rgba(255, 255, 255, 0.12);
+
+  /* Shadows & Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --shadow-sm: 0 1px 3px rgba(18, 40, 24, 0.04);
+  --shadow-md: 0 4px 14px rgba(18, 40, 24, 0.06);
+  --shadow-lg: 0 10px 30px rgba(18, 40, 24, 0.09);
+  --shadow-float: 0 16px 40px rgba(18, 40, 24, 0.13);
+}
+
+:root[data-theme="dark"] {
+  --bg-app: #0C1510;
+  --bg-card: #132118;
+  --bg-subtle: #192C20;
+  --bg-hover: #1E3427;
+  --border-color: #223B2B;
+  --border-subtle: #1A3022;
+
+  --text-main: #EBF3EC;
+  --text-muted: #95ABA0;
+  --text-dim: #657D70;
+
+  --brand-green-light: #163622;
+  --brand-gold-light: #322511;
+  --brand-blue-light: #152A3D;
+  --brand-teal-light: #122F32;
+  --brand-purple-light: #261B3D;
+  --brand-rose-light: #381620;
+  --brand-amber-light: #331F10;
+
+  --sidebar-bg: #09170F;
+  --sidebar-bg-gradient: linear-gradient(180deg, #0B1A11 0%, #06100A 100%);
+  --sidebar-border: rgba(255, 255, 255, 0.05);
+  --shadow-md: 0 4px 18px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.45);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; width: 100%; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg-app);
+  color: var(--text-main);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+input, textarea, select { font-family: inherit; font-size: inherit; color: inherit; }
+a { color: inherit; text-decoration: none; }
+svg { display: block; flex-shrink: 0; }
+
+/* ============================== APP SHELL LAYOUT ============================== */
+.app-shell {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* ============================== SIDEBAR ============================== */
+.app-sidebar {
+  width: 275px;
+  min-width: 275px;
+  background: var(--sidebar-bg-gradient);
+  border-right: 1px solid var(--sidebar-border);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: var(--sidebar-text);
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 50;
+  position: relative;
+  transition: transform 0.25s ease;
+}
+
+.app-sidebar::-webkit-scrollbar { width: 4px; }
+.app-sidebar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 4px; }
+
+.sidebar-header {
+  padding: 24px 22px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.sidebar-logo-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #22C55E 0%, #16A34A 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(34, 197, 94, 0.35);
+}
+.sidebar-brand-text h1 {
+  font-family: var(--font-main);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  line-height: 1.1;
+}
+.sidebar-brand-text p {
+  font-size: 0.73rem;
+  color: var(--sidebar-muted);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* Sidebar Navigation Items */
+.sidebar-nav {
+  padding: 8px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  color: var(--sidebar-muted);
+  font-weight: 600;
+  font-size: 0.88rem;
+  transition: all 0.15s ease;
+  position: relative;
+}
+.nav-item:hover {
+  color: #FFFFFF;
+  background: var(--sidebar-hover);
+}
+.nav-item.active {
+  background: var(--sidebar-active-bg);
+  color: var(--sidebar-active-text);
+  box-shadow: inset 0 0 0 1px rgba(63, 208, 117, 0.25);
+}
+.nav-item.active .nav-icon {
+  color: var(--brand-lime);
+}
+.nav-icon {
+  color: var(--sidebar-muted);
+  transition: color 0.15s;
+}
+
+.sidebar-divider-row {
+  padding: 14px 20px 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255,255,255,0.18);
+}
+.sidebar-divider-line {
+  flex: 1;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Farmer Profile Widget in Sidebar */
+.farmer-profile-widget {
+  margin: 6px 14px 18px;
+  background: var(--sidebar-card-bg);
+  border: 1px solid var(--sidebar-card-border);
+  border-radius: var(--radius-lg);
+  padding: 14px 14px 16px;
+  font-size: 0.82rem;
+}
+.fp-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-main);
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 0.88rem;
+  margin-bottom: 6px;
+}
+.fp-header svg { color: var(--brand-lime); }
+.fp-caption {
+  font-size: 0.74rem;
+  color: var(--sidebar-muted);
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.fp-id-card {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-sm);
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.fp-id-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--sidebar-muted);
+}
+.fp-id-val {
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.fp-copy-btn {
+  color: var(--sidebar-muted);
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.15s;
+}
+.fp-copy-btn:hover { color: #FFFFFF; background: rgba(255,255,255,0.12); }
+
+.fp-resume-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.28);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  color: #D6F7E1;
+  font-size: 0.77rem;
+  font-weight: 600;
+  transition: background 0.15s;
+  margin-bottom: 10px;
+}
+.fp-resume-toggle:hover { background: rgba(34, 197, 94, 0.2); }
+.fp-resume-toggle svg { color: var(--brand-lime); }
+
+.fp-or-divider {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.fp-or-divider::before, .fp-or-divider::after {
+  content: ''; flex: 1; height: 1px; background: rgba(255, 255, 255, 0.1);
+}
+
+.fp-input-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.fp-input-row input {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-sm);
+  padding: 6px 9px;
+  font-size: 0.77rem;
+  color: #FFFFFF;
+  outline: none;
+}
+.fp-input-row input:focus { border-color: var(--brand-lime); }
+.fp-submit-btn {
+  background: var(--brand-green);
+  color: #FFFFFF;
+  padding: 0 10px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.fp-submit-btn:hover { background: var(--brand-lime); color: #0C1E12; }
+
+.fp-field {
+  margin-bottom: 9px;
+}
+.fp-field label {
+  display: block;
+  font-size: 0.71rem;
+  color: var(--sidebar-muted);
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.fp-field input, .fp-field select {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-sm);
+  padding: 6px 9px;
+  font-size: 0.79rem;
+  color: #FFFFFF;
+  outline: none;
+}
+.fp-field input:focus, .fp-field select:focus { border-color: var(--brand-lime); }
+.fp-field select option { background: #13281B; color: #FFFFFF; }
+
+.sidebar-footer {
+  margin-top: auto;
+  padding: 16px 20px 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(0, 0, 0, 0.15);
+}
+.sidebar-footer-leaf {
+  color: var(--brand-lime);
+  opacity: 0.85;
+}
+.sidebar-footer p {
+  font-size: 0.74rem;
+  color: var(--sidebar-muted);
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+/* ============================== MAIN CONTENT WRAPPER ============================== */
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg-app);
+}
+
+/* ============================== TOP APP BAR ============================== */
+.top-header {
+  height: 68px;
+  min-height: 68px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 40;
+}
+
+.top-search-box {
+  flex: 1;
+  max-width: 520px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.top-search-icon {
+  position: absolute;
+  left: 14px;
+  color: var(--text-dim);
+  pointer-events: none;
+}
+.top-search-input {
+  width: 100%;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 10px 18px 10px 42px;
+  font-size: 0.86rem;
+  color: var(--text-main);
+  outline: none;
+  transition: all 0.15s ease;
+}
+.top-search-input:focus {
+  background: var(--bg-card);
+  border-color: var(--brand-green);
+  box-shadow: 0 0 0 3px rgba(27, 122, 67, 0.12);
+}
+.top-search-input::placeholder { color: var(--text-dim); }
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header-icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  transition: all 0.15s ease;
+  position: relative;
+}
+.header-icon-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-main);
+}
+.header-icon-btn.theme-btn {
+  background: #FFF7E6;
+  border-color: #F8E2B5;
+  color: #C27D16;
+}
+:root[data-theme="dark"] .header-icon-btn.theme-btn {
+  background: #2D2413;
+  border-color: #4A3A1B;
+  color: #E6B658;
+}
+
+.notif-badge-dot {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--brand-rose);
+  border: 1.5px solid var(--bg-card);
+}
+
+.profile-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 12px 5px 6px;
+  border-radius: 999px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  transition: background 0.15s;
+}
+.profile-dropdown-btn:hover { background: var(--bg-hover); }
+.user-avatar-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #1B3524;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+.user-avatar-name {
+  font-weight: 600;
+  font-size: 0.86rem;
+  color: var(--text-main);
+}
+.user-avatar-chevron { color: var(--text-muted); }
+
+.mobile-menu-btn {
+  display: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+}
+
+/* ============================== SCROLLABLE VIEW CONTAINER ============================== */
+.content-scroll {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 24px 32px 48px;
+}
+.content-scroll::-webkit-scrollbar { width: 6px; }
+.content-scroll::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 4px; }
+:root[data-theme="dark"] .content-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); }
+
+/* ============================== SCENIC WELCOME BANNER ============================== */
+.welcome-banner-card {
+  border-radius: var(--radius-xl);
+  position: relative;
+  overflow: hidden;
+  min-height: 124px;
+  margin-bottom: 24px;
+  background: linear-gradient(110deg, #EBF5ED 0%, #D8EBDC 35%, #F0EACF 70%, #E6DEC1 100%);
+  border: 1px solid rgba(34, 139, 70, 0.15);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 36px;
+}
+:root[data-theme="dark"] .welcome-banner-card {
+  background: linear-gradient(110deg, #132A1C 0%, #163624 35%, #2B2E1C 70%, #242616 100%);
+  border-color: rgba(63, 208, 117, 0.15);
+}
+
+.banner-scenic-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.95;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.banner-sprout-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brand-green);
+  box-shadow: 0 4px 16px rgba(27, 122, 67, 0.14);
+}
+:root[data-theme="dark"] .banner-sprout-icon {
+  background: rgba(18, 40, 26, 0.75);
+  color: var(--brand-lime);
+}
+.banner-text-block h2 {
+  font-family: var(--font-main);
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: #12301A;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+:root[data-theme="dark"] .banner-text-block h2 { color: #FFFFFF; }
+.banner-text-block p {
+  font-size: 0.92rem;
+  color: #385540;
+  font-weight: 600;
+  margin-top: 3px;
+}
+:root[data-theme="dark"] .banner-text-block p { color: #A8C9B3; }
+
+.banner-quote {
+  position: relative;
+  z-index: 2;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 0.92rem;
+  color: #405847;
+  text-align: right;
+  line-height: 1.35;
+}
+:root[data-theme="dark"] .banner-quote { color: #ADC2B3; }
+
+/* ============================== SUB-MODULE FILTER PILLS ============================== */
+.submodule-pills-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.submodule-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  border-radius: 999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.submodule-pill:hover {
+  background: var(--bg-hover);
+  color: var(--text-main);
+  border-color: var(--border-color);
+}
+.submodule-pill.active {
+  background: #143521;
+  color: #FFFFFF;
+  border-color: #143521;
+  box-shadow: 0 4px 12px rgba(20, 53, 33, 0.25);
+}
+:root[data-theme="dark"] .submodule-pill.active {
+  background: #1E4E30;
+  border-color: #2E6B45;
+}
+.submodule-pill .pill-ic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submodule-pill.active .pill-ic { color: #E9F8EE; }
+.submodule-pill:not(.active) .pill-ic.ic-ner { color: #16A34A; }
+.submodule-pill:not(.active) .pill-ic.ic-trans { color: #2563EB; }
+.submodule-pill:not(.active) .pill-ic.ic-qa { color: #9333EA; }
+.submodule-pill:not(.active) .pill-ic.ic-speech { color: #0284C7; }
+
+/* ============================== SUMMARY STAT CARDS GRID ============================== */
+.summary-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 22px;
+}
+.summary-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 120px;
+}
+.summary-card-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.summary-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.summary-card-icon.ic-green { background: #E7F7ED; color: #198754; }
+.summary-card-icon.ic-peach { background: #FDF1E6; color: #C87820; }
+.summary-card-icon.ic-pink { background: #FDEEF0; color: #D64560; }
+.summary-card-icon.ic-teal { background: #E6F6F6; color: #168A91; }
+:root[data-theme="dark"] .summary-card-icon.ic-green { background: #163622; color: #4ADE80; }
+:root[data-theme="dark"] .summary-card-icon.ic-peach { background: #332111; color: #FB923C; }
+:root[data-theme="dark"] .summary-card-icon.ic-pink { background: #35151D; color: #FB7185; }
+:root[data-theme="dark"] .summary-card-icon.ic-teal { background: #123032; color: #2DD4BF; }
+
+.summary-card-info { flex: 1; }
+.summary-card-label {
+  font-size: 0.77rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 3px;
+}
+.summary-card-value {
+  font-family: var(--font-main);
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.15;
+}
+
+.summary-card-bottom {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.badge-pill-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.badge-pill-status.status-green {
+  background: var(--brand-green-light);
+  color: var(--brand-green-dark);
+}
+:root[data-theme="dark"] .badge-pill-status.status-green { color: #4ADE80; }
+.badge-pill-status.status-red {
+  background: var(--brand-rose-light);
+  color: var(--brand-rose);
+}
+.badge-pill-status.status-red .dot-indicator {
+  width: 5px; height: 5px; border-radius: 50%; background: var(--brand-rose);
+}
+.summary-card-subtext {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.card-watermark-leaf {
+  position: absolute;
+  right: -8px;
+  bottom: -10px;
+  color: var(--text-dim);
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+/* ============================== INFO BANNER ============================== */
+.about-eval-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 18px 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.about-eval-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #EBF4FC;
+  color: #2B75C2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+:root[data-theme="dark"] .about-eval-icon { background: #172C3E; color: #60A5FA; }
+.about-eval-content h3 {
+  font-family: var(--font-main);
+  font-size: 0.96rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+.about-eval-content p {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  max-width: 900px;
+}
+
+.notice-caption-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 22px;
+  padding: 0 4px;
+}
+.notice-caption-row code {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: var(--brand-green);
+  font-weight: 600;
+}
+
+/* ============================== EVALUATION RESULTS DATA TABLE ============================== */
+.table-container-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+
+.table-header-toolbar {
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.table-title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.table-title-group h3 {
+  font-family: var(--font-main);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+.table-title-group svg { color: var(--brand-green); }
+.badge-count-pill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+}
+
+.table-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.table-search-box {
+  position: relative;
+  width: 220px;
+}
+.table-search-box input {
+  width: 100%;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 7px 12px 7px 32px;
+  font-size: 0.81rem;
+  outline: none;
+}
+.table-search-box input:focus {
+  background: var(--bg-card);
+  border-color: var(--brand-green);
+}
+.table-search-box svg {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-dim);
+}
+
+.table-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: var(--radius-md);
+  font-size: 0.81rem;
+  font-weight: 600;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-main);
+  transition: all 0.15s;
+}
+.table-btn:hover { background: var(--bg-hover); }
+.table-btn.btn-export {
+  background: #143521;
+  color: #FFFFFF;
+  border-color: #143521;
+}
+.table-btn.btn-export:hover { background: #1B452C; }
+
+.eval-table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+.eval-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.84rem;
+}
+.eval-table th {
+  padding: 12px 18px;
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 0.77rem;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+.eval-table td {
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  vertical-align: middle;
+}
+.eval-table tbody tr:hover {
+  background: rgba(0, 0, 0, 0.015);
+}
+:root[data-theme="dark"] .eval-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+.result-badge.good { background: #E7F6EC; color: #16A34A; }
+.result-badge.exact { background: #EBF4FC; color: #2563EB; }
+.result-badge.review { background: #FEF3EB; color: #D97724; }
+:root[data-theme="dark"] .result-badge.good { background: #163622; color: #4ADE80; }
+:root[data-theme="dark"] .result-badge.exact { background: #172C3E; color: #60A5FA; }
+:root[data-theme="dark"] .result-badge.review { background: #332111; color: #FB923C; }
+
+.table-more-btn {
+  color: var(--text-dim);
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.15s;
+}
+.table-more-btn:hover { color: var(--text-main); background: var(--bg-hover); }
+
+/* ============================== INSIGHT BANNER ============================== */
+.insight-banner-card {
+  background: #EBF5ED;
+  border: 1px solid #D5E8D9;
+  border-radius: var(--radius-lg);
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: var(--shadow-sm);
+}
+:root[data-theme="dark"] .insight-banner-card {
+  background: #14281C;
+  border-color: #1E3D2B;
+}
+
+.insight-left-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.insight-bulb-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #D8EEDB;
+  color: #16793F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+:root[data-theme="dark"] .insight-bulb-icon {
+  background: #1D3C28;
+  color: #4ADE80;
+}
+.insight-text-group h4 {
+  font-family: var(--font-main);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #12301A;
+  margin-bottom: 2px;
+}
+:root[data-theme="dark"] .insight-text-group h4 { color: #FFFFFF; }
+.insight-text-group p {
+  font-size: 0.83rem;
+  color: #385540;
+  line-height: 1.45;
+}
+:root[data-theme="dark"] .insight-text-group p { color: #A8C9B3; }
+
+.insight-quote-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 0.88rem;
+  color: #3A5442;
+  white-space: nowrap;
+}
+:root[data-theme="dark"] .insight-quote-block { color: #A8C9B3; }
+.insight-quote-block svg { color: var(--brand-green); }
+
+/* ============================== VIEW SWITCHER & OTHER PANELS ============================== */
+.spa-view {
+  display: none;
+}
+.spa-view.active-view {
+  display: block;
+}
+
+/* Card & Grid Utilities */
+.view-header {
+  margin-bottom: 22px;
+}
+.view-header h2 {
+  font-family: var(--font-main);
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+.view-header p {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.panel-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 22px;
+}
+
+/* Assistant UI Elements */
+.assistant-chat-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 22px;
+}
+@media (max-width: 1020px) {
+  .assistant-chat-container { grid-template-columns: 1fr; }
+}
+
+.query-input-box {
+  width: 100%;
+  min-height: 100px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-subtle);
+  padding: 14px 16px;
+  font-size: 0.95rem;
+  color: var(--text-main);
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.query-input-box:focus {
+  background: var(--bg-card);
+  border-color: var(--brand-green);
+  box-shadow: 0 0 0 3px rgba(27, 122, 67, 0.12);
+}
+
+.assistant-mic-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: var(--brand-green-light);
+  color: var(--brand-green-dark);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+.assistant-mic-btn.listening {
+  background: var(--brand-rose-light);
+  color: var(--brand-rose);
+  border-color: var(--brand-rose);
+  animation: pulseMic 1.2s infinite;
+}
+@keyframes pulseMic {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.08); opacity: 0.8; }
+}
+
+.sample-chip {
+  display: inline-block;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.79rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.sample-chip:hover {
+  background: var(--bg-hover);
+  color: var(--text-main);
+  border-color: var(--brand-green);
+}
+
+/* Pipeline visualization */
+.pipeline-track {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  overflow-x: auto;
+  padding: 12px 4px 18px;
+}
+.pipeline-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 108px;
+  text-align: center;
+}
+.node-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--bg-subtle);
+  border: 1.5px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.pipeline-node.active .node-circle {
+  background: var(--brand-gold-light);
+  border-color: var(--brand-gold);
+  color: var(--brand-gold);
+}
+.pipeline-node.done .node-circle {
+  background: var(--brand-green-light);
+  border-color: var(--brand-green);
+  color: var(--brand-green);
+}
+.node-label {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.pipeline-node.active .node-label, .pipeline-node.done .node-label {
+  color: var(--text-main);
+}
+.pipeline-arrow {
+  color: var(--border-color);
+  padding: 0 4px;
+  margin-bottom: 20px;
+}
+
+/* Confidence Bars */
+.conf-track {
+  height: 8px;
+  background: var(--border-color);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+.conf-fill {
+  height: 100%;
+  background: var(--brand-green);
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+/* Entity highlighting tokens */
+.ent-token {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 2px;
+}
+.ent-CROP { background: var(--brand-green-light); color: var(--brand-green-dark); }
+.ent-DISEASE { background: var(--brand-rose-light); color: var(--brand-rose); }
+.ent-PEST { background: var(--brand-amber-light); color: var(--brand-amber); }
+.ent-FERTILIZER { background: var(--brand-blue-light); color: var(--brand-blue); }
+.ent-SOIL_TYPE { background: var(--brand-purple-light); color: var(--brand-purple); }
+.ent-LOCATION { background: var(--brand-teal-light); color: var(--brand-teal); }
+
+/* ============================== RESPONSIVE DESIGN ============================== */
+@media (max-width: 960px) {
+  .app-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    box-shadow: var(--shadow-float);
+  }
+  .app-sidebar.open {
+    transform: translateX(0);
+  }
+  .mobile-menu-btn {
+    display: flex;
+  }
+  .top-header {
+    padding: 0 18px;
+  }
+  .content-scroll {
+    padding: 18px 18px 36px;
+  }
+  .summary-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .summary-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .top-search-box {
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="app-shell">
+  <!-- ============================== SIDEBAR ============================== -->
+  <aside class="app-sidebar" id="appSidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo-icon">
+        <span id="logoSprout"></span>
+      </div>
+      <div class="sidebar-brand-text">
+        <h1>AgroVox</h1>
+        <p>Smarter Farming, By Voice</p>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav" aria-label="Main Navigation">
+      <a href="#dashboard" class="nav-item" data-tab="dashboard">
+        <span class="nav-icon" data-icon="home" data-size="18"></span>
+        <span>Dashboard</span>
+      </a>
+      <a href="#assistant" class="nav-item" data-tab="assistant">
+        <span class="nav-icon" data-icon="bot" data-size="18"></span>
+        <span>AI Assistant</span>
+      </a>
+      <a href="#query-analysis" class="nav-item" data-tab="query-analysis">
+        <span class="nav-icon" data-icon="search" data-size="18"></span>
+        <span>Query Analysis</span>
+      </a>
+      <a href="#knowledge" class="nav-item" data-tab="knowledge">
+        <span class="nav-icon" data-icon="book" data-size="18"></span>
+        <span>Knowledge Explorer</span>
+      </a>
+      <a href="#pipeline" class="nav-item" data-tab="pipeline">
+        <span class="nav-icon" data-icon="pipeline" data-size="18"></span>
+        <span>Data Pipeline (ETL &amp; EDA)</span>
+      </a>
+      <a href="#evaluation" class="nav-item active" data-tab="evaluation">
+        <span class="nav-icon" data-icon="barchart" data-size="18"></span>
+        <span>NLP Evaluation</span>
+      </a>
+      <a href="#profile" class="nav-item" data-tab="profile">
+        <span class="nav-icon" data-icon="users" data-size="18"></span>
+        <span>Farmer Profile &amp; Analytics</span>
+      </a>
+      <a href="#settings" class="nav-item" data-tab="settings">
+        <span class="nav-icon" data-icon="settings" data-size="18"></span>
+        <span>Settings</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-divider-row">
+      <div class="sidebar-divider-line"></div>
+      <span data-icon="leaf" data-size="12"></span>
+      <div class="sidebar-divider-line"></div>
+    </div>
+
+    <!-- Farmer Profile Box in Sidebar -->
+    <div class="farmer-profile-widget">
+      <div class="fp-header">
+        <span data-icon="leaf" data-size="16"></span>
+        <span>Farmer Profile</span>
+      </div>
+      <p class="fp-caption">Your Farmer ID helps us personalize recommendations and save your activity securely.</p>
+
+      <div class="fp-id-card">
+        <div>
+          <div class="fp-id-label">Farmer ID</div>
+          <div class="fp-id-val" id="sidebarFarmerId">FMR_5U1d982</div>
+        </div>
+        <button class="fp-copy-btn" id="copyFarmerIdBtn" title="Copy Farmer ID">
+          <span data-icon="copy" data-size="15"></span>
+        </button>
+      </div>
+
+      <button class="fp-resume-toggle" id="resumeToggleBtn">
+        <span data-icon="leaf" data-size="15"></span>
+        <span>Resume an existing Farmer ID</span>
+      </button>
+
+      <div class="fp-or-divider">OR</div>
+
+      <div style="margin-bottom:8px;">
+        <label style="display:block; font-size:0.71rem; color:var(--sidebar-muted); margin-bottom:3px;">Enter Your Farmer ID</label>
+        <div class="fp-input-row">
+          <input type="text" id="resumeIdInput" placeholder="Enter ID (e.g. FMR_1234)">
+          <button class="fp-submit-btn" id="resumeSubmitBtn" title="Resume profile">
+            <span data-icon="arrowRight" data-size="15"></span>
+          </button>
+        </div>
+        <a href="#profile" class="nav-link-trigger" data-tab="profile" style="font-size:0.73rem; color:var(--brand-lime); display:inline-flex; align-items:center; gap:4px; font-weight:600;">
+          <span data-icon="refresh" data-size="12"></span> Resume Profile
+        </a>
+      </div>
+
+      <div class="fp-field" style="margin-top:10px;">
+        <label for="farmerNameInput">Name</label>
+        <input type="text" id="farmerNameInput" placeholder="Enter your name">
+      </div>
+
+      <div class="fp-field">
+        <label for="farmerLangSelect">Preferred Language</label>
+        <select id="farmerLangSelect">
+          <option value="en" selected>English</option>
+          <option value="ta">தமிழ் (Tamil)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sidebar-footer">
+      <span class="sidebar-footer-leaf" data-icon="sprout" data-size="20"></span>
+      <p>Growing Knowledge<br>for a Greener Tomorrow</p>
+    </div>
+  </aside>
+
+  <!-- ============================== MAIN CONTENT ============================== -->
+  <main class="app-main">
+    <!-- Top Header -->
+    <header class="top-header">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+          <span data-icon="menu" data-size="20"></span>
+        </button>
+        <div class="top-search-box">
+          <span class="top-search-icon" data-icon="search" data-size="16"></span>
+          <input type="text" id="globalSearchInput" class="top-search-input" placeholder="Search for queries, datasets, or evaluations...">
+        </div>
+      </div>
+
+      <div class="top-actions">
+        <button class="header-icon-btn theme-btn" id="themeToggleBtn" title="Toggle Light/Dark Theme">
+          <span data-icon="sun" data-size="18"></span>
+        </button>
+        <button class="header-icon-btn" id="notifBtn" title="Notifications">
+          <span data-icon="bell" data-size="18"></span>
+          <span class="notif-badge-dot"></span>
+        </button>
+        <button class="profile-dropdown-btn" id="userProfileBtn">
+          <div class="user-avatar-circle">A</div>
+          <span class="user-avatar-name">AgroVox User</span>
+          <span class="user-avatar-chevron" data-icon="chevronDown" data-size="14"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Scrollable Body -->
+    <div class="content-scroll">
+
+      <!-- ==================== SCENIC WELCOME BANNER ==================== -->
+      <section class="welcome-banner-card" aria-label="Welcome Banner">
+        <svg class="banner-scenic-art" viewBox="0 0 1100 130" preserveAspectRatio="none" aria-hidden="true">
+          <!-- Sky gradients & rolling hills -->
+          <path d="M0,130 C200,90 350,110 500,85 C650,60 850,105 1100,75 L1100,130 Z" fill="#9CCBA6" opacity="0.4"/>
+          <path d="M0,130 C150,105 320,80 480,100 C640,120 800,75 1100,95 L1100,130 Z" fill="#75AD83" opacity="0.6"/>
+          <path d="M0,130 C220,115 440,95 660,115 C880,100 990,110 1100,110 L1100,130 Z" fill="#5A9468" opacity="0.75"/>
+          <!-- Sun -->
+          <circle cx="820" cy="42" r="26" fill="#F8DE7E" opacity="0.9"/>
+          <!-- Trees silhouette -->
+          <g fill="#437550" opacity="0.8">
+            <polygon points="260,100 270,75 280,100"/>
+            <polygon points="275,102 283,82 291,102"/>
+            <polygon points="700,90 710,68 720,90"/>
+            <polygon points="715,92 723,74 731,92"/>
+            <polygon points="950,96 960,78 970,96"/>
+          </g>
+          <!-- Tractor silhouette -->
+          <g transform="translate(790, 78) scale(0.65)" fill="#1F4B2C">
+            <rect x="10" y="8" width="18" height="12" rx="2"/>
+            <rect x="2" y="14" width="12" height="6" rx="1"/>
+            <circle cx="8" cy="22" r="5" fill="#14351F"/>
+            <circle cx="24" cy="20" r="7" fill="#14351F"/>
+            <rect x="18" y="2" width="2" height="6"/>
+          </g>
+        </svg>
+
+        <div class="banner-content">
+          <div class="banner-sprout-icon">
+            <span data-icon="leafDouble" data-size="28"></span>
+          </div>
+          <div class="banner-text-block">
+            <h2>Welcome to AgroVox!</h2>
+            <p>Evaluate. Understand. Empower Farmers with AI.</p>
+          </div>
+        </div>
+
+        <div class="banner-quote">
+          “AI for Farmers<br>&nbsp;&nbsp;A Healthier Tomorrow”
+        </div>
+      </section>
+
+      <!-- ==================== VIEW 1: NLP EVALUATION (MATCHING MOCKUP) ==================== -->
+      <div class="spa-view active-view" id="view-evaluation">
+        <!-- Sub-module Pills -->
+        <div class="submodule-pills-row" id="evalSubmodulePills">
+          <button class="submodule-pill active" data-subtab="classification">
+            <span class="pill-ic"><span data-icon="tag" data-size="16"></span></span>
+            <span>Classification</span>
+          </button>
+          <button class="submodule-pill" data-subtab="ner">
+            <span class="pill-ic ic-ner"><span data-icon="entity" data-size="16"></span></span>
+            <span>NER</span>
+          </button>
+          <button class="submodule-pill" data-subtab="translation">
+            <span class="pill-ic ic-trans"><span data-icon="globe" data-size="16"></span></span>
+            <span>Translation</span>
+          </button>
+          <button class="submodule-pill" data-subtab="qa">
+            <span class="pill-ic ic-qa"><span data-icon="question" data-size="16"></span></span>
+            <span>QA</span>
+          </button>
+          <button class="submodule-pill" data-subtab="speech">
+            <span class="pill-ic ic-speech"><span data-icon="mic" data-size="16"></span></span>
+            <span>Speech</span>
+          </button>
+        </div>
+
+        <!-- 4 Summary Stat Cards -->
+        <div class="summary-cards-grid">
+          <!-- Card 1: WER -->
+          <div class="summary-card">
+            <div class="summary-card-top">
+              <div class="summary-card-icon ic-green">
+                <span data-icon="chart" data-size="22"></span>
+              </div>
+              <div class="summary-card-info">
+                <div class="summary-card-label">Average WER</div>
+                <div class="summary-card-value" id="cardAvgWer">18.3%</div>
+              </div>
+            </div>
+            <div class="summary-card-bottom">
+              <span class="badge-pill-status status-green">↓ 5.2%</span>
+              <span class="summary-card-subtext">Lower is better</span>
+            </div>
+          </div>
+
+          <!-- Card 2: ASR Backend -->
+          <div class="summary-card">
+            <div class="summary-card-top">
+              <div class="summary-card-icon ic-peach">
+                <span data-icon="mic" data-size="22"></span>
+              </div>
+              <div class="summary-card-info">
+                <div class="summary-card-label">ASR Backend</div>
+                <div class="summary-card-value" id="cardAsrStatus">Unavailable</div>
+              </div>
+            </div>
+            <div class="summary-card-bottom">
+              <span class="badge-pill-status status-red"><span class="dot-indicator"></span> False</span>
+            </div>
+          </div>
+
+          <!-- Card 3: TTS Backend -->
+          <div class="summary-card">
+            <div class="summary-card-top">
+              <div class="summary-card-icon ic-pink">
+                <span data-icon="fileText" data-size="22"></span>
+              </div>
+              <div class="summary-card-info">
+                <div class="summary-card-label">TTS Backend</div>
+                <div class="summary-card-value" id="cardTtsStatus">Unavailable</div>
+              </div>
+            </div>
+            <div class="summary-card-bottom">
+              <span class="badge-pill-status status-red"><span class="dot-indicator"></span> False</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Total Queries -->
+          <div class="summary-card">
+            <div class="summary-card-top">
+              <div class="summary-card-icon ic-teal">
+                <span data-icon="wave" data-size="22"></span>
+              </div>
+              <div class="summary-card-info">
+                <div class="summary-card-label">Total Queries Evaluated</div>
+                <div class="summary-card-value" id="cardTotalQueries">128</div>
+              </div>
+            </div>
+            <div class="summary-card-bottom">
+              <span class="badge-pill-status status-green">↑ 12%</span>
+              <span class="summary-card-subtext">From last session</span>
+            </div>
+            <div class="card-watermark-leaf">
+              <span data-icon="sprout" data-size="48"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Info Card: About This Evaluation -->
+        <div class="about-eval-box">
+          <div class="about-eval-icon">
+            <span data-icon="info" data-size="20"></span>
+          </div>
+          <div class="about-eval-content">
+            <h3>About This Evaluation</h3>
+            <p>This module evaluates the performance of NLP models on actual farmer queries. The audio is processed using the Streamlit voice assistant, and the predicted text is compared with the reference transcript to compute evaluation metrics.</p>
+          </div>
+          <div class="card-watermark-leaf" style="right:12px; bottom:8px; opacity:0.18;">
+            <span data-icon="leafDouble" data-size="42"></span>
+          </div>
+        </div>
+
+        <!-- Note Caption -->
+        <div class="notice-caption-row">
+          <span data-icon="alertTriangle" data-size="14"></span>
+          <span>Metrics computed from actual trained models and datasets — see <code>evaluate.py</code>. Run <code>python train_classifier.py</code> to regenerate.</span>
+        </div>
+
+        <!-- Evaluation Results Data Table Card -->
+        <div class="table-container-card">
+          <div class="table-header-toolbar">
+            <div class="table-title-group">
+              <span data-icon="barchart" data-size="20"></span>
+              <h3>Evaluation Results</h3>
+              <span class="badge-count-pill" id="evalCountBadge">85 queries</span>
+            </div>
+            <div class="table-actions-group">
+              <div class="table-search-box">
+                <span data-icon="search" data-size="14"></span>
+                <input type="text" id="evalQuerySearch" placeholder="Search queries...">
+              </div>
+              <button class="table-btn" id="evalFilterBtn">
+                <span data-icon="filter" data-size="14"></span>
+                <span>Filter</span>
+              </button>
+              <button class="table-btn btn-export" id="evalExportBtn">
+                <span data-icon="download" data-size="14"></span>
+                <span>Export</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="eval-table-wrapper">
+            <table class="eval-table" id="evalTable">
+              <thead>
+                <tr>
+                  <th style="width:40px;">#</th>
+                  <th>Reference Transcript</th>
+                  <th>Hypothesis (Predicted)</th>
+                  <th>WER ↓</th>
+                  <th>Confidence</th>
+                  <th>Result</th>
+                  <th style="width:40px;"></th>
+                </tr>
+              </thead>
+              <tbody id="evalTableBody">
+                <!-- Rows injected dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Bottom Insight Banner -->
+        <div class="insight-banner-card">
+          <div class="insight-left-block">
+            <div class="insight-bulb-icon">
+              <span data-icon="lightbulb" data-size="22"></span>
+            </div>
+            <div class="insight-text-group">
+              <h4>Insight</h4>
+              <p>The current model performs well on general farming queries. Consider adding domain-specific data (local languages, dialects, and crop-specific terms) to further reduce WER.</p>
+            </div>
+          </div>
+          <div class="insight-quote-block">
+            <span data-icon="sprout" data-size="22"></span>
+            <span>“Better Data Brighter Farms.”</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== VIEW 2: AI ASSISTANT ==================== -->
+      <div class="spa-view" id="view-assistant">
+        <div class="view-header">
+          <h2>🎤💬 AI Farming Assistant</h2>
+          <p>Ask in Tamil or English via voice or text. Watch our multi-stage NLP pipeline reason in real time.</p>
+        </div>
+
+        <div class="assistant-chat-container">
+          <div class="panel-card">
+            <div style="display:flex; gap:12px; align-items:flex-start; margin-bottom:14px;">
+              <textarea id="queryInput" class="query-input-box" placeholder="Describe your farming issue... e.g. My rice crop has yellow leaves, what should I spray?"></textarea>
+              <button class="assistant-mic-btn" id="micBtn" title="Speak your question">
+                <span data-icon="mic" data-size="22"></span>
+              </button>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <label for="langSelect" style="font-size:0.82rem; font-weight:600; color:var(--text-muted);">Language:</label>
+                <select id="langSelect" style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-sm); padding:6px 10px; font-size:0.83rem;">
+                  <option value="auto">Auto-detect</option>
+                  <option value="en">English</option>
+                  <option value="ta">தமிழ் (Tamil)</option>
+                </select>
+              </div>
+              <button class="table-btn btn-export" id="analyzeBtn" style="padding:9px 20px; font-size:0.88rem;">
+                <span>Analyze Query →</span>
+              </button>
+            </div>
+
+            <p id="micStatus" style="font-size:0.78rem; color:var(--text-dim); margin-top:8px;"></p>
+
+            <div style="margin-top:16px;">
+              <div style="font-size:0.78rem; font-weight:700; color:var(--text-dim); text-transform:uppercase; margin-bottom:8px;">Sample Questions</div>
+              <div class="sample-chips" id="sampleChips" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
+            </div>
+
+            <!-- Pipeline Visualizer Track -->
+            <div style="margin-top:24px;">
+              <div style="font-size:0.78rem; font-weight:700; color:var(--text-dim); text-transform:uppercase; margin-bottom:6px;">NLP Execution Stages</div>
+              <div class="pipeline-track" id="pipelineRow"></div>
+            </div>
+          </div>
+
+          <!-- Assistant Results Panel -->
+          <div class="panel-card" id="resultPanel" style="display:none;">
+            <h3 style="font-family:var(--font-main); font-size:1.05rem; margin-bottom:16px; display:flex; align-items:center; gap:8px;">
+              <span data-icon="bot" data-size="18"></span>
+              <span>Grounded Agricultural Answer</span>
+            </h3>
+
+            <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:16px; margin-bottom:16px;">
+              <div style="font-size:0.75rem; font-weight:700; color:var(--brand-green); text-transform:uppercase; margin-bottom:4px;" id="resIntentTitle">Recommendation</div>
+              <p style="font-size:0.92rem; color:var(--text-main); line-height:1.55;" id="resAnswer">—</p>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px;">
+                <span style="font-size:0.76rem; color:var(--text-muted);">Confidence Score</span>
+                <span style="font-size:0.8rem; font-weight:700;" id="resAnswerConf">—</span>
+              </div>
+              <div class="conf-track"><div class="conf-fill" id="resAnswerBar" style="width:0%;"></div></div>
+            </div>
+
+            <div style="display:flex; gap:8px; margin-bottom:16px;">
+              <button class="table-btn" id="speakBtn">
+                <span data-icon="speaker" data-size="14"></span>
+                <span>Speak Answer</span>
+              </button>
+              <div style="margin-left:auto; display:flex; align-items:center; gap:6px;">
+                <span style="font-size:0.78rem; color:var(--text-muted);">Helpful?</span>
+                <button class="table-btn" id="fbUp" style="padding:6px 10px;"><span data-icon="thumbsUp" data-size="14"></span></button>
+                <button class="table-btn" id="fbDown" style="padding:6px 10px;"><span data-icon="thumbsDown" data-size="14"></span></button>
+              </div>
+            </div>
+
+            <!-- Entities & Intent Meta -->
+            <div style="border-top:1px solid var(--border-color); padding-top:14px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="font-size:0.78rem; font-weight:700; color:var(--text-muted);">PREDICTED INTENT:</span>
+                <span class="result-badge good" id="resIntent">—</span>
+              </div>
+              <div style="margin-bottom:10px;">
+                <span style="font-size:0.78rem; font-weight:700; color:var(--text-muted);">EXTRACTED ENTITIES:</span>
+                <div id="resEntityHighlight" style="margin-top:4px; font-size:0.88rem; line-height:1.7;"></div>
+              </div>
+              <div style="font-size:0.78rem; color:var(--text-muted);">
+                Language: <strong id="resLang">—</strong> <span id="resTranslated" style="margin-left:6px; font-style:italic;"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== VIEW 3: DASHBOARD ==================== -->
+      <div class="spa-view" id="view-dashboard">
+        <div class="view-header">
+          <h2>🌾 AgroVox Dashboard</h2>
+          <p>Comprehensive overview of agricultural language intelligence, knowledge assets, and active modules.</p>
+        </div>
+
+        <div class="summary-cards-grid" style="margin-bottom:24px;">
+          <div class="summary-card">
+            <div class="summary-card-top">
+              <div class="summary-card-icon ic-green"><span data-icon="sprout" data-size="22"></span></div>
+              <div class="summary-card-info">
+                <div class="summary-card-label">Crops in Knowledge Base</div>
+                <div class="summary-card-value">12</div>
+              </div>
+            </div>
+            <div class="summary-card-bottom"><span class="badge-pill-status status-green">100% Covered</span></div>
+          </div>
+          <div class="summary-card">
+            <div class="summary-card-top">
+              <div class="summary-card-icon ic-pink"><span data-icon="alertTriangle" data-size="22"></span></div>
+              <div class="summary-card-info">
+                <div class="summary-card-label">Diseases Profiled</div>
+                <div class="summary-card-value">24</div>
+              </div>
+            </div>
+            <div class="summary-card-bottom"><span class="badge-pill-status status-green">Verified Cures</span></div>
+          </div>
+          <div class="summary-card">
+            <div class="summary-card-top">
+              <div class="summary-card-icon ic-peach"><span data-icon="target" data-size="22"></span></div>
+              <div class="summary-card-info">
+                <div class="summary-card-label">Classifier Accuracy</div>
+                <div class="summary-card-value" id="dashAccuracyVal">98.9%</div>
+              </div>
+            </div>
+            <div class="summary-card-bottom"><span class="badge-pill-status status-green">10 Intent Classes</span></div>
+          </div>
+          <div class="summary-card">
+            <div class="summary-card-top">
+              <div class="summary-card-icon ic-teal"><span data-icon="database" data-size="22"></span></div>
+              <div class="summary-card-info">
+                <div class="summary-card-label">Annotated Queries</div>
+                <div class="summary-card-value" id="dashQueryCount">300+</div>
+              </div>
+            </div>
+            <div class="summary-card-bottom"><span class="badge-pill-status status-green">Bilingual Corpus</span></div>
+          </div>
+        </div>
+
+        <div class="panel-card">
+          <h3 style="font-family:var(--font-main); font-size:1.1rem; margin-bottom:16px;">Six Core NLP Modules</h3>
+          <div id="moduleGrid" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:16px;"></div>
+        </div>
+      </div>
+
+      <!-- ==================== VIEW 4: QUERY ANALYSIS ==================== -->
+      <div class="spa-view" id="view-query-analysis">
+        <div class="view-header">
+          <h2>🔍 Deep Linguistic &amp; NLP Analysis</h2>
+          <p>Inspect tokenization, Porter stemming stages, TF-IDF weights, Naive Bayes class posteriors, and entity matches.</p>
+        </div>
+        <div class="panel-card">
+          <div style="display:flex; gap:12px; margin-bottom:16px;">
+            <input type="text" id="analysisQueryInput" class="top-search-input" style="border-radius:var(--radius-md); padding:10px 14px;" value="My rice crop has yellow leaves due to bacterial blight">
+            <button class="table-btn btn-export" id="runAnalysisBtn">Analyze Breakdown</button>
+          </div>
+          <div id="analysisOutputContainer" style="font-size:0.86rem;"></div>
+        </div>
+      </div>
+
+      <!-- ==================== VIEW 5: KNOWLEDGE EXPLORER ==================== -->
+      <div class="spa-view" id="view-knowledge">
+        <div class="view-header">
+          <h2>📚 Agricultural Knowledge Explorer</h2>
+          <p>Browse grounded datasets for crops, diseases, fertilizers, pests, soil types, and curated QA pairs.</p>
+        </div>
+        <div class="panel-card">
+          <div style="display:flex; gap:10px; margin-bottom:18px; flex-wrap:wrap;" id="kbCategoryFilters">
+            <button class="submodule-pill active" data-kb="crops">Crops</button>
+            <button class="submodule-pill" data-kb="diseases">Diseases</button>
+            <button class="submodule-pill" data-kb="fertilizers">Fertilizers</button>
+            <button class="submodule-pill" data-kb="pests">Pests</button>
+            <button class="submodule-pill" data-kb="qa">QA Pairs</button>
+          </div>
+          <div id="kbContentArea"></div>
+        </div>
+      </div>
+
+      <!-- ==================== VIEW 6: DATA PIPELINE (ETL & EDA) ==================== -->
+      <div class="spa-view" id="view-pipeline">
+        <div class="view-header">
+          <h2>🔬 Data Pipeline (ETL &amp; EDA)</h2>
+          <p>Extract, Transform, Clean, Deduplicate, Validate and profile dataset health before model training.</p>
+        </div>
+        <div class="panel-card">
+          <h3 style="font-family:var(--font-main); font-size:1.05rem; margin-bottom:12px;">ETL Pipeline Funnel</h3>
+          <div id="etlFunnelContainer"></div>
+        </div>
+      </div>
+
+      <!-- ==================== VIEW 7: FARMER PROFILE & ANALYTICS ==================== -->
+      <div class="spa-view" id="view-profile">
+        <div class="view-header">
+          <h2>👨‍🌾 Farmer Profile &amp; Session Analytics</h2>
+          <p>Manage your farmer identity, review previous consultations, and track search trends.</p>
+        </div>
+        <div class="assistant-chat-container">
+          <div class="panel-card">
+            <h3 style="font-family:var(--font-main); font-size:1.05rem; margin-bottom:14px;">Farmer Identity Details</h3>
+            <div id="profileDetailsCard" style="font-size:0.88rem; line-height:1.7;"></div>
+          </div>
+          <div class="panel-card">
+            <h3 style="font-family:var(--font-main); font-size:1.05rem; margin-bottom:14px;">Consultation Query History</h3>
+            <div id="historyTableContainer">
+              <table class="eval-table" id="historyTable">
+                <thead><tr><th>Query</th><th>Intent</th><th>Confidence</th></tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== VIEW 8: SETTINGS ==================== -->
+      <div class="spa-view" id="view-settings">
+        <div class="view-header">
+          <h2>⚙️ System &amp; User Settings</h2>
+          <p>Configure speech recognition language, theme, client inference, and session state.</p>
+        </div>
+        <div class="panel-card" style="max-width:680px;">
+          <div style="margin-bottom:18px;">
+            <h4 style="margin-bottom:4px;">Color Theme</h4>
+            <p style="font-size:0.82rem; color:var(--text-muted); margin-bottom:8px;">Switch between Light and Dark mode.</p>
+            <button class="table-btn" id="settingsThemeToggle">Toggle Theme Mode</button>
+          </div>
+          <div style="border-top:1px solid var(--border-color); padding-top:18px; margin-bottom:18px;">
+            <h4 style="margin-bottom:4px;">Session Storage</h4>
+            <p style="font-size:0.82rem; color:var(--text-muted); margin-bottom:8px;">Clear farmer profile data, cache, and conversation logs.</p>
+            <button class="table-btn" id="clearStorageBtn" style="color:var(--brand-rose); border-color:var(--brand-rose);">Reset Session &amp; Cache</button>
+          </div>
+          <div style="border-top:1px solid var(--border-color); padding-top:18px;">
+            <h4 style="margin-bottom:4px;">Model Information</h4>
+            <p style="font-size:0.82rem; color:var(--text-muted);">AgroVox Browser Core v2.4 · Multinomial Naive Bayes + TF-IDF (unigram + bigram) · 10 Classes · Tamil/English Glossary.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<script>
+const AGROVOX_DATA = __DATA_JSON__;
+</script>
+<script>
+__PORTER_JS__
+</script>
+<script>
+__NLPCORE_JS__
+</script>
+<script>
+__ICONS_JS__
+</script>
+<script>
+__APP_JS__
+</script>
+</body>
+</html>

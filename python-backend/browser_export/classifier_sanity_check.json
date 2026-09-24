@@ -1,0 +1,77 @@
+[
+  {
+    "stemmed_text": "ask tapioca suck pest manag",
+    "true_label": "Pest Management",
+    "python_pred": "Pest Management"
+  },
+  {
+    "stemmed_text": "ask sow season onion",
+    "true_label": "Cultivation",
+    "python_pred": "Cultivation"
+  },
+  {
+    "stemmed_text": "ask drumstick foliar spray manag",
+    "true_label": "Fertilizer",
+    "python_pred": "Fertilizer"
+  },
+  {
+    "stemmed_text": "ask thanjavur krishi vigyan kendra contact number",
+    "true_label": "General Agriculture",
+    "python_pred": "Cultivation"
+  },
+  {
+    "stemmed_text": "paddi seed rate",
+    "true_label": "Cultivation",
+    "python_pred": "Cultivation"
+  },
+  {
+    "stemmed_text": "theni grape research station contact number",
+    "true_label": "Cultivation",
+    "python_pred": "General Agriculture"
+  },
+  {
+    "stemmed_text": "ask drumstick flower induc drop manag",
+    "true_label": "Fertilizer",
+    "python_pred": "Fertilizer"
+  },
+  {
+    "stemmed_text": "ask manag stem rot coconut",
+    "true_label": "Fertilizer",
+    "python_pred": "Crop Disease"
+  },
+  {
+    "stemmed_text": "ask papaya ring spot diseas manag",
+    "true_label": "Crop Disease",
+    "python_pred": "Crop Disease"
+  },
+  {
+    "stemmed_text": "ask red spider manag bhendi crop",
+    "true_label": "General Agriculture",
+    "python_pred": "Pest Management"
+  },
+  {
+    "stemmed_text": "ask foliar spray mango",
+    "true_label": "Fertilizer",
+    "python_pred": "Fertilizer"
+  },
+  {
+    "stemmed_text": "ask root rot manag onion precaut",
+    "true_label": "Crop Disease",
+    "python_pred": "Crop Disease"
+  },
+  {
+    "stemmed_text": "stem borer brinjal",
+    "true_label": "Pest Management",
+    "python_pred": "Pest Management"
+  },
+  {
+    "stemmed_text": "ask termit control banana",
+    "true_label": "General Agriculture",
+    "python_pred": "General Agriculture"
+  },
+  {
+    "stemmed_text": "ask prevent wild boer agricultur fild",
+    "true_label": "Cultivation",
+    "python_pred": "General Agriculture"
+  }
+]

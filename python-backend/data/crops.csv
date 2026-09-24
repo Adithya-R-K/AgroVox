@@ -1,0 +1,11 @@
+crop_id,crop_name_en,crop_name_ta,category,season,duration,soil_preference,temperature_range,description
+C001,Rice,நெல்,Cereal,Kharif/Rabi,90-150 days,"Clayey loam, water-retentive",20-35°C,Staple cereal grown widely in Tamil Nadu deltas; needs standing water for most growth stages.
+C002,Wheat,கோதுமை,Cereal,Rabi,110-130 days,Well-drained loam,10-25°C,Major cereal in North India; sensitive to waterlogging and needs a cool growing period.
+C003,Maize,சோளம்,Cereal,Kharif/Rabi,90-110 days,Well-drained sandy loam,18-27°C,"Versatile cereal used for food, fodder and industry; moderate water requirement."
+C004,Cotton,பருத்தி,Fibre,Kharif,150-180 days,Black cotton soil (regur),21-30°C,"Fibre crop needing a long frost-free season and moderate, well-spaced irrigation."
+C005,Sugarcane,கரும்பு,Cash crop,Year-round (12 month crop),300-365 days,"Deep, well-drained loam",21-27°C,"Long-duration cash crop with high water demand, propagated via stem cuttings."
+C006,Groundnut,நிலக்கடலை,Oilseed/Legume,Kharif/Rabi,100-130 days,Well-drained sandy loam,20-30°C,Legume oilseed that fixes atmospheric nitrogen and needs calcium during pegging.
+C007,Tomato,தக்காளி,Vegetable,Year-round (season dependent),60-90 days,Well-drained sandy loam,20-27°C,"Widely grown vegetable, sensitive to blossom-end rot and several fungal/bacterial diseases."
+C008,Banana,வாழை,Fruit,Year-round,10-13 months,"Deep, rich, well-drained loam",15-35°C,"High water and nutrient demanding fruit crop, propagated using suckers/tissue-culture plants."
+C009,Chilli,மிளகாய்,Vegetable/Spice,Kharif/Rabi,120-180 days,Well-drained sandy loam,20-30°C,"Spice crop sensitive to thrips, mites and viral leaf curl disease."
+C010,Blackgram,உளுந்து,Pulse/Legume,Kharif/Rabi,70-90 days,Well-drained loam to clay loam,25-35°C,Short-duration pulse commonly grown as a rice-fallow crop; improves soil nitrogen.

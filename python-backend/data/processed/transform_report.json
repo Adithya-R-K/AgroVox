@@ -1,0 +1,45 @@
+{
+  "stages": [
+    {
+      "stage": "raw_extracted",
+      "rows": 2392
+    },
+    {
+      "stage": "missing_value_handling",
+      "rows": 2340,
+      "dropped_blank_text": 36,
+      "dropped_blank_label": 16
+    },
+    {
+      "stage": "language_imputation_via_detection",
+      "rows": 2340,
+      "imputed_language_count": 495
+    },
+    {
+      "stage": "junk_content_removal",
+      "rows": 2323,
+      "dropped_punctuation_only_rows": 17
+    },
+    {
+      "stage": "duplicate_removal",
+      "rows": 2158,
+      "duplicates_removed": 165
+    },
+    {
+      "stage": "post_processing_validation",
+      "rows": 2158,
+      "dropped_empty_after_processing": 0
+    },
+    {
+      "stage": "schema_validation_labels",
+      "rows": 2158,
+      "dropped_invalid_labels": 0
+    }
+  ],
+  "final_row_count": 2158,
+  "total_rows_dropped": 234,
+  "retention_rate": 0.9022,
+  "missing_device_imputed": 455,
+  "missing_language_imputed": 495,
+  "duplicates_removed": 165
+}

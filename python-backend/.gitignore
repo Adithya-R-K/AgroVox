@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+agrovox.db
+models/classifier/*.joblib
+models/embeddings/*.joblib
+evaluation/results/*
+.ipynb_checkpoints/

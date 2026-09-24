@@ -1,0 +1,2393 @@
+log_id,raw_text,label,language,device
+1589,asked about top dressing fertilizer management in bhendi,Fertilizer,,android-app-v1
+1717,"Asking about traditional paddy variety mappilai samba, karuppukavuni and sigappu kuruvikar duration",Crop Information,,ussd-sms
+2849,Asking About Required documents for tractor subsidy registration   ,General Agriculture,en,android-app-v1
+2660,Asking about Water management for Sesame,Cultivation,en,
+1802,asking about thiruvannamalai district rain details,Weather,en,android-app-v2
+2408,   Asked about water management in cotton,Irrigation,en,
+2066,Asking about mealy bug management in guava,General Agriculture,en,ussd-sms
+1308,asking about tomato top dressing fertilizer appliucation,Fertilizer,en,ussd-sms
+1607,   Rice case worm,General Agriculture,en,ussd-sms
+3281,shoot  borer in brinjal   ,General Agriculture,,
+2981,Asking about Kattupakkam Veterinary KVK contact number   ,General Agriculture,en,ussd-sms
+1584,Asking about Weed management for Blackgram,Pest Management,en,web
+3240,ASKED ABOUT FREE VETERINARY SERVICE CONTACT NUMBER,General Agriculture,en,
+1155,   Asked about management of panama wilt and yellow sigatoka in banana,Crop Disease,en,ussd-sms
+2152,Shoot and fruit borer control in bhendi   ,Pest Management,en,web
+2738,thirupur weather report details,Weather,en,ussd-sms
+3005,Farmer asked price detail of Maize in Namagiripettai mandi.,General Agriculture,en,android-app-v2
+2508,   Asked about Latest high yielding blackgram varieties (Adipattam),Crop Information,,
+1154,banana anthracnose disease control   ,Crop Disease,en,
+1219,   rice water mgt,Irrigation,en,web
+3303,seed rate for sesame   ,Cultivation,en,web
+3010,   variety suitable for late samba,General Agriculture,en,android-app-v2
+2547,   Asking about weed management for sesame,Pest Management,en,
+1614,Asking about Micronutrients spray for tuberose   ,Fertilizer,,android-app-v2
+2261,PADDY SOWING SEASON AND VARIETY,Weather,,
+2848,LEAF BLIGHT ONION,Crop Disease,en,ussd-sms
+2903,   Asking about Paddy direct sowing wet seed weed management,Pest Management,en,android-app-v1
+2745,soil testing laboratory   ,Soil,en,ussd-sms
+2523,   BLACK GRAM SOWING VARIETIES FOR VILUPURAM,Crop Information,en,web
+1742,Asked about Kallurundaiyan Paddy Variety information,Crop Information,en,
+1890,Asking About Tnau Department Of Floriculture And Landscaping Contact Number (Rose Varieties )   ,Fertilizer,en,
+2119,Asking about Gibberellic acid application advantages,Fertilizer,en,android-app-v1
+3381,???...!!,Harvesting,,
+3344,???...!!,Fertilizer,,
+1433,Asked about Under Graduate admission( B.sc agriculture) application related information,General Agriculture,en,web
+2229,Mealy bug for cotton,General Agriculture,en,ussd-sms
+1759,asked about rhizopus fruit rot management in jack tree (organic),Crop Disease,en,ussd-sms
+2480,Trichy district Soil testing Laboratory contact details,Soil,en,ussd-sms
+3096,Asked about mealy bug management in mango (organic),General Agriculture,en,android-app-v2
+2387,    Asking about Paddy sowing season and varieties   ,Crop Information,en,ussd-sms
+3318,PADDY VARIETIES FOR VILLUPURAM,Crop Information,,android-app-v1
+3174,asking about bottle gourd fruit rot management   ,Crop Disease,en,web
+3226,   Asked about Groundnut Variety CO 7 information,Crop Information,,android-app-v2
+1962,asking about bhendi sowing season   ,Cultivation,en,android-app-v2
+1787,Asked  about paddy market information   ,General Agriculture,en,
+2431,Asked About Root Rot Management In Coconut,Crop Disease,en,ussd-sms
+3229,   Asked about Top fertilizer management for Paddy,Fertilizer,en,android-app-v1
+1810,Asking about Sugarcane Weed management information,Pest Management,en,android-app-v2
+2755,   Asked about Vamban 8 and Vamban 11 Blackgram variety information,Crop Information,en,android-app-v2
+1060,ASKING ABOUT TRICHODERMA APPLIED FOR TURMERIC BY IRRIGATION,Pest Management,en,ussd-sms
+1598,asking about Green leaf hopper management in brinjal   ,General Agriculture,,web
+3161,YELLOW VEIN MOSAIC VIRUS IN BLACKGRAM   ,Crop Disease,en,ussd-sms
+2071,   Asked information about sorna sub-1 variety in rice,Crop Information,,ussd-sms
+1508,"Asking about Thrips,fruit fly and leaf blight control in Bitter gourd",Crop Disease,,web
+1675,Asked about guava nutrient management in guava,Fertilizer,en,
+3197,Asked about The amount of seed per acre for ragi sowing,Cultivation,en,
+1207,Cotton  weed control,Pest Management,,web
+3088,   Asking about Ethrel application for cucumber,Fertilizer,,ussd-sms
+3142,ASKING ABOUT PUDUKOTTAI DISTRICT AGRICULTURAL ENGINEERING DEPARTMENT CONTACT NUMBER,General Agriculture,en,
+1339,Asked  About Papaya Ring Spot Disease Managment,Crop Disease,,ussd-sms
+1537,Asked about paddy disease identification information   ,Crop Disease,,
+1427,asked about adt 46 paddy crop duration information,Crop Information,en,android-app-v1
+3165,   asking about ragi sowing season and varieties,Crop Information,,ussd-sms
+2262,comtrol measure for chilli thrips,General Agriculture,,web
+1159,Farmer asked price detail of Black Gram (Urd Beans)(Whole) in Thiryagadurgam mandi.,General Agriculture,en,android-app-v1
+2381,Asking about Brinjal suitable season,Cultivation,,android-app-v1
+2884,asked about water management in soybean,Irrigation,en,ussd-sms
+2651,suitable redgram variety,Crop Information,en,ussd-sms
+2678,water management in paddy field,Irrigation,en,android-app-v2
+1057,   Theni grapes research station contact number   ,Cultivation,en,web
+1104,Onion top dressing,Fertilizer,en,android-app-v1
+2241,Asked about top dressing fertilizer for Maize (30th day ),Fertilizer,,web
+3291,coconut sowing season,Cultivation,en,android-app-v2
+3104,Root Rot In Tomato,Crop Disease,en,android-app-v2
+3349,     ,Soil,,
+1046,Asked about Coconut fertilizer management (1 year tree)   ,Fertilizer,en,ussd-sms
+1016,Asking about Department of Agronomy Contact Number,Cultivation,en,android-app-v2
+1252,ASKING ABOUT GROUNDNUT FOLIAR SPRAY MANAGEMENT,Fertilizer,en,
+2139,Asked about Cotton stem borer management   ,Pest Management,en,ussd-sms
+2105,kancheepuram  farmers training centre contact number,Crop Information,en,web
+1722,    Asked about suitable paddy varieties for sornavari season,Crop Information,en,android-app-v1
+1516,asking about Black gram TNAU foliar application,Fertilizer,en,android-app-v2
+2807,   Weather report for thiruvallur district,Weather,en,ussd-sms
+1204,Asking  about paddy root rot management   ,Crop Disease,,ussd-sms
+1276,ASKING ABOUT SUITABLE PADDY VARIETIES FOR SORNAVARI SEASON & GRAIN TYPE,Crop Information,en,web
+2711,ASKED ABOUT JACK FRUIT ROT MANAGEMENT,Crop Disease,en,ussd-sms
+2563,Asking about weather detail in nagai,Weather,en,ussd-sms
+2401,   Asking about Cutworm in onion   ,Fertilizer,en,android-app-v2
+3292,TNAU MAIZE MAXIM APPLICATIONDETAILS,Crop Information,en,android-app-v1
+2512,Asking about Caterpillar and Yellow mosaic virus and Cercospora leaf spot management in black gram,Crop Disease,en,web
+1984,   Asking About Betel Vine Foliar Application Information,Fertilizer,,ussd-sms
+1736,   ASKED ABOUT IMPROVED WHITE PONNI DURATION & YIELD INFORMATION,Crop Information,en,web
+1358,   Asking About Blackgram Market Price Information,General Agriculture,en,web
+2358,   asking about paddy basal dressing fertilizer management,Fertilizer,,android-app-v2
+1530,"Asking about Krishi Vigyan Kendra, Senagipatti, Thanjavur contact no.",Cultivation,,android-app-v1
+2243,Asking about Trichy district rainfall information,Weather,en,android-app-v2
+1298,Asking about Beetles management in Bottle gourd,General Agriculture,,web
+2370,Asked about Panama wilt management in Banana,Crop Disease,,
+3334,???...!!,Cultivation,,
+3195,Asking about Paddy saline tolerant varieties,Crop Information,,ussd-sms
+3386,     ,Soil,,
+2025,"   ASKING ABOUT CUTWORM, SUCKING PEST MANAGEMENT FOR BRINJAL",Pest Management,en,ussd-sms
+2160,Asking about spacing for tapioca,Cultivation,,web
+1464,cotton plus detail,Fertilizer,en,android-app-v1
+1257,Asking about basal fertilizer management for paddy,Fertilizer,en,android-app-v2
+2693,maize sowing season,Cultivation,en,ussd-sms
+2064,Asked about Blackgram crop insurance details,General Agriculture,en,web
+1215,ASKING ABOUT MUSK MELON PEST IDENTIFICATION,Pest Management,en,android-app-v2
+1365,bunch  development in banana   ,General Agriculture,,web
+1172,Asking about Leaf minor and rust control in Lab lab,Crop Disease,en,web
+2931,ASKED ABOUT RAGI SOWING SEASON AND VARIETIES   ,Crop Information,en,android-app-v1
+3007,Farmer asked price detail of Cowpea (Lobia/Karamani) in Virudhachalam mandi   ,General Agriculture,en,ussd-sms
+2235,Asking  about Cotton Fusarium wilt Management,Crop Disease,en,
+1533,asked about farm pond subsidy information,General Agriculture,en,ussd-sms
+2978,Asked about water management in black gram,Irrigation,en,android-app-v1
+2042,Asking about Cowpea sowing season and Varieties,Weather,,android-app-v2
+1410,Asking about Vandavasi weather for sowing,Weather,,
+1263,   Asking about Farm Machinery subsidy information,Cultivation,en,ussd-sms
+2647,Asking about Dindigul today weather Report,Weather,en,android-app-v2
+3000,   ASKED ABOUT CHEMBARABAKKAM WATER LEVEL INFORMATION,Irrigation,en,web
+1983,   Asked about leaf blight management in tuberose,Crop Disease,,android-app-v2
+2037,asking about red gram season and varieties,Crop Information,,
+2826,asked about mango flower blight management,Fertilizer,en,ussd-sms
+2862,   Asked about groundnut sowing season,Cultivation,,ussd-sms
+2460,control measure for root rot in cotton,General Agriculture,en,android-app-v2
+1373,Asked about leaf blight management in mullai,Crop Disease,en,web
+1092,   rice basal fertilizer,Fertilizer,en,android-app-v1
+3353,,Harvesting,,
+3216,Asked about Forage crop Seeds information   ,Cultivation,en,web
+1776,Asking about caterpillar management in blackgram   ,Pest Management,en,web
+3327,,Crop Disease,,
+2050,asked  about rice tungro disease management in paddy   ,Crop Disease,en,ussd-sms
+1435,Asking about Yellow mite or muranai mite in chilli,Pest Management,en,web
+2111,Asking  about Coconut Thanjavur wilt management,Crop Disease,en,web
+1415,Asked about disease management in cow information   ,Crop Disease,en,ussd-sms
+1137,CUDDALORE DISTRCIT WEATHER FORECAST   ,Weather,en,ussd-sms
+1099,Asking  about suitable paddy varieties for Navarai season &duration,Crop Information,,android-app-v1
+1002,Asking  about Boron Deficiency in coconut   ,Fertilizer,,android-app-v2
+1335,Asking about Goat vaccine details,Crop Disease,en,ussd-sms
+1809,Asking about Sugarcane Weed management information,Pest Management,en,ussd-sms
+2135,weather report for salem district,Weather,,android-app-v1
+2812,asked about sesame seed treatment details,Fertilizer,,
+2335,   asking about blackgram powdery mildew management,General Agriculture,en,ussd-sms
+2953,   ASKING ABOUT COTTON WEED MANAGEMENT ( 15 -20 DAYS),Pest Management,en,android-app-v2
+1764,asking about fruit borer management in brinjal,Pest Management,en,ussd-sms
+1417,asked about salt content present in tender coconut water in coconut tree,Fertilizer,en,android-app-v2
+2575,asked about dhaincha seed rate and cultivation,Fertilizer,en,ussd-sms
+3270,    weather report tirunelveli district,Weather,en,android-app-v2
+2814,"ASKED ABOUT SUCKING PESTS, SHOOT AND FRUIT BORER MANAGEMENT FOR BRINJAL",Pest Management,en,ussd-sms
+3204,Asked about Paddy variety ADT 46 duration special features and yield information,Crop Information,en,ussd-sms
+1381,   ASKED ABOUT BANANA BUNCHY TOP VIRUS MANAGEMENT IN BANANA,Crop Disease,en,android-app-v1
+2787,   bud borer in groundnut,General Agriculture,,ussd-sms
+2557,asked about weed management in black gram,Pest Management,en,android-app-v1
+1766,   asking about chrysanthimum top dressing fertilizers,Fertilizer,en,ussd-sms
+1571,   asked about sowing season of maize and finger millet,Weather,en,ussd-sms
+1311,ASKED ABOUT BLACKGRAM PLANTING SEASON   ,Weather,en,ussd-sms
+2225,Asking about Thanjavur Krishi Vigyan Kendra contact number   ,General Agriculture,en,web
+1591,nematode in sugarcane,Pest Management,en,web
+3078,stem borer in moringa   ,Pest Management,en,android-app-v1
+2481,Asking about flower drops (fusarium wilt) in chilli,Crop Disease,en,ussd-sms
+1044,Asked about Leaf curl disease management for Chilli plant,Crop Disease,en,ussd-sms
+2319,   ASKED ABOUT SETTS RATE OF CUMBU NAPIER,Cultivation,en,android-app-v2
+1558,BACTERIAL BLIGHT IN PADDY,Crop Disease,en,android-app-v2
+2747,Asking About Stem Borer In Paddy,Pest Management,en,web
+2004,   suitable sunflower season and variety,Crop Information,en,android-app-v2
+1977,   Asked about Northeast Monsoon information,Weather,en,web
+1468,Sorghum sowing season,Weather,en,web
+2928,Asked about suitable paddy varieties for samba season information,Crop Information,en,ussd-sms
+1076,BASAL ROT IN ONION,Fertilizer,en,android-app-v1
+2125,root rot in jasmine and dhaincha cultivation,Crop Disease,en,ussd-sms
+1144,   asking about root rot management for groundnut,Crop Disease,en,
+2837,Asked  about solar bub related details   ,Harvesting,en,
+2015,   Asking about Maize and Groundnut sowing season   ,Weather,,
+2873,Asking  about peacock birds and monkey control in paddy field,Cultivation,en,android-app-v1
+1266,asking about market price of karamani,General Agriculture,en,web
+1504,Asked about tomato hybrids details,Cultivation,en,android-app-v1
+2109,Asked about Mancozeb fungicide uses,Cultivation,en,
+1347,asking about mango boron deficiency management,Fertilizer,en,
+3317,   Soybean market rate in Madhya Pradesh,General Agriculture,en,web
+2439,maize stem borer,Pest Management,en,ussd-sms
+3132,market rate for white ponni,General Agriculture,en,web
+1987,Mosaic Virus In Black Gram And Green Gram,Crop Disease,en,android-app-v2
+1876,Thiruvannamalai paddy variety details   ,Cultivation,en,ussd-sms
+3198,Asked about The amount of seed per acre for ragi sowing,Cultivation,en,android-app-v2
+1437,Asking about G9 Banana suitable season,Cultivation,en,android-app-v1
+2766,Asking about water management in groundnut,Irrigation,en,android-app-v1
+1623,Asked about water management in paddy   ,Irrigation,,
+1006,Asking about Fruit rot management for Mango,Crop Disease,en,ussd-sms
+1991,Asked about suitable sowing season & varieties for Ragi,Weather,,android-app-v1
+1143,rainfall forecast for thirupur district   ,Weather,en,web
+1989,asked  about ear head bug and stem borer management in paddy   ,Pest Management,en,android-app-v1
+2570,Asking about sowing season for onion   ,Cultivation,en,
+2507,Banana post harvest technology training,Harvesting,,
+1874,Asking about pod borer management in black gram   ,Pest Management,en,android-app-v2
+1595,Asking About Kakkatam Malli Foliar Application Information,Fertilizer,en,web
+2586,Asking about Suitable paddy varieties for Tiruvannamalai,Crop Information,,ussd-sms
+2008,asked about weed management in uncultivated land,Pest Management,,
+3038,asking  about paddy leaf folder management,General Agriculture,,ussd-sms
+1389,Asking about banana weed management   ,Cultivation,en,web
+3190,asked about water management for paddy (after spraying herbicide),Irrigation,en,
+2340,Coimbatore weather report details,Weather,,android-app-v1
+3188,   Asking about coconut seedling availability,Cultivation,en,web
+2972,Asking about suitable medium grain varieties for paddy navarai season   ,Crop Information,en,android-app-v1
+1849,Asked about stem borer adult management in paddy   ,Pest Management,en,web
+2506,asking about villupuram district weather Report,Weather,en,android-app-v2
+3267,asked  about banana disease managment   ,Crop Disease,,android-app-v2
+1574,   ASKING ABOUT SHOOT BORER MANAGEMENT IN BHENDI,Pest Management,,ussd-sms
+1167,   asked about pre emergence groundnut weed management,Pest Management,,
+3347,nendran banana fertilizer management,,,
+1511,asked about paddy tps 5 variety details,Crop Information,en,web
+2271,Asking about Papaya Leaf curl virus and Papaya ring spot virus management,Crop Disease,en,
+1192,asked  about sugarcane shoot borer management,Pest Management,en,web
+1550,Asking about Thiruvallur horticultural department contact number,Cultivation,en,android-app-v1
+1073,Soil  testing lab contact number,Soil,en,web
+1751,ASKING ABOUT SEED RATE FOR BHENDI   ,Cultivation,en,android-app-v2
+2136,weather report for salem district,Weather,,android-app-v1
+3263,   ASKING ABOUT COMBINATION OF DAP WITH PESTICIDE,Pest Management,en,ussd-sms
+2188,Asking about Paddy ADT 49 sowing season   ,Crop Information,,
+2059,Asked about sesame sowing season and variety for kallakurichi district   ,Weather,en,ussd-sms
+2567,ASKED  ABOUT MAIZE YIELD INFORMATION,Crop Information,en,android-app-v2
+2804,Asking about Crop insurance registration details,General Agriculture,en,android-app-v1
+1351,Asked about Paddy seeds availability   ,Cultivation,,
+3098,    asking about top fertilizer application time in cotton   ,Fertilizer,en,android-app-v2
+3044,ASKING ABOUT VIRALIMALAI WEATHER REPORT   ,Weather,en,android-app-v1
+3147,ASKED ABOUT BSNL NETWORK PROBLEMS,Weather,en,web
+1731,asked about fertigation chart for tapioca (151-240 days),Fertilizer,en,web
+2705,Asking about paddy basal biofertilizer management   ,Pest Management,en,
+1948,asked about blackgram caterpillar and blight managment,Crop Disease,en,web
+1032,   Asked about foliar application in paddy,Fertilizer,en,ussd-sms
+1107,asking about leaf caterpillar and sucking pests management in black gram,Pest Management,en,android-app-v2
+3295,Asked about Groundnut Seeds availability,Crop Information,,ussd-sms
+1869,Asking about sowing season for black gram   ,Cultivation,,ussd-sms
+1158,Asking about Onion Market rate Related Details,General Agriculture,en,android-app-v2
+3363,Asked about paddy nursery Bacterial Leaf Blight,,,
+1213,Asked about major disease and pest for Mullai,Crop Disease,en,
+1835,Asking about agri department contact details   ,Cultivation,en,ussd-sms
+2935,Asked about Jasmine and Mullai planting spacing information   ,Cultivation,en,android-app-v1
+3212,weather report for virudhunagar   ,Weather,en,android-app-v1
+1746,   basal application for groundnut,Fertilizer,,
+2346,asking about stem borer management in brinjal,Pest Management,,ussd-sms
+1109,Asked  About Paddy Variety Karuppukavuni Information,Crop Information,en,
+2115,asked about weather forecast (cyclone related information,Weather,,ussd-sms
+2535,Asking about brinjal sowing season and variety,Cultivation,en,
+1524,Brinjal water management,Irrigation,en,
+1341,   ASKING ABOUT SEASON OF SOWING FOR BHENDI   ,Cultivation,,web
+2147,Nagapattinam district weather forecast,Weather,,ussd-sms
+1177,Asking about root rot management in watermelon,Crop Disease,en,android-app-v2
+3049,Asking About Solar Light Trap Availability,Cultivation,en,web
+2352,paddy ADT 46 variety duration (days),Crop Information,en,ussd-sms
+1126,   Asking about fodder seeds availability information,Cultivation,en,android-app-v2
+2347,weather report for namakkal district,Weather,en,web
+1660,Asking  about total duration for Red gram   ,Cultivation,en,android-app-v2
+3150,"   curry leaf production, vermi compost ,coconut , Garlic, Chilli, Ginger, extract Preparation   ",General Agriculture,en,android-app-v2
+2339,asking about kudumiyan malai weather report,Weather,en,web
+1636,    shoot and fruit borer in brinjal,Pest Management,en,
+1503,   Asked about Blackgram weed management,Pest Management,en,ussd-sms
+1369,Asked about foliar application for Groundnut,Fertilizer,en,android-app-v1
+1049,   Fruit borer in tomato,Pest Management,en,
+2806,Asking about Drumstick foliar spray management   ,Fertilizer,en,ussd-sms
+2949,Asked about Black gram sowing season and varieties   ,Crop Information,en,android-app-v2
+2632,Asking about weather detail in VILLUPURAM,Weather,,
+1430,ASKING ABOUT WEATHER REPORT FOR TIRUNELVELI DISTRICT   ,Weather,en,android-app-v2
+1059,asking about Chilli top dressing fertilizer management,Fertilizer,,web
+2966,SUITABLE PADDY VARIETIES,Weather,,
+2284,   asking about ariyalur weather report,Weather,,web
+3061,    asking about planting spacing for coconut,Cultivation,,android-app-v2
+1201,asking  about thiruppur district rain details,Weather,en,android-app-v1
+1683,"asked about uses of urea ,super phosphate and potash fertilizers",Fertilizer,en,android-app-v2
+2757,Banana Weed Management,Pest Management,en,web
+1061,Asking about blackgram sowing season,Weather,en,android-app-v1
+2035,asking about bacterial leaf blight in paddy   ,Crop Disease,en,android-app-v2
+2274,Banana diseases Yellow sigatoka management,Crop Disease,en,
+2478,asked about sheath blight management in paddy,Crop Disease,en,web
+1117,Asking about kodavasal agricultural department contact number (soybean marketing),General Agriculture,en,
+1450,VIRUDHACHALAM  GROUND NUT MARKET RATE,General Agriculture,en,android-app-v2
+1282,Weed management for waste land   ,Pest Management,en,ussd-sms
+1903,ASKED ABOUT SOIL TYPE FOR PUMPKIN CULTIVATION,Cultivation,,web
+2969,   asked about sowing season of mustard,Weather,en,
+2824,Asking about Weed management for Tapioca,Cultivation,en,android-app-v1
+3071,Asking  About Caterpillar Control In Lab Lab,Pest Management,en,web
+2290,paddy sheath blight,Crop Disease,en,ussd-sms
+2823,   ASKING ABOUT WATERMELON SOWING SEASON,Cultivation,en,android-app-v2
+3345,???...!!,Soil,,
+2371,Asking about cashew flower blight managment   ,Crop Disease,en,android-app-v2
+1004,KARUR  WEATHER REPORT   ,Weather,,web
+1241,   ASKING ABOUT SOWING SEASON FOR CAULIFLOWER,Cultivation,en,web
+1896,Asking  about Rhizopus rot management in jack fruit,General Agriculture,en,web
+1329,Asked about Jasmine planting season,Cultivation,,android-app-v1
+2133,asked about coriander seed rate,Cultivation,en,ussd-sms
+1927,erode district soil testing laboratory phone number,Soil,en,android-app-v1
+3169,Asked about BSR 1 variety yield information   ,Crop Information,,ussd-sms
+2021,asked about fruit rot management in jackfruit   ,Crop Disease,en,android-app-v1
+3164,Paddy navarai varieties thiruvananmalai   ,Crop Information,en,web
+1024,   TUBEROSE ROOT ROT DISEASE CONTROL,Crop Disease,en,web
+1921,Asking about Downey mildew disease management pumpkin,Crop Disease,en,
+1056,ASKING ABOUT PM KISAN SAMMAN NEW REGISTRATION DETAILS,General Agriculture,en,android-app-v1
+1781,Asked  about Bhendi root rot management,Crop Disease,en,
+2104,paddy varieties for navarai season   ,Crop Information,,ussd-sms
+2616,micronutrient deficiency in bottle gourd,Fertilizer,en,android-app-v2
+2834,root rot in moringa,Crop Disease,en,ussd-sms
+1895,Asking about Sowing method and Seeds availability information   ,Cultivation,en,web
+3217,asking about coconut fertilizer management,Fertilizer,en,web
+2175,Asked about paddy ASD 16 duration (Days),Crop Information,en,web
+2670,   Asking about co 51 paddy varieties details,Crop Information,en,web
+1667,Asked about Paddy ADT 51 and CR1009 Sub 1 sowing season,Crop Information,en,android-app-v2
+2905,mushroom training detail,General Agriculture,en,
+2405,   black gram sowing season and variety 1,Crop Information,en,web
+1127,Asked about KVK contact information,General Agriculture,en,android-app-v2
+1583,Asking about blackgram market information,General Agriculture,en,android-app-v1
+2909,   ASKED ABOUT COTTON FOLIAR APPLICATION,Fertilizer,en,android-app-v1
+2954,   asked about nutrient management in pumpkin,Fertilizer,en,ussd-sms
+2322,asking about celosia pest management,Pest Management,,android-app-v1
+1363,   Asked about caterpillar management in blackgram   ,General Agriculture,,android-app-v1
+2830,Asking about need for mango seedlings,Cultivation,,ussd-sms
+2509,maize  fertilizer (MN) management,Fertilizer,en,android-app-v2
+1190,season  and varieties for paddy,Cultivation,en,ussd-sms
+2143,   Asking about Market rate for maize,General Agriculture,en,ussd-sms
+1356,ASKING ABOUT WEATHER REPORT FOR NAGAPATTINAM   ,Weather,en,web
+2454,weather detail for tirunelveli dist,Weather,,ussd-sms
+2051,Paddy varieties (kar),Crop Information,en,ussd-sms
+2432,Sesame sowing season,Weather,en,web
+2689,   Asked about Dioscorea planting season & seed rate,Cultivation,en,android-app-v2
+3342,???...!!,Crop Disease,,
+2756,   ariyalur weather report details,Weather,en,android-app-v2
+1871,   veterinary contact number   ,Crop Disease,en,android-app-v2
+3185,asking  about co-operative society loan,General Agriculture,en,ussd-sms
+2123,asked about need for sugarcane research station contact numbers,Crop Information,en,android-app-v1
+1055,ASKING ABOUT BLACK GRAM SEASON AND VARIETY,Crop Information,en,web
+1609,Asked About Suitable Varieties For Paddy (December-January),Crop Information,en,web
+1378,tenai sowing season and variety,Crop Information,en,web
+2465,Rainfall  information for namakkal district.,Weather,en,ussd-sms
+1654,Asked  about Shoot and fruit borer management in brinjal,Pest Management,en,
+1646,   Asking about Top dressing fertilizer management for Groundnut crop,Fertilizer,en,web
+1694,asking about water management in coconut and banana,Irrigation,,web
+1432,Asked about Fig planting season,Cultivation,en,android-app-v2
+3121,Asking about Pradhan Mantri Kisan Samman Nidhi claim status information,General Agriculture,en,android-app-v1
+1474,leaf spot in cotton,General Agriculture,en,ussd-sms
+3390,Asking about foliar nutrient spray for Sorghum,,,
+2788,    Perambalur district weather forecast,Weather,en,android-app-v1
+1662,   asked about top dressing management for paddy (25 & 45 das),Fertilizer,en,ussd-sms
+1108,ASKED ABOUT PM KISAN SAMMAN NIDHI SCHEME CORRECTION STATUS   ,General Agriculture,en,android-app-v2
+3360,Asked about leaf blight management in mullai,,,
+2851,   Asking about Top fertilizer management for Coconut (13 years old plant),Fertilizer,en,android-app-v1
+1083,Asking about groundnut fertilizer (MN) management,Fertilizer,,web
+1801,Asked  about lablab root rot managment,Crop Disease,en,android-app-v2
+2209,Asked  About Magnesium Deficiency Management In Cotton,Fertilizer,en,android-app-v2
+1807,   ASKED ABOUT LEAF CATER PILLAR MANAGEMENT IN GROUNDNUT,General Agriculture,en,android-app-v2
+2183,Asked About Seed Rate Of Kodo Millet,Cultivation,en,ussd-sms
+1943,asking  about Leaf folder control in paddy,General Agriculture,en,android-app-v2
+2275,   ASKING ABOUT WEATHER REPORT FOR ERODE DISTRICT,Weather,,android-app-v2
+3245,Asking About Sowing Season For Paddy From Tiruvannamalai District,Weather,en,android-app-v1
+2391,asked about vegetable crops that can be grown in november and december,Cultivation,,
+1737,ASKED ABOUT THRIPS MANAGEMENT IN TUBEROSE,General Agriculture,en,android-app-v1
+1494,asked about sucking pest management in blackgram,Pest Management,en,android-app-v2
+2331,    asking about raingauge fertigation schedule,Fertilizer,en,
+1831,Asked About Reclamation Of Hard Soil   ,Soil,en,
+2988,asking about cow veterinary farm information   ,Crop Disease,en,android-app-v2
+2750,Lablab pod borer   ,Pest Management,en,android-app-v1
+1152,    asking about mango crop details   ,General Agriculture,en,web
+2761,Brinjal foliar spray,Fertilizer,en,android-app-v2
+1490,Asking about Greengram sowing season and variety,Crop Information,en,web
+3313,   Asking about Valapady weather report,Weather,en,android-app-v1
+1753,"Asked  about Paddy variety ADT 51 duration ,yield information",Cultivation,en,ussd-sms
+1350,ASKED ABOUT MOSAIC VIRUS MANAGEMENT IN TOMATO,Crop Disease,en,android-app-v2
+1762,asking about villupuram district today weather Report,Weather,en,
+1953,   asking about water management in sunflower   ,Irrigation,en,android-app-v1
+2977,Asked about water management in black gram,Irrigation,en,android-app-v2
+1704,Asked about suitable varieties for cotton,Crop Information,en,android-app-v1
+2886,farmer asked price detail of cotton in villupuram mandi.,General Agriculture,en,android-app-v2
+1672,Asking about Namakkal District weather report,Weather,en,android-app-v1
+2724,Asking about root rot management in black gram,Crop Disease,en,ussd-sms
+2958,ASKED ABOUT GRAIN TYPE OF TKM 13 PADDY VARIETY   ,Crop Information,en,ussd-sms
+1923,   Asked about groundnut varieties   ,Crop Information,en,android-app-v2
+1750,ASKING ABOUT SEED RATE FOR BHENDI   ,Cultivation,en,
+2961,Asking about TMV 7 sesame seeds availability details,Crop Information,en,ussd-sms
+2207,asked about weed management for cumbu,Pest Management,en,
+2900,Panama Disease in banana,Crop Disease,en,ussd-sms
+2213,   weather report in villupuram district,Weather,,
+1725,Asked about Blackgram foliar nutrition spray management,Fertilizer,en,
+2571,Asked about Azolla seeds availability information   ,Cultivation,en,android-app-v2
+2269,VARIETIES FOR BLACK GRAM,Crop Information,en,android-app-v1
+2942,asked about micronutrient management in paddy   ,Fertilizer,en,android-app-v1
+1564,Asked about veterinary related information,Crop Disease,en,web
+3338,     ,Fertilizer,,
+2289,flower drop in tomato,Fertilizer,en,
+2336,COTTON ROOT ROT MANAGEMENT,Crop Disease,en,android-app-v2
+2889,   Panama wilt disease in banana,Crop Disease,en,ussd-sms
+3234,asking about weather detail for Tiruvarur dist,Weather,en,ussd-sms
+1248,yellow muranai mite,Pest Management,en,android-app-v1
+2773,BARK  BORER IN MANGO   ,Pest Management,en,android-app-v2
+2908,Asked about water management for blackgram crop,Irrigation,en,web
+2144,Chillies sowing season,Fertilizer,en,android-app-v1
+1526,   Coconut leaf blight control,Crop Disease,en,web
+1407,asking about weather report for Thanjavur district,Weather,en,android-app-v1
+2028,"foliar spray in blackgram,   ",Fertilizer,en,android-app-v1
+2874,Asked about Sucking pest management for Ridge gourd,Pest Management,,web
+2149,   asking about paddy adt 45 variety details,Crop Information,en,android-app-v1
+3060,Asking about Madathukulam Copra market rate   ,General Agriculture,en,web
+3341,???...!!,Crop Disease,,
+2769,ASKING ABOUT ROOT ROT MANAGEMENT IN TUBEROSE   ,Crop Disease,en,web
+2376,Asked about paddy direct sowing in un-puddled land,Irrigation,en,android-app-v2
+2840,soil test lab contact address,Soil,,web
+2777,Asked about transplanting age for ADT 45 paddy variety,Crop Information,en,web
+3083,paddy algae management,Pest Management,,
+2148,Internode Borer In Sugarcane   ,Pest Management,en,android-app-v2
+3039,asking about gingelly season and varieties,Crop Information,en,ussd-sms
+2775,asking about arecanut seedling planting information   ,Cultivation,en,web
+2005,TOP DRESSING FERTILIZER MANAGMENT FOR PADDY,Fertilizer,en,web
+2545,asked  about stem borer management for paddy,Fertilizer,,android-app-v2
+1421,Asking about Water management and Total duration of Maize Co 6,Irrigation,en,web
+2415,ASKED ABOUT SOIL SAMPLING PROCEDURE AND SOIL TESTING FEES INFORMATION,Soil,en,android-app-v2
+2798,Asking about sowing season & sowing time for sesame,Weather,en,
+1686,Asking about False smut disease management in paddy,Crop Disease,en,android-app-v1
+3075,weeds control in groundnut,Pest Management,en,android-app-v1
+1668,asking  about kangeyam weather report,Weather,en,
+1255,fertilizer management for black geram,Fertilizer,en,
+2254,   Asking about sowing season & characteristics of groundnut variety kadiri 1812,Crop Information,en,android-app-v2
+2324,Black gram anthracnose control   ,General Agriculture,en,android-app-v2
+2013,asked about sowing season of maize,Weather,en,android-app-v2
+1664,"Asked about PM kisan samman nidhi yojana scheme 12,13 & 14 th installment status information",General Agriculture,en,
+3215,ASKING ABOUT COCONUT SUITABLE INTERCROPS,Cultivation,en,ussd-sms
+1384,Asking about Water Management for paddy,Irrigation,en,web
+2623,ASKING ABOUT MICROHIZAE (VAM) BIO FERTILIZER APPLICATION   ,Pest Management,en,
+3108,   Asked About Disease Management For Paddy,Crop Disease,en,web
+3092,asking about green gram season and varieties,Crop Information,,
+2279,Asking about Nematode control and Root growth increase in Tomato   ,Pest Management,,ussd-sms
+1912,Asking about Rodent control in paddy and Contact number of JDA,Pest Management,,ussd-sms
+2190,ASKED ABOUT BLACKGRAM PLANTING SEASON INFORMATION,Weather,en,android-app-v1
+2865,   Asking about Lime/orange tree borer management   ,Pest Management,en,web
+1567,Asking about suitable groundnut varieties in Margazhipattam,Crop Information,en,ussd-sms
+3004,Asking about Panama wilt disease management in banana,Crop Disease,,ussd-sms
+3173,asking about bottle gourd fruit rot management   ,Crop Disease,en,ussd-sms
+3283,Asking about kisan credit card details,General Agriculture,en,ussd-sms
+1515,asking about Black gram TNAU foliar application,Fertilizer,en,android-app-v1
+3332,     ,Fertilizer,,
+3354,     ,Crop Disease,,
+3355,Asked about sesame seed treatment details,,,
+1852,ASKING ABOUT GROUNDNUT VARIETIES INFORMATION,Crop Information,en,
+1233,   Asking about bio fertilizer application paddy,Fertilizer,en,
+2681,   paddy White backed plant hopper management,General Agriculture,en,
+3314,asked about groundnut foliar application (groundnut rich),Fertilizer,en,
+3213,Asking about black gram variety VBN 8 sowing season,Crop Information,en,
+1999,Asking about Crop Insurance details (application status),Cultivation,,web
+2943,asking about foliar spray for tuberose   ,Fertilizer,en,android-app-v2
+2333,   ASKING ABOUT WATER MANAGEMENT IN COCONUT   ,Irrigation,en,android-app-v2
+3070,Asking  About Caterpillar Control In Lab Lab,Pest Management,en,web
+1706,Asking about Intercropping with Brinjal plant   ,Cultivation,en,web
+1079,pod borer in green gram,General Agriculture,en,ussd-sms
+2491,   Asking about weed management in sunflower,Pest Management,en,android-app-v1
+3205,weather forecast for villupuram,Weather,en,
+3293,Asked About Fertilizer Application For Pepper Crop,Fertilizer,en,android-app-v2
+1325,Asked about Brinjal flower blight manageemnt,Crop Disease,en,android-app-v1
+3052,Asking about suitable cotton varieties for Tirunelveli district,Crop Information,en,ussd-sms
+1957,   Asking about Market price of Sesame   ,General Agriculture,en,android-app-v1
+2594,Asking about leaf curl in chilli,General Agriculture,en,ussd-sms
+2679,Banana Fusarium wilt,Crop Disease,en,android-app-v2
+1761,ASKED ABOUT PADDY BASAL FERTILIZERS,Fertilizer,en,android-app-v2
+3309,ASKING  ABOUT GOAL WEEDICIDE CAN BE SPRAY FOR TAPIOCA,Pest Management,en,android-app-v1
+2469,   asking about azolla seeds availability information (coimbatore)   ,General Agriculture,en,android-app-v1
+2242,Asking about Root rot management in groundnut,Crop Disease,en,android-app-v1
+1267,Asked about mango foliar spray   ,Fertilizer,,ussd-sms
+3179,Asking about Thoothukudi weather Report,Weather,en,android-app-v1
+2072,market rate for paddy,General Agriculture,en,ussd-sms
+1940,Asked about navarai season paddy varieties,Crop Information,,android-app-v1
+2361,   Villupuram weather report details,Weather,en,web
+1877,    paddy pest control measure,Pest Management,en,android-app-v2
+2786,   Asked about NRCB contact number   ,General Agriculture,en,ussd-sms
+2409,weather report for vellore   ,Weather,en,android-app-v2
+2179,   Asked About Yellow Sigatoka Disease Management For Banana,Crop Disease,en,web
+1845,Asked about root rot management in jasmine,Crop Disease,,ussd-sms
+2374,ASKED ABOUT WEED MANAGEMENT FOR SOYBEAN,Pest Management,en,web
+3378,???...!!,Weather,,
+2703,contact number of Department of Medicinal and Aromatic Crops   ,General Agriculture,en,android-app-v1
+1579,fruitset in cotton,Fertilizer,en,ussd-sms
+3046,Asking abut Root rot management for Casurina,Crop Disease,en,web
+1481,Asking about Gall midge in paddy,General Agriculture,en,
+1338,weather report details,General Agriculture,,web
+2187,Asked about Acid lime Hybrids & saplings availability place information,Cultivation,en,android-app-v1
+3325,Asking about weather information ..?,,,
+2084,asked about germination days for bitter gourd (in mulching sheet),Cultivation,en,ussd-sms
+2722,Asked about Top fertilizer management for Sesame,Fertilizer,en,
+1631,Asked about water management in sesame   ,Irrigation,,web
+3308,   Asking about black gram sowing season for thiruvannamalai district,Weather,,android-app-v2
+2636,bacterial leaf blight management,Crop Disease,en,ussd-sms
+2626,   ASKED ABOUT FRUIT DROP MANAGEMENT IN GUAVA,Fertilizer,en,android-app-v1
+2192,Asking about Thanjore wilt control management in coconut   ,Crop Disease,en,android-app-v1
+3026,asking about sowing season for vegetable crops in may months,Cultivation,en,ussd-sms
+1085,salem veterinary department   ,Crop Disease,en,ussd-sms
+2116,Fruit Rot In Tomato,Crop Disease,en,
+1019,ASKED ABOUT FOLIAR SPRAY IN MANGO,Fertilizer,en,
+1965,Asking about Villupuram district rainfall information,Weather,en,ussd-sms
+1815,Asked about Nirmal 7 black gram crop duration and seed rate,Crop Information,en,web
+3062,   Asking about private paddy variety duration information,Cultivation,en,ussd-sms
+1593,   Sheath Rot in paddy,General Agriculture,,ussd-sms
+1500,    Asking about Preparation method of Jeevamirtham   ,General Agriculture,en,android-app-v1
+3081,root knot nematode in brinjal,Pest Management,en,android-app-v1
+1693,asking about water management in coconut and banana,Irrigation,,android-app-v2
+1150,Phosphorus Deficiency in sugarcane,Fertilizer,en,android-app-v1
+1716,Asking about preventive spray for brinjal to reduce pest damage   ,Pest Management,,android-app-v1
+3222,asking about paddy CORH 4 seeds availability,Cultivation,,ussd-sms
+2621,    Asking about Tirunelveli weather Report,Weather,en,android-app-v1
+1491,   gingelly weed management,Pest Management,,ussd-sms
+1857,Asking about Suitable groundnut varieties for cuddalore district,Crop Information,en,android-app-v2
+2855,onion sowing season   ,Cultivation,en,android-app-v1
+1151,    asking about mango crop details   ,General Agriculture,en,ussd-sms
+2902,   Asking about Paddy direct sowing wet seed weed management,Pest Management,en,web
+3006,Farmer asked price detail of Maize in Namagiripettai mandi.,General Agriculture,en,android-app-v1
+2558,cuddalore veterinary training center,Crop Disease,en,android-app-v2
+1455,ASKING ABOUT SESAME TMV 7 VARIETIES INFORMATION   ,Crop Information,en,android-app-v1
+2819,Asked about Cost of cultivation for banana   ,Cultivation,en,
+3058,asking about tree seedlings availability,Cultivation,en,web
+1147,LEAF ROLLER IN PADDY,General Agriculture,en,android-app-v1
+1711,   basal fertilizer mangement for paddy,Fertilizer,en,
+2211,Coconut Stem Bleeding Disease,Crop Disease,en,android-app-v2
+1239,   asking about paddy blast management,Cultivation,en,
+2033,"Asked about Paddy ADT 54 variety sowing season, grain type, total duration, yield and special characteristics",Crop Information,en,android-app-v1
+1030,weeds control in radish,Cultivation,en,web
+1467,Leaf blight in Paddy,Crop Disease,,web
+1493,asked about sucking pest management in blackgram,Pest Management,en,
+1657,Asked about grain discoloration in paddy,Crop Information,en,android-app-v1
+1353,Brinjal shoot borer,Pest Management,en,ussd-sms
+1344,Asking about Thiruvannamalai district rainfall information,Weather,en,android-app-v1
+1613,Asking about Rhizopus rot control in jackfruit,Pest Management,en,web
+2338,Asking about suitable groundnut varieties,Cultivation,en,android-app-v1
+1438,   Asked About Improved White Ponni Paddy Variety Related Information   ,Crop Information,en,web
+3124,ASKING ABOUT PADDY NAVARAI SEASON OF PLANTING AND VARIETIES FOR THANJAVUR/NAGAPATTINAM/TIRUVARUR   ,Weather,en,android-app-v2
+1472,   Asking about Total duration and special character of ADT 37,Crop Information,en,android-app-v2
+1488,weather report for salem am district,Weather,,android-app-v2
+2853,   Asked about Suitable sowing season & varieties for Paddy (Sornavari),Weather,,web
+1986,Asked about suitable paddy varieties for kuruvai season   ,Crop Information,en,web
+3157,Department of Post Harvest Technology Centre contact number,Harvesting,,android-app-v1
+2354,   sheath rot control in paddy,General Agriculture,en,android-app-v2
+3260,   sugarcane cultivation practices details,Cultivation,en,android-app-v1
+3080,rhinoceros  beetle in coconut   ,General Agriculture,en,web
+1100,Paddy Navarai Varieties In Villupuram,Crop Information,en,
+1767,   asking about chrysanthimum top dressing fertilizers,Fertilizer,en,android-app-v1
+2423,Asking  about French bean sowing season,Cultivation,en,web
+3129,Asked about Paddy variety TPS 5 duration & yield special features information,Crop Information,en,web
+2941,asked about micronutrient management in paddy   ,Fertilizer,en,android-app-v1
+3371,,Irrigation,,
+2870,   Asked about sowing season & duration for blackgram variety MDU1,Crop Information,en,
+2924,Asked About Adt 5 Blackgram Variety Sowing Season,Crop Information,en,ussd-sms
+2156,   Top dressing for Brinjal,Fertilizer,en,android-app-v1
+2172,Mango foliar application,Fertilizer,,android-app-v2
+2542,Asked about Whitefly and Yellow mosaic disease management for Tapioca,Crop Disease,en,android-app-v1
+3340,,Irrigation,,
+3278,Weather Report For Tiruvannamalai,Weather,,ussd-sms
+1444,Kancheepuram Weather Report   ,Weather,en,
+2282,   Asked about Banana sales related details   ,Fertilizer,,android-app-v1
+1058,Asking  about sesame sowing season and varieties for Villupuram   ,Weather,en,ussd-sms
+2699,ASKED ABOUT NAVARAI SEASON VARIETIES GRAIN TYPE,Cultivation,en,android-app-v1
+2475,Asking about Ragi sowing season and variety,Crop Information,en,ussd-sms
+1596,ASKED  ABOUT CANKER IN CITRUS,General Agriculture,,android-app-v1
+2245,    asking about Bunchy top virus management in Banana,Crop Disease,en,android-app-v1
+1286,ASKED ABOUT LEAF BLIGHT MANAGEMENT IN ONION,Crop Disease,en,ussd-sms
+1795,   asking about weather detail for tirunelveli dist,Weather,en,
+2734,Asked about crops sown in alkaline soil,Soil,en,web
+2898,Asking about coriander sowing season   ,Cultivation,en,android-app-v1
+3141,Farmer asked price detail of Maize in Karumanturai mandi.   ,General Agriculture,en,android-app-v2
+1899,   Asking about Guava mealy bug management,General Agriculture,en,web
+3227,asking about asking about groundnut variety (g 7) description for research purpose,Cultivation,en,android-app-v1
+1216,Asked about Rice research station contact number,Fertilizer,,
+3118,   Paddy leaf blight   ,Crop Disease,en,ussd-sms
+2999,FARMER ASKED PRICE DETAIL OF KODO MILLET(VARAGU) IN VIRUDHACHALAM MANDI.,General Agriculture,,ussd-sms
+2984,Asked about Cotton foliar nutrition management   ,Fertilizer,en,android-app-v1
+2106,Brinjal in blight,Crop Disease,en,android-app-v2
+1495,asked about application of seeds per pit   ,Cultivation,en,
+2002,asking about vermicompost availability information,General Agriculture,en,ussd-sms
+3246,Asked about Ribbed gourd CO 1 variety Fruit size height information,Cultivation,en,ussd-sms
+2368,   ASKING ABOUT TOP FERTILIZER MANAGEMENT IN COTTON,Fertilizer,en,ussd-sms
+2580,"black gram season , paddy pest , drip irrigation, agri enginnering department no.",Pest Management,en,ussd-sms
+1162,asking about Brinjal varieties,Cultivation,,web
+1619,   Suitable paddy varieties for Tiruvannamalai,Crop Information,en,android-app-v1
+2363,   Amla seedlings availability information,Cultivation,en,web
+1277,Asking about mealy bug & leaf blight disease management in tuberos flower,Crop Disease,en,android-app-v2
+1377,Asking about Beans pod borer management,Pest Management,,ussd-sms
+3119,asked about sugarcane sowing season information,Weather,,ussd-sms
+1791,Asking about Azolla seed availability and cultivation information   ,General Agriculture,en,android-app-v1
+3113,   Asked About Prevention Of Diseases In Watermelon Crop,Crop Disease,en,
+1130,ASKING ABOUT BORON DEFICIENCY MANAGEMENT FOR JASMINE PLANT (MN MIXTURE CAN BE APPLIED IN SOIL APPLICATION )   ,Fertilizer,en,android-app-v1
+3153,ASKING ABOUT COW DISEASE REPORTING INFORMATION,Crop Disease,en,web
+1102,Asking About Namakkal Weather Report   ,Weather,,android-app-v2
+1556,asking about root rot management in sesame,Irrigation,,web
+3017,Asked about Pest and Disease diagnosis in Coconut (stem bleeding reason )   ,Crop Disease,,android-app-v2
+1403,Asked About Sesame Duration Information   ,Crop Information,en,android-app-v2
+3299,Asking about ethrel uses in bitter gourd,Fertilizer,en,ussd-sms
+2668,ASKED ABOUT CROPS SUITABLE FOR CHITHIRAI PATTAM,Weather,en,
+2216,Asked about azospirrillum + phosphobacteria bio fertilizer information,Fertilizer,,web
+1592,   Asking about Sesame irrigation management   ,Cultivation,en,
+1535,CASTOR TOP DRESSING FERTILIZER MANAGEMENT,Fertilizer,en,
+2839,Asked about coconut fertilizer dosage & application method information,Cultivation,en,android-app-v2
+2944,Cotton high yielding variety,General Agriculture,en,android-app-v1
+2171,Mango foliar application,Fertilizer,,
+2897,Asking about coriander sowing season   ,Cultivation,en,android-app-v1
+1319,asking about Trichy today weather Report,Weather,en,ussd-sms
+2597,asked about sucking pest management in black gram,Pest Management,en,android-app-v1
+3037,Asked About Veterinary Information,Crop Disease,en,web
+1340,NAVARAI PADDY VARIETIES FOR THIRUVALLUR DISTRICT,Crop Information,,android-app-v1
+3196,Asking about Iris herbicide (Sodium Acifluorfen 16.5% + Clodinafop Propargyl 8% EC) information,Pest Management,en,web
+3013,Asked about suitable vegetable crops cultivation for this season   ,Cultivation,,ussd-sms
+2710,Asking about Papaya leaf curl virus management,Crop Disease,en,ussd-sms
+2294,TILLERING STAGE FERTILIZER MANAGEMENT FOR PADDY,Fertilizer,en,android-app-v1
+3120,Asking about Acetamiprid 20 % SP spray dosage for citrus crop (sucking pests ),Pest Management,en,android-app-v1
+1169,Paddy  Bpt Variety Duration (Days),Crop Information,,android-app-v1
+3102,asking about watermelon suitable varieties,Cultivation,en,ussd-sms
+1705,   asked about bhendi hybrid seed rate,Cultivation,en,android-app-v1
+1671,Asked about Can apply gypsum in paddy field   ,Cultivation,en,android-app-v1
+1309,ADT 37 paddy market rate details,General Agriculture,en,web
+2307,Asked About Cow Mastitis Management,Crop Disease,en,android-app-v2
+1606,ASKING ABOUT SALINE AND ALKALINE SOIL RESISTANT PADDY VARIETIES,Crop Information,,ussd-sms
+3149,    about salem district rain details   ,Weather,,
+2637,asking about banana bunchy top virus management (organic),Crop Disease,en,android-app-v2
+3065,sowing season for cumbu,Weather,en,ussd-sms
+1708,ASKING ABOUT SOIL TESTING DETAIL FOR BEFORE COCONUT SEEDLING PLANTING,Soil,en,
+3201,Asking about ragi sowing season   ,Weather,en,android-app-v1
+2182,Asking about Paddy Variety Poongar duration,Crop Information,en,android-app-v2
+2938,Top  dressing fertilizer management for Maize,Fertilizer,en,android-app-v1
+1098,Asked  about weed management in blackgram (15-20 DAS),Pest Management,en,
+2403,   asked about banana drought management in crossandra,Irrigation,en,android-app-v1
+1848,Asking about Germinated paddy seed storage information,Cultivation,en,android-app-v1
+2753,Asking About Suitable Varieties For Paddy (April -May),Cultivation,en,
+1258,Asked  about Foliar spray for Banana   ,Fertilizer,,android-app-v1
+1473,"asked about leaf folder ,stem borer ,gall midge and thrips management for paddy",Pest Management,en,android-app-v1
+2919,Asking about foliar nutrient spray for Sorghum,Fertilizer,en,
+2078,Asking about Paddy navarai season of planting and varieties for Salem/Namakkal,Weather,en,web
+2185,Asked about Sesame Harvesting information,Harvesting,,ussd-sms
+1779,asking about root rot management for papaya,Crop Disease,en,ussd-sms
+3307,   Asking about black gram sowing season for thiruvannamalai district,Weather,,android-app-v1
+2502,   Asking about groundnut dharani variety details   ,Crop Information,en,android-app-v1
+2796,Asking About Sowing Season For Sesamum   ,Crop Information,en,android-app-v2
+2426,Good breed of cow,Crop Disease,en,android-app-v2
+1789,   Asking About Koyambedu Market Small Onion Market Price Today   ,General Agriculture,en,android-app-v1
+3067,Asking about SMS Not receiving information   ,General Agriculture,en,ussd-sms
+2638,ASKING ABOUT SESAME SEEDS AVAILABILITY INFORMATION,Cultivation,en,android-app-v1
+1783,   NAGAPATTINAM WEATHER REPORT DETAILS   ,Weather,,ussd-sms
+1972,paddy water management,Weather,,android-app-v2
+1850,Asking  about Alathur tamilnadu weather report   ,Weather,,
+3300,asking about insects traps details   ,Pest Management,en,android-app-v2
+2359,Asked about Chilli Thrips management,General Agriculture,en,ussd-sms
+2794,Paddy Rice earhead bug control,General Agriculture,en,android-app-v1
+2494,   Asking about paddy variety CR1009 details,Crop Information,,android-app-v2
+2539,Asked  about Paddy nutrient management,Fertilizer,,
+3369,,Fertilizer,,
+1519,   Suitable Paddy Varieties For Navarai Season,Crop Information,en,android-app-v2
+1814,Asked About Mahogany And Mango Plant Suitable In Water Logging Condition,Cultivation,en,android-app-v1
+2602,Weather  report for tirupur,Weather,,android-app-v1
+1478,   spic cytocyme dosage,Fertilizer,en,android-app-v2
+2702,   Asking about Rhizopus rot management in jack,General Agriculture,en,android-app-v1
+1803,Asking about Red palm weevil in Coconut   ,General Agriculture,en,web
+3357,???...!!,Cultivation,,
+1838,Asked about chilli foliar application information for 19:19:19   ,Fertilizer,en,
+1393,paddy bacterial leaf blight management   ,Crop Disease,en,
+2220,Asked  about sowing season for banana (Garden lands),Cultivation,en,android-app-v2
+2277,weed management detail,Pest Management,en,android-app-v2
+1622,   ASKED ABOUT PADDY CO 55 VARIETY INFORMATION AND SEEDS AVAILABILITY,Crop Information,en,android-app-v2
+1568,Asking about suitable groundnut varieties in Margazhipattam,Crop Information,en,web
+1914,Aphids in groundnut   ,General Agriculture,en,android-app-v1
+3359,Paddy navarai varieties in villupuram,,,
+2441,sheath blight control in paddy,Crop Disease,,ussd-sms
+1084,papaya top fertilizer,Fertilizer,en,android-app-v2
+1678,   Asked about shoot borer & internode borer management in sugarcane,Pest Management,en,android-app-v1
+2252,Asked about paddy sowing season and variety in vellore district,Weather,en,
+2189,   Krishi Vigyan Kendra - kanchepuram   ,Soil,,ussd-sms
+3376,,Irrigation,,
+1064,Asked about bud worm management in Jasmine   ,General Agriculture,en,web
+1318,WEATHER DETAIL FOR PUDUKOTTAI DIST   ,Weather,en,web
+1302,Root rot in tuberose,Crop Disease,en,ussd-sms
+2939,Asking  about Weed management around the wire fence,Pest Management,,ussd-sms
+2560,WEED MANAGEMENT FOR BLACK GRAM,Pest Management,en,web
+2484,leaf foder in paddy,General Agriculture,en,android-app-v2
+3146,Rice tungro virus test in paddy,Crop Disease,en,ussd-sms
+1697,asked  about root rot management in brinjal,Crop Disease,en,web
+1859,Weather report for Villupuram district   ,Weather,,android-app-v1
+2313,Asked  about pest and disease identification information   ,Crop Disease,en,android-app-v2
+3144,   asking about suitable ragi varieties in adipattam   ,Crop Information,en,web
+3243,    ASKED ABOUT PADDY SHORT DURATION VARIETIES INFORMATION,Crop Information,en,ussd-sms
+3193,soil testing lab in kancheepuram,Soil,en,ussd-sms
+2540,soil test in technique,Soil,,
+1644,asked about recommended npk ratio in dap for paddy   ,Fertilizer,,android-app-v1
+2486,    Weather report for Thirunelveli,Weather,,
+1223,varieties for ragi,Crop Information,en,android-app-v2
+1409,   asking about black gram sowing season and varieties,Weather,en,
+1590,    Asked about prevention diseases in small onion,Crop Disease,en,
+1045,Asking about pm kisan ssamman nidhi next due date,General Agriculture,en,ussd-sms
+1124,Asking about coimbatore today weather Report for tomatoplant protection   ,Weather,en,android-app-v1
+1469,asking about cotton Thrips management   ,General Agriculture,,android-app-v2
+2872,Asked about Cotton market information,General Agriculture,en,web
+3261,Asking about spacing for banana (leaf purpose)   ,Cultivation,en,
+2019,    root rot in celosia,General Agriculture,en,
+2230,Asked  about Stem borer & sucking pests management for paddy   ,Pest Management,en,android-app-v2
+1617,weather  report for thiruvannmalai,Weather,en,
+1854,Asked about Market information of Coconut and Copra,General Agriculture,en,android-app-v2
+3256,ASKED  ABOUT PADDY LEAF FOLDER & STEM BORER MANAGEMENT,Pest Management,en,android-app-v1
+2696,Asking About Thiruvannamalai Today Weather Report,Weather,,
+3057,asking about tree seedlings availability,Cultivation,en,ussd-sms
+3382,     ,Harvesting,,
+3077,Asking about jackfruit planting season,Cultivation,en,android-app-v2
+1397,ASKING ABOUT ASH GOURD SEEDS AVAILABILITY DETAILS CONTACT NUMBER,Cultivation,en,
+1139,ASKING  ABOUT YELLOW MOSAIC VIRUS IN BLACK GRAM,Crop Disease,en,web
+1279,   Asked about humic acid application for bitter gourd & chilli crop   ,Cultivation,en,android-app-v1
+2430,Asking about Nano urea application for paddy alternate of urea,Fertilizer,en,android-app-v2
+1296,Asking about Average yield for co 43 Paddy variety,Cultivation,,android-app-v1
+1034,vellore soil testing lab contact number,Soil,en,web
+2099,    red spider mite in jasmine,Pest Management,,
+1765,   BANANA SIGATOKA LEAF DISEASE,Crop Disease,en,ussd-sms
+2801,asking about cold storage & storage govt. schemes information,Harvesting,en,android-app-v2
+2650,Asked  about Pencil point disorder management,Fertilizer,,android-app-v2
+3155,Asking  about suitable crops cultivation for this month,Cultivation,,web
+1404,Asked About Sesame Duration Information   ,Crop Information,en,android-app-v2
+1260,Asked about Irrigated Sesame Basal fertilizer application,Fertilizer,en,android-app-v2
+2166,   Erode Weather Report Details,Weather,en,web
+1966,Rainfall information for vellore district   ,Weather,en,web
+2818,"   Asked about Groundnut sowing season , varieties and high yielding variety seeds availability   ",Crop Information,,
+2355,medicinal coleus planting season,General Agriculture,,android-app-v1
+1804,   Asking about Root rot disease management in jasmine,Crop Disease,,ussd-sms
+1043,asked  about sucking pest management in cotton   ,Pest Management,en,android-app-v1
+1928,   Asking about organic herbicide preparation information,Pest Management,,android-app-v2
+1186,Asked about Pumpkin and Ash gourd planting season,Cultivation,en,
+2530,ASKED ABOUT PADDY VARIETY CR 1009 SUB 1 AND CR 1009 INFORMATION,Crop Information,en,android-app-v2
+1602,Asking about paddy seed treatment,Cultivation,en,
+2642,bhendi foliar application information,General Agriculture,,
+2846,   Asked about cattle disease management,Crop Disease,en,ussd-sms
+2258,SIVAGANGA TODAY WEATHER REPORT,Weather,en,android-app-v2
+1947,Asking about Small onion sowing season,Cultivation,en,ussd-sms
+1408,fertilizer management for paddy basal dose,Fertilizer,en,
+1168,Asking About Ragi Season,Weather,en,
+1680,MANGO LORANTHUS SPP CONTROL,General Agriculture,en,android-app-v2
+2334,Asking about weather report for viruthunagar district   ,Weather,en,
+1993,   Asked about sfssch 444 BG 11 cotton variety information,Crop Information,en,android-app-v1
+3109,Asking About Brown Spot And Leaf Folder In Paddy,General Agriculture,en,web
+2257,SIVAGANGA TODAY WEATHER REPORT,Weather,en,ussd-sms
+1303,   Asked about Bhavani sagar dam water release date related information,Irrigation,en,android-app-v2
+2248,groundnut seed treatment information,Cultivation,en,android-app-v2
+2952,   ASKING ABOUT COTTON WEED MANAGEMENT ( 15 -20 DAYS),Pest Management,en,ussd-sms
+1305,ASKING ABOUT PERAMBALUR DISTRICT RAINFALL INFORMATION,Weather,en,android-app-v2
+1198,Asking about Castor YRCH 1 variety Special features,Crop Information,en,ussd-sms
+2833,Seed treatment for groundnut   ,Pest Management,en,android-app-v1
+1505,Asked  About Paddy Adt 55 And Co 51 Grain Type,Crop Information,en,
+2579,   ASKED ABOUT DURATION OF ADT 54 PADDY VARIETY,Cultivation,en,ussd-sms
+2032,"Asked about Paddy ADT 54 variety sowing season, grain type, total duration, yield and special characteristics",Crop Information,en,android-app-v1
+2297,    asking about cotton pre sowing seed treat management,Cultivation,,web
+2803,   sapota fertilizer recommended,Fertilizer,en,android-app-v1
+1700,   Top dressing fertilizer management for sugarcane   ,Fertilizer,en,ussd-sms
+2224,   asked about zinc sulphate using quantity and spraying procedure for paddy   ,Fertilizer,en,
+2899,    Cluster beans sowing season and varieties,Cultivation,,web
+1264,asking  about pm kisan samman nidhi scheme information   ,General Agriculture,en,web
+1718,SPACING FOR PADDY   ,Cultivation,,web
+1837,asking about flower dropping management in cashewnut,General Agriculture,,android-app-v1
+1297,top dressing fertilizer management for chillies,Fertilizer,,android-app-v2
+1443,ASKING ABOUT BPT PADDY DURATION,Cultivation,en,
+1941,TRY 3 Paddy variety duration days details   ,Cultivation,en,web
+3050,   Asking about kadayampatti taluk weather report   ,Weather,en,android-app-v1
+2936,Asked about Jasmine and Mullai planting spacing information   ,Cultivation,en,android-app-v1
+1771,Paddy basal fertilizer,Crop Information,en,android-app-v2
+3003,"asking  about krishi vigyan kendra, cheyyar, thiruvannamalai district contact no",Weather,en,android-app-v2
+1014,ASKED ABOUT PADDY MACHINE TRANSPLANTING SEEDRATE,Cultivation,,
+2094,groundnut planting season,Weather,en,android-app-v1
+2714,JASMINE IN WHITE FLY,Fertilizer,en,android-app-v2
+1612,Asking  about Crop insurance amount not credited,General Agriculture,en,ussd-sms
+2134,   marigold top dressing fertilizer management,General Agriculture,en,
+2108,asked  about brinjal flower drop management,Fertilizer,en,android-app-v1
+1142,Asking About Green Manure Daincha Seed Rate Information,Fertilizer,,ussd-sms
+1180,    asking about groundnut basal fertilizer management,Fertilizer,en,android-app-v2
+1272,Asked About Groundnut Market Information,General Agriculture,en,ussd-sms
+2596,   asking about aloe vera varieties information   ,Cultivation,,
+2686,sucking pest attack in chillie   ,Pest Management,en,web
+3333,,Cultivation,,
+1153,Asked about leaf blight management in sorghum,Crop Disease,,web
+2526,asking about root rot management in blackgram   ,Crop Disease,en,
+2780,Asking about cow disease management,Crop Disease,,web
+2296,    asking about cotton pre sowing seed treat management,Cultivation,,
+3368,,General Agriculture,,
+2576,prposis  julifera management in agriculture land,Pest Management,en,
+3284,Asked about Irrigation management in Black gram,Irrigation,en,ussd-sms
+2584,Asking about Greengram procurement market price information   ,Harvesting,en,android-app-v2
+3138,   ASKED ABOUT SORGHUM CROP INSURANCE CLAIM AMOUNT INFORMATION (2020 -2021)   ,General Agriculture,en,
+1416,ASKED ABOUT SUITABLE PADDY VARIETIES INFORMATION,Crop Information,,android-app-v2
+2397,ASKING ABOUT THIRUVANNAMALAI HORTICULTURAL DEPARTMENT CONTACT NUMBER   ,Cultivation,en,android-app-v2
+3351,???...!!,Crop Disease,,
+2590,Thiruvarur  district weather forecast,Weather,,android-app-v1
+1740,ASKED ABOUT TOP FERTILIZER MANAGEMENT FOR GROUNDNUT,Fertilizer,en,android-app-v2
+2384,asked  about fertigation schedule in cotton,Fertilizer,en,android-app-v1
+1580,   Asking about Root rot disease management in mulberry,Crop Disease,en,ussd-sms
+3056,Asked  about soil sample collection information,Soil,en,android-app-v2
+3236,asked about stem borer management for paddy   ,Pest Management,en,
+2492,   Asking about white ponni paddy variety total duration   ,Crop Information,en,ussd-sms
+1229,   Asked about cluster bean disease prevention   ,Crop Disease,en,ussd-sms
+2131,weather report for krishnagiri   ,Weather,,android-app-v1
+3262,asking about panama wilt disease in banana,Fertilizer,en,
+1334,Asking about Suitable paddy varieties for navarai season,Crop Information,en,android-app-v2
+1726,asking about dindigul district weather details,Weather,en,android-app-v2
+1023,TAPIOCA TOP DRESSING FERTILIZER MANAGEMENT,Fertilizer,en,ussd-sms
+1402,Asked about cabbage and cauliflower planting season,Cultivation,en,android-app-v1
+1975,brinjal planting season,General Agriculture,,
+1796,asking about paddy season and varieties,Crop Information,en,ussd-sms
+1254,ASKING ABOUT ROOT ROT PREVENTION MANAGEMENT IN COTTON,Crop Disease,en,
+2765,Asked about leaf folder and stem borer management in paddy,Pest Management,en,android-app-v1
+2915,   foliar spray for groundnut   ,Crop Information,,
+1206,sesame sowing season and variety,Weather,en,android-app-v2
+3279,asking about rat management in paddy field   ,General Agriculture,en,android-app-v1
+2233,"   asked about soil testing ,water testing laboratory address and phone number   ",Soil,en,web
+1616,asking about vellore district rain details,Weather,,android-app-v1
+2395,ASKING ABOUT GALL MIDGE MANAGEMENT FOR PADDY,General Agriculture,en,
+1460,   Asking about Pongalur weather report,Weather,en,
+1011,moringa flower drop management details,General Agriculture,en,android-app-v1
+2854,Asked about saline-alkaline soil management in tuberose   ,Soil,en,
+2975,   paddy stem borer   ,Pest Management,en,android-app-v2
+3247,Asked about Ribbed gourd CO 1 variety Fruit size height information,Cultivation,en,android-app-v1
+1650,zinc deficiency in rose,Fertilizer,,
+2285,   asking about ariyalur weather report,Weather,,android-app-v1
+3294,   Asked about beetle & leaf blight disease management in paddy crop   ,Crop Disease,en,android-app-v1
+1262,Asked About Market Rate For Maize Information,General Agriculture,en,android-app-v2
+2683,ASKED ABOUT BHENDI SOWING SEASON   ,Cultivation,en,web
+2510,Asking about Calcium Deficiency in tomato,Fertilizer,en,web
+2529,asking  about Groundnut booster application,Fertilizer,en,ussd-sms
+2170,sri weed management,Pest Management,en,web
+3031,   Bitter gourd stem rot management   ,General Agriculture,en,web
+2822,   Asking about foliar spray for snake gourd,Fertilizer,,
+2375,chillies root rot,Crop Disease,en,web
+2697,   BRINJAL FRUIT BORER MANAGEMENT,Pest Management,en,android-app-v1
+1576,Asking about Virudhunagar weather report,Weather,en,web
+1817,tomato root rot management,Crop Disease,,web
+2577,coconut weed management,Pest Management,en,
+1214,asking about contact number of rice department,Crop Information,en,web
+1557,control measure for cercospora leaf spot in cotton   ,General Agriculture,en,android-app-v1
+2054,   SUITABLE PADDY VARIETIES FOR VILLUPURAM,Crop Information,en,web
+2474,Asked about prevent root rot management in chrysanthemum,Crop Disease,en,web
+1909,WEATHER REPORT FOR KARUR,Weather,en,android-app-v2
+2863,   asking about rugose whitefly management in coconut (sooty mould),General Agriculture,en,
+1129,asked about leaf folder and ear head bug management in paddy,General Agriculture,en,web
+2832,Asked about black gram weed management ( 15 -20 days)   ,Pest Management,en,
+1138,Red Spider Mite In Brinjal,Pest Management,en,web
+1992,asking about paddy season and varieties (samba season),Crop Information,,web
+3224,Borer management for sorghum   ,Pest Management,en,
+1259,    Asked about disease management in poultry information,Crop Disease,en,android-app-v1
+2644,asked  about flax seeds availability information,Cultivation,en,android-app-v1
+1487,Asked about weed management in sugarcane,Pest Management,,
+1689,asking  about attur weather report,Weather,en,android-app-v2
+2226,Asking about Suitable varieties for Groundnut (Anippattam)   ,Crop Information,en,ussd-sms
+2316,asking about Wilt management in Cotton,Crop Disease,,ussd-sms
+2771,Asking about adult insect management in paddy,Pest Management,en,android-app-v2
+1280,asking about Red palm weevil management in Coconut,General Agriculture,en,
+1934,ASKING ABOUT TOMATO BASAL FERTILIZER MANAGEMENT,Fertilizer,,android-app-v2
+3200,   ASKING ABOUT SUITABLE CROPS CULTIVATION FOR CHITHIRAIPATTAM (APRIL -MAY )   ,Weather,,web
+1618,mango seedlings availability information,Cultivation,en,android-app-v2
+2437,Root  rot in paddy,Crop Disease,en,web
+3272,Asking about Paddy Co 52 seeds availability information,Cultivation,en,web
+3377,     ,Irrigation,,
+2627,Asking about suitable varieties for paddy (December -January)   ,Crop Information,en,android-app-v2
+1480,Asked about bio potash application for banana crop,Pest Management,en,web
+1924,Asking  about Suitable varieties and climate condition for Pepper,Cultivation,en,
+2704,Asked about sesame seed rate,Crop Information,,web
+3306,asked about available of groundnut seeds,Cultivation,en,
+2531,Asked  about suitable varieties for chilli   ,Cultivation,en,android-app-v1
+1003,Asked about maize water management,Irrigation,en,
+3301,   Panama wilt for banana,Crop Disease,en,ussd-sms
+2053,details about forage crops,Cultivation,en,android-app-v2
+3101,Asking about suitable Blackgram varieties and their characteristics,Crop Information,en,
+2000,asked about management of effect of herbicide,Fertilizer,en,ussd-sms
+2548,cut worm control in banana,Pest Management,,ussd-sms
+2866,Asking about Sugarcane CoC 13339 and CoC 25 variety information   ,Crop Information,,android-app-v2
+1663,   asked about top dressing management for paddy (25 & 45 das),Fertilizer,en,web
+1633,"asked about paddy variety try 3, adt 51 crop duration information   ",Pest Management,en,ussd-sms
+2367,   Asking about Address for Perambalur soil testing laboratory,Soil,,web
+3319,   asked about soil testing information for vegetable cultivation   ,Cultivation,en,android-app-v2
+2036,asking about bacterial leaf blight in paddy   ,Crop Disease,en,web
+2114,WEEDS CONTROL IN PADDY   ,Pest Management,en,android-app-v2
+1385,   ASKED ABOUT WEED MANAGEMENT IN GROUNDNUT   ,Pest Management,en,ussd-sms
+2222,   asking about paddy crop yield loss information,Fertilizer,,android-app-v1
+1853,Vellore weather report   ,Weather,en,web
+3384,,Harvesting,,
+1062,Asking about blackgram sowing season,Weather,en,android-app-v1
+3094,ASKING ABOUT SALEM TODAY WEATHER REPORT,Weather,en,web
+2728,Asking about Ticks management in Cow   ,Crop Disease,en,android-app-v2
+1758,   asked about adt 54 paddy seeds availability contact,Cultivation,en,ussd-sms
+2027,"foliar spray in blackgram,   ",Fertilizer,en,android-app-v2
+2635,Dindugal  weather report details,Weather,en,android-app-v2
+1141,"Asked  about contact details of DEMIC, TNAU",Irrigation,en,android-app-v1
+1793,SUITABLE  GREEN GRAM VARIETIES,Crop Information,en,
+1176,ASKING ABOUT TOP FERTILIZER MANAGEMENT IN TAPIOCA,Fertilizer,en,android-app-v1
+2080,Asked about management of whitefly in guava   ,General Agriculture,en,android-app-v2
+2687,groundnut seeds availability information   ,Cultivation,en,
+2414,ASKED ABOUT YELLOW VEIN MOSAIC VIRUS MANAGEMENT IN BHENDI   ,Crop Disease,en,android-app-v2
+3178,Thrips in cotton,General Agriculture,en,android-app-v2
+1392,   ASKING ABOUT SOIL TESTING TECHNIQUES,Soil,en,android-app-v1
+1733,groundnut  sowing season thiruvannamalai   ,General Agriculture,en,ussd-sms
+1858,asking about varieties of paddy   ,Crop Information,,ussd-sms
+1052,Asked about Greengram sowing season and variety,Weather,en,web
+1661,Blackgram sowing season   ,Weather,,web
+2751,WEATHER REPORT INFORMATION,Weather,en,android-app-v1
+2396,"Asked about leaf hopper ,thrips & bud borer management in rose flower",Pest Management,en,android-app-v2
+1936,Asked about Casuarina spacing information,Cultivation,en,android-app-v2
+2876,weather report for tuticorin,Weather,en,ussd-sms
+1919,Nursery  duration for small onion,Cultivation,en,android-app-v1
+1894,Asking about sesame sowing season for Tiruvannamalai district,Weather,en,android-app-v2
+2997,what are the uses Bio- mineralizer,Pest Management,en,web
+2337,Asked about Thuyamalli Paddy sowing season and total duration information   ,Weather,en,web
+3151,ASKED ABOUT WATER MANAGEMENT FOR SESAME,Irrigation,en,
+1548,Asking about root Rot management in onion (precaution),Crop Disease,en,
+2351,Asked about Mahendra 606 paddy variety duration   ,Crop Information,en,ussd-sms
+1498,Asking about paddy BPT 5204 variety details,Crop Information,en,web
+3277,    Asking about weed management in sugarcane   ,Pest Management,en,web
+1615,ASKING  ABOUT TRANSPLANTING AGE FOR RAGI,Weather,en,
+1081,Paddy Sowing Season Varieties,Weather,en,android-app-v1
+2026,"   ASKING ABOUT CUTWORM, SUCKING PEST MANAGEMENT FOR BRINJAL",Pest Management,en,android-app-v1
+1536,   LEAF BLIGHT IN ONION,Crop Disease,en,web
+1342,   ASKING ABOUT SEASON OF SOWING FOR BHENDI   ,Cultivation,,web
+1379,Asked about Root rot Management for Mulberry,Crop Disease,en,
+1540,Asking about Weather report for Tirupur,Weather,en,android-app-v1
+2164,thirupur weather report,Weather,en,ussd-sms
+1630,asking about onion basal fertilizer requiremwnr,Fertilizer,en,web
+1911,asking about Leaf Blight management in onion,Crop Disease,en,android-app-v2
+3235,paddy variety and sowing season,Crop Information,en,android-app-v2
+1626,   Asking about basal fertilizer management for Cumbu,Weather,,android-app-v2
+2041,ASKED  ABOUT PADDY TOP FERTILIZER APPLICATION,Fertilizer,en,web
+2184,Asked About Seed Rate Of Kodo Millet,Cultivation,en,android-app-v2
+1331,Asked about TKM 9 total duration information   ,Crop Information,,
+2137,Asked  about Castor sowing season,Weather,,ussd-sms
+2493,   Asking about white ponni paddy variety total duration   ,Crop Information,en,web
+2318,Storage of seed rhizomes,Harvesting,en,ussd-sms
+1220,asking about sugarcane top dressing fertilizer application   ,Fertilizer,,android-app-v2
+1037,Asked about Green manure and sugarcane mill waste application,Fertilizer,en,android-app-v1
+1370,   Asking About Suitable Blackgram Season And Variety,Crop Information,en,android-app-v1
+1035,Asked about paddy sowing season and variety,Crop Information,,
+1971,"ASKING ABOUT HORTICULTURAL RESEARCH STATION,YERCAUD CONTACT INFORMATION",Cultivation,en,web
+2231,Asking about weather report for pudukottai district,Weather,en,android-app-v2
+1867,Asking about Brown Spot management in paddy,General Agriculture,,
+1864,Asking About Bacterial Leaf Blight Management In Paddy   ,Crop Disease,en,ussd-sms
+2701,Asking  about suitable sesame varieties for Villupuram district   ,Crop Information,en,
+1674,Asked about paddy sowing season information   ,Crop Information,en,
+2525,   Asked about Sorghum Disease identification,Crop Disease,en,ussd-sms
+2759,Asking about CHEMBARAMBAKKAM water level,Irrigation,en,web
+2239,   Asked about Water management after fertilizer application,Irrigation,en,ussd-sms
+1284,   Asked about Weed management for paddy crop,Pest Management,en,ussd-sms
+3290,coconut sowing season,Cultivation,en,ussd-sms
+3223,ASKING  ABOUT GROUNDNUT RICH AVAILABILITY INFORMATION   ,Fertilizer,en,android-app-v1
+2624,FARMER ASKED PRICE DETAIL OF MAIZE IN THENI MANDI.,General Agriculture,en,android-app-v2
+3072,Askling about Neyveli weather Report,Weather,,web
+1819,Asked about Moringa Leaf powder making   ,Harvesting,en,ussd-sms
+1372,top dressing for groundnut,Fertilizer,en,
+1188,   Asked about fertigation schedule for watermelon,Fertilizer,en,android-app-v1
+1078,Asked about MDU 1 Black gram variety information,Crop Information,,
+3387,,Irrigation,,
+2674,   Asked about Pruning stage for Tamarind tree,Cultivation,,web
+3282,Asked about disease management for Guava   ,Crop Disease,en,web
+2930,    ASKED ABOUT PADDY STEM BORER MANAGMENT,Pest Management,en,android-app-v1
+2142,asked about suitable groundnut varieties and yield information,Crop Information,,web
+2366,   Asking about puthukottai horticultural department contact number,Cultivation,en,android-app-v1
+1827,Asked  about sowing season & duration for paddy variety ADT 43   ,Weather,en,web
+1944,Asking about Sowing season of Agriculture crops,Weather,en,android-app-v2
+1452,Central  Institute for Subtropical Horticulture contact number details,Cultivation,en,android-app-v1
+1862,   erode veterinary department contact number details,Crop Disease,en,
+2910,asked about stem borer management in mango   ,Pest Management,en,web
+2646,Asked about IR 50 paddy seeds availability information,Crop Information,en,ussd-sms
+3127,ASKING  ABOUT BASAL FERTILIZER MANAGEMENT IN TAPIOCA,Fertilizer,en,android-app-v2
+1010,moringa flower drop management details,General Agriculture,en,
+1658,Asking about Leaf blight management in Curry leaf   ,Crop Disease,en,android-app-v2
+2963,   Asking about Average yield for ADT 5 black gram variety,Cultivation,en,android-app-v1
+2473,asking about paddy top dressing fertilizer application   ,Fertilizer,en,web
+3251,Asked about wilt disease management in brinjal crop,Crop Disease,en,android-app-v2
+3274,   asking about erode district today weather report,Weather,en,web
+1834,   Asking about banana bio fertilizer management,Pest Management,en,web
+1094,asking  about bio fertilizer application for coconut   ,Pest Management,en,web
+1830,asking about consultancy of sowing season for cotton,Cultivation,,ussd-sms
+3015,ASKING ABOUT FOREST DEPARTMENT KANCHEEPURAM DISTRICT CONTACT NO.(CASURINA ROOT ENHANCE),Cultivation,en,web
+2443,Asking about Red Gram durations,Crop Information,en,web
+2038,Thoothukudi Agricultural Engineering Department Contact Number Details   ,Cultivation,en,
+1333,Brinjal root rot management,Crop Disease,en,android-app-v1
+2406,Asked about top dressing management for groundnut,Fertilizer,en,web
+1368,Today Weather report information,Weather,en,web
+2246,asking about sowing season for maize,Weather,,web
+2157,Asking About Weather Report For Villupuram District   ,Weather,en,android-app-v2
+2634,RICE TUNGRO VIRUS   ,Crop Disease,en,web
+2298,   Asking about soil testing information,Soil,,android-app-v1
+2955,asking  about basal fertilizer management for cumbu   ,Fertilizer,,
+3244,Asked  about Flower setting management and yield increase for Tomato,Fertilizer,en,web
+1643,Asking about coconut planting,General Agriculture,en,android-app-v2
+1238,Asking about Foliar spray for Paddy (bio potash application time),Fertilizer,en,android-app-v2
+1178,   asked about encarsia parasitoid availability place information,General Agriculture,en,ussd-sms
+2009,TIRUNELVELI DISTRICT WEATHER FORECAST,Weather,en,android-app-v1
+3232,Asked about TPS 3 seed availability information   ,General Agriculture,,
+3079,ASKED ABOUT SUITABLE PADDY VARIETIES FOR APRIL-MAY MONTH,Crop Information,en,android-app-v2
+1456,Asked about suitable paddy varieties for navarai season   ,Crop Information,en,android-app-v1
+1532,asking about Thiruvannamalai district weather Report   ,Weather,,ussd-sms
+2992,ariety for cotton and groundnut,General Agriculture,en,web
+2007,Asked about paddy CR 1009 and CR 1009 Sub 1 yield information,Crop Information,en,ussd-sms
+3189,asking about cotton flower and fruit drop management,Fertilizer,en,android-app-v1
+1861,asked about co 51 paddy variety information,Crop Information,en,
+1399,Asked about characteristics of paddy variety ADT 37 information,Crop Information,,
+2499,flower  drops (fusarium wilt) in brinjal,Crop Disease,en,android-app-v1
+1375,weed management for maize   ,Pest Management,en,ussd-sms
+2001,asked about management of effect of herbicide,Fertilizer,en,web
+1865,Asking About Coimbatore Weather Report,Weather,,web
+1355,ASKING ABOUT WEATHER REPORT FOR NAGAPATTINAM   ,Weather,en,ussd-sms
+2393,Asking about Animal disease management,Crop Disease,en,android-app-v1
+1860,   Asking about Special features for TPS 3 paddy variety,Cultivation,en,android-app-v2
+2810,Asking about brinjal stem borer management,Pest Management,en,web
+2809,Asked about weed management for paddy,Pest Management,en,android-app-v2
+1274,Asking about Maize top dressing fertilizer management,Fertilizer,en,web
+1812,Asking about PINK PIGMENTED FACULTATIVE METHYLOTROPS (PPFM) availability information,Irrigation,en,android-app-v2
+3177,   SOWING SEASON FOR PADDY   ,Cultivation,en,
+2888,asking for the leaf blight in tomato,Fertilizer,,web
+3208,Asking about Suitable Paddy varieties and Duration information   ,Crop Information,,web
+2534,Asking about Suitable black gram varieties in Chithiraipattam,Cultivation,en,ussd-sms
+1893,asked about organic pesticide preparation,Pest Management,,web
+1465,weeds control in maize,Pest Management,,web
+1281,Indian Institute Of Crop Processing Technology address   ,Harvesting,en,
+1832,Asked about sudden wilt symptom in sapota,Crop Disease,en,
+2127,    Asking about weed management for beans   ,Cultivation,en,
+2816,   Asked about Mahatma Gandhi National Rural Employment Guarantee Scheme help line number (Complaint related ),Cultivation,en,ussd-sms
+2860,Asking about suitable paddy varieties for samba season,Crop Information,en,ussd-sms
+2764,"Asked  about groundnut sowing season, varieties and yield   ",Crop Information,en,android-app-v2
+3269,asking for the soil testing lab,Soil,en,ussd-sms
+2467,POD BORER CONTROL IN BLACK GRAM,Pest Management,,ussd-sms
+1289,   drumstick nutrient management   ,Fertilizer,,web
+3352,Asked about paddy ASD 16 duration (Days),,,
+1908,    paddy CO 51 variety duration (days) and sowing season   ,Cultivation,en,android-app-v2
+1165,Asked about VILLUPURAM weather report information   ,Weather,,
+1714,   Jack stem borer management details,Pest Management,en,ussd-sms
+2348,asked about disease and pest resistance information of ADT 54 Paddy variety,Crop Disease,en,android-app-v1
+3012,Thiruvannamalai  weather report details,Weather,,android-app-v2
+2700,   Paddy navrai varieties for thiruvananmalai,Crop Information,en,android-app-v1
+1332,Asking about Virtako insecticide uses in Paddy,Pest Management,en,android-app-v2
+2280,Asking about Nematode control and Root growth increase in Tomato   ,Pest Management,,android-app-v2
+2453,Pre emergence weed management in black gram,Pest Management,en,android-app-v2
+2725,Asking about features of superior coconut mother palms,Cultivation,en,android-app-v1
+3183,   Asked about preventive pesticide spray for paddy,Crop Information,,web
+1268,Asked about sesame crop insurance information,Cultivation,en,android-app-v2
+2731,Asking about krishnagiri horticulture office contact number,Weather,en,web
+2629,Asking about Contact number of Musiri agriculture officer for subsidy,General Agriculture,en,android-app-v2
+3374,,Harvesting,,
+3152,   SUITABLE GROUNDNUT VARIETY,Crop Information,,android-app-v1
+2283,ASKING  ABOUT SUITABLE PADDY VARIETIES FOR SORNAVARI SEASON,Crop Information,en,
+1447,   ONION THRIPS MANAGEMENT   ,General Agriculture,,android-app-v2
+2448,root rot in coleus,Crop Disease,en,web
+2299,Asked about Wettable sulphur and Oberon pesticide can be mixed,Pest Management,en,android-app-v1
+1769,sugar  cane top dressing fertilizer   ,Fertilizer,en,android-app-v1
+2595,    sesame market rate,General Agriculture,en,
+2122,   Asking Collar Rot Disease Management N Brinjal Crop,Crop Disease,en,ussd-sms
+3134,blight and leaf spot problem in onion crop?,Crop Disease,en,
+3337,Asking about coconut fertilizer management information (Trichoderma),,,
+2684,asking about paddy sowing season and varieties at vellore,Crop Information,en,android-app-v1
+2398,dharmapuri  weather report details   ,Weather,en,web
+2087,asked about kudirai vali sowing season   ,Cultivation,en,ussd-sms
+2606,Asked about market price for timber price   ,General Agriculture,en,android-app-v2
+2489,    ASKING ABOUT NEED FOR PULSES CULTIVATION TRAINING   ,General Agriculture,en,android-app-v1
+2445,Asked about tomato crop insurance cut off date,General Agriculture,,android-app-v2
+2601,   PADDY STEM BORER MANAGEMENT,Pest Management,en,android-app-v1
+2345,ASKED ABOUT FARM YARD MANURE AND WATER MIXED SOLUTION GIVEN THROUGH DRIPLINES (FOR ROSE PLANT)   ,Fertilizer,en,
+3154,Asking  about suitable crops cultivation for this month,Cultivation,,android-app-v1
+1128,   asking about Paddy crop insurance information (2020-2021),General Agriculture,en,ussd-sms
+1682,Weather  report for Madurai district,Weather,en,android-app-v2
+1022,Asked About Maize Basal Fertilizer Management (Rainfed)   ,Fertilizer,en,android-app-v2
+2194,Asking  about relief fund details for cyclone affected crops   ,Crop Information,en,android-app-v2
+2932,   ASKING ABOUT COCCINIA SUCKING PEST MANAGEMENT,Pest Management,en,
+1212,coconut water mgt   ,Irrigation,en,android-app-v1
+2879,   asking about new govt.schemes details,General Agriculture,en,android-app-v1
+2150,ASKING ABOUT TAPIOCA FOLIAR FOLIAR NUTRITION SPRAY MANAGEMENT,Fertilizer,en,ussd-sms
+1134,Asking about foliar spray in sugarcane,Fertilizer,en,android-app-v1
+1112,Asked  about goat disease management,Crop Disease,,android-app-v1
+1320,Grassy shoot disease,Crop Disease,en,android-app-v1
+2030,Asking about weather report for Namakkal,Weather,en,ussd-sms
+1624,   tomato fruit borer control   ,Pest Management,en,
+3266,   yellow vien mosaic virus in bhendi,Crop Disease,en,ussd-sms
+3372,???...!!,General Agriculture,,
+2118,asked about boron fertilizer information,Fertilizer,,web
+1655,Asked  about paddy varieties suitable for thaladi,Crop Information,,android-app-v2
+3133,Weather  Report For Nagapattinam   ,Weather,en,android-app-v1
+1994,   Asked about sfssch 444 BG 11 cotton variety information,Crop Information,en,android-app-v1
+2389,Asked about Mosaic disease management for Tomato (Fipronil can be spray)   ,Crop Disease,en,android-app-v1
+2653,   Asking About Weather Details,Weather,,
+1724,Asked about Paddy Nellore Mahsuri (NLR34449) variety duration,Crop Information,en,
+1470,Asking about cow loan detail   ,General Agriculture,en,android-app-v1
+2555,Asking  about Root grub and root worms control in Beans   ,Pest Management,,android-app-v1
+2723,Asked about Top fertilizer management for Sesame,Fertilizer,en,android-app-v1
+2543,Asked about Weed management for Cotton   ,Pest Management,en,ussd-sms
+2074,whitefly control in bhendi   ,General Agriculture,,android-app-v1
+2219,   Asked about Salem today weather Report,Fertilizer,,web
+2569,krishnagiri weather report,Weather,en,ussd-sms
+1915,   asking about sowing season of (ponni) paddy,Weather,en,web
+2342,    Asked about wilt management in drumstick,Crop Disease,,android-app-v2
+3320,Asking about sowing season for Bottle gourd,Cultivation,,
+1237,Asked about Cucumber sucking pest management,Pest Management,,ussd-sms
+2649,asked  about increase branches and flowering in marigold,Fertilizer,en,android-app-v2
+1269,   thiruvallur weather report details,Weather,en,ussd-sms
+2856,asking  about groundnut suitable season,Cultivation,en,android-app-v1
+3045,Prevention disease in tomato field   ,Crop Disease,,android-app-v1
+1637,suitable varieties for paddy Navarai season,Crop Information,en,
+1265,Asking about Documents required for crop insurance details   ,General Agriculture,,ussd-sms
+1691,Rice  tungro virus management details,Crop Disease,en,android-app-v2
+3035,    ASKING ABOUT PADDY GALL MIDGE MANAGEMENT,General Agriculture,,
+2721,   Asked about popcorn and sweet corn maize variety,Crop Information,en,android-app-v2
+2522,   BLACK GRAM SOWING VARIETIES FOR VILUPURAM,Crop Information,en,
+2191,   Asking About Time To Spray Pesticides During The Winter Season   ,Pest Management,en,web
+1559,BACTERIAL BLIGHT IN PADDY,Crop Disease,en,android-app-v1
+2234,asked about sowing season and suitable varieties of maize   ,Crop Information,,
+1093,zinc deficiency in guava   ,Fertilizer,en,android-app-v2
+2208,asking about foliar spray for jasmine (flower quality increase),Fertilizer,en,web
+1806,asking for paddy brown plant hopper management,Irrigation,en,android-app-v2
+2240,Asking  about Root rot management in Mulberry   ,Crop Disease,,android-app-v1
+2126,asking  about sowing season & suitable paddy varieties for sornavari season,Crop Information,en,
+1778,Asking about Brinjal Top fertilizer application for Varieties,Fertilizer,en,android-app-v2
+1521,Asked about post harvest department contact number tnau.   ,Harvesting,en,android-app-v2
+1135,   Blackgram whitefly control,General Agriculture,en,ussd-sms
+1681,asked about root rot management for watermelon and ash gourd   ,Crop Disease,en,web
+3255,foliar spray in watermelon   ,Fertilizer,en,
+1428,Jasmine top dressing fertilizer,Fertilizer,en,web
+1605,fertilizer management in brinjal,Fertilizer,en,ussd-sms
+1304,asking about sucking pest in cotton   ,Pest Management,en,
+2265,   paddy shoot borer control,Pest Management,en,android-app-v2
+1293,Asking about suitable paddy varieties for Erode,Cultivation,en,
+2760,asking about Wilt in Cotton,Crop Disease,en,ussd-sms
+2843,    asked about fish amino acid spray for jasmine,Pest Management,,android-app-v2
+2688,groundnut seeds availability information   ,Cultivation,en,android-app-v1
+1424,Asked  about Canker management in citrus,General Agriculture,en,ussd-sms
+2278,Asked about Root rot disease management in groundnut crop,Crop Disease,en,web
+1510,ASKING  ABOUT WILT MANAGEMENT IN JASMINE   ,General Agriculture,en,android-app-v1
+3030,Asked about weed management,Pest Management,en,ussd-sms
+1047,Asking about weather detail for vellore dist,Weather,,android-app-v1
+1484,ASKING ABOUT KOLLIDAM WEATHER REPORT   ,Weather,en,android-app-v2
+1892,ASKED  ABOUT SUGARCANE FOLIAR APPLICATION INFORMATION   ,Fertilizer,en,
+1224,Thenai market rate details   ,General Agriculture,en,android-app-v1
+1959,Asked  about Carbofuran and Metarhizium anisopliae given through Driplines (for Rose plant)   ,General Agriculture,,web
+2343,rodent control in paddy field,Cultivation,en,
+1707,capsicum seeds availability contact number,Cultivation,en,
+1442,Asking About Root Rot Management For Cotton,Crop Disease,en,android-app-v1
+2429,   Asking about how to control disease in coconut   ,Crop Disease,en,
+2350,Asked About Sesame Planting Season,Weather,en,android-app-v2
+3110,ASKED ABOUT BLACK GRAM VARIETY VBN 8 SOWING SEASON INFORMATION,Crop Information,en,android-app-v1
+2950,"Spotted pod borer , beetle in Green gram   ",Pest Management,en,android-app-v2
+2112,Asking  about Coconut Thanjavur wilt management,Crop Disease,en,web
+2912,   Asking about panjakavya foliar application in brinjal   ,General Agriculture,en,ussd-sms
+1906,namakkal  weather report details,Weather,en,android-app-v1
+2076,Asked about azolla seeds availability and KVK contact information   ,Cultivation,en,android-app-v1
+3316,ASKED ABOUT BASAL FERTILIZER MANAGEMENT FOR SESAME,Fertilizer,en,ussd-sms
+1101,market  price for coconut,General Agriculture,en,android-app-v1
+1315,   Asking about Watermelon foliar nutrition spray management   ,Fertilizer,en,ussd-sms
+3053,ASKING ABOUT SHOOT AND FRUIT BORER MANAGEMENT IN BRINJAL,Pest Management,en,ussd-sms
+1572,Chilli Fruit Borer,Pest Management,en,
+2165,"Asked about Sucking Pest , Beetles and Shoot borer management in Brinjal",Pest Management,,android-app-v2
+2550,   ASKED ABOUT TUBEROSE TOP DRESSING FERTILIZER MANAGEMENT   ,Fertilizer,en,android-app-v2
+2968,Asking about Shoot and fruit borer management in brinjal (adult)   ,Pest Management,en,ussd-sms
+2412,Asking about mango powdery mildew disease managment,Crop Disease,en,android-app-v1
+1161,Asked About Tapioca Basal Fertilizer Application,Fertilizer,en,android-app-v1
+2867,Asked about foliar application in onion,Fertilizer,en,
+2551,ASKED ABOUT SUGARCANE TRASH DECOMPOSE METHOD,General Agriculture,en,android-app-v1
+1395,Pseudostem borer in Banana   ,Pest Management,,
+2852,   Asking about Top fertilizer management for Coconut (13 years old plant),Fertilizer,en,web
+2206,ASKING ABOUT GROUNDNUT SOWING SEASON   ,Cultivation,en,android-app-v1
+3123,    asked about management of red spider mite bhendi and tomato information,Pest Management,en,
+1768,Asked About Avin Milk Cooperative Contact Details,Cultivation,en,ussd-sms
+1039,Asking about TMV 7 sesame - suitable soil type information,Soil,en,android-app-v1
+2808,   Weather report for thiruvallur district,Weather,en,web
+1539,paddy variety for sivagangai district,General Agriculture,en,android-app-v2
+1749,Asked about paddy varieties,Crop Information,en,
+1479,Asking About Cumbu Sowing Season And Variety,Crop Information,,ussd-sms
+1553,Asked  about suitable vegetable crops in this season,Cultivation,en,android-app-v2
+2146,SUITABLE SESAME VARIETIES,Weather,en,
+2692,Foliar nutrient spray for jasmine,Fertilizer,en,web
+1528,Asked about papaya root rot confirmation details,Crop Disease,en,android-app-v2
+2553,Asked about direct sowing paddy seed rate   ,Cultivation,en,web
+2572,Asked about Guava Fertigation information   ,Fertilizer,en,android-app-v1
+1087,Early blight in tomato,Crop Disease,,web
+1855,Asked about FYM using quantity and using distance for Coconut,Fertilizer,en,ussd-sms
+1577,ASKED ABOUT TOP DRESSING FERTILIZER MANAGEMENT IN PEARL MILLET,Fertilizer,,ussd-sms
+1283,ASKING ABOUT COTTON MARKET RATE,General Agriculture,en,web
+2758,asking about sesame gram sowing season and varieties,Crop Information,en,
+1649,   weather detail for thiruvallur dist,Weather,en,ussd-sms
+2568,ASKED  ABOUT MAIZE YIELD INFORMATION,Crop Information,en,web
+1942,   Asking about Fruit Borer and pin worm management in tomato,Pest Management,en,
+2754,   asking about Theni today weather Report   ,Weather,en,android-app-v1
+1645,   Asking about Top dressing fertilizer management for Groundnut crop,Fertilizer,en,android-app-v1
+1520,   BOTRYTIS BLIGHT IN ROSE,Crop Disease,en,
+3389,     ,Fertilizer,,
+3184,   Asked about preventive pesticide spray for paddy,Crop Information,,web
+2878,sugarcane early shoot borer,Pest Management,en,
+1974,Asking about sowing season for black gram variety VBN 8,Cultivation,en,android-app-v1
+3130,Chilies leaf curl virus control,Crop Disease,en,web
+3018,dharmapuri weather report,Weather,en,web
+2014,asked about sowing season of maize,Weather,en,android-app-v1
+1523,Paddy Adt 43 Duration (Days),Crop Information,en,
+1656,   Asked about Weed management for direct sowing paddy,Pest Management,,android-app-v2
+1199,Soil Testing Laboratory contact number,General Agriculture,,web
+2446,ASKING ABOUT CUDDALORE DISTRICT WEATHER DETAILS   ,Weather,en,ussd-sms
+1294,asking about sesame sowing season and varieties,Weather,en,android-app-v1
+1709,Asked about Mealy bug management in Cotton,General Agriculture,en,
+1211,Asking about Contact number of Soil Science & Agrl.Chemistry department,Soil,en,android-app-v2
+1497,   asked about suitable short duration variety of paddy,Crop Information,en,android-app-v2
+2029,   asking about subsidy for solar plate,Pest Management,en,web
+3107,    Asking about sowing season for bhendi,Cultivation,,web
+2520,   black gram Breeder seeds availability information,Cultivation,en,android-app-v1
+3250,Weather report for Tirupur district,Weather,en,web
+2582,   ASKED ABOUT ADT 37 PLANTING SEASON,Crop Information,en,ussd-sms
+2124,Asked about weed management for maize   ,Pest Management,,ussd-sms
+2062,Asking  about Fertilizer availability,Fertilizer,en,ussd-sms
+1563,ASKING ABOUT FRUIT BORER AND STEM BORER MANAGEMENT IN BRINJAL,Pest Management,,ussd-sms
+2829,Yellow Mosaic virus disease management in green gram   ,Crop Disease,en,android-app-v2
+2524,ASKED  ABOUT PLANTING SEASON FOR BANANA (GARDEN LANDS),Cultivation,en,android-app-v1
+2976,Asking about Green leaf hopper in paddy Nursery,Cultivation,,android-app-v2
+2772,Asked about crop insurance application status information   ,General Agriculture,en,ussd-sms
+1958,asking about weather report for thiruvannamalai district,Weather,en,android-app-v1
+1364,bunch  development in banana   ,General Agriculture,,
+2132,honey bee training details,General Agriculture,en,
+1728,   Asked about Groundnut weed management,Pest Management,en,ussd-sms
+2329,ASKING ABOUT WEATHER DETAIL IN CUDDALORE,Crop Information,en,
+2079,ASKED ABOUT DIRECT PADDY PROCUREMENT CENTER TOLL FREE NUMBER (PRICE)   ,General Agriculture,,android-app-v2
+2083,Elephant yam top dressing fertilizer management,Fertilizer,en,android-app-v1
+1242,   ONION ROOT ROT MANAGEMENT,Fertilizer,en,
+1978,   Asking about stem borer and sheath blight control in paddy,Crop Disease,,android-app-v2
+1405,   Asked about Suitable sowing season and duration for BPT 5204,Crop Information,en,web
+3122,Asking about Pradhan Mantri Kisan Samman Nidhi claim status information,General Agriculture,en,android-app-v2
+1525,   ASKING ABOUT TIRUVARUR TODAY WEATHER REPORT,Weather,en,android-app-v2
+1015,asking about Nagapattinam today weather Report,Weather,,
+2259,asking about soil sample collecting procedure & soil testing laboratory in madurai district,Cultivation,en,
+1522,   top dressing fertilizer management for groundnut   ,Fertilizer,en,ussd-sms
+2740,Asking about Application method of Phosphobacteria   ,Pest Management,en,android-app-v1
+1400,paddy season and varieties details for,Crop Information,en,android-app-v1
+2989,sheath blight in rice,Crop Disease,en,web
+1074,asked about glyphosate recommended dosage information,Pest Management,en,android-app-v2
+1808,   Asked about veterinary department contact number,Crop Disease,en,ussd-sms
+3115,ASKED ABOUT BLACK GRAM SOWING SEASON AND SEED RATE,Cultivation,,ussd-sms
+2998,Asking about soil testing lab contact information,Soil,en,android-app-v1
+3087,asking about need for agri index date,General Agriculture,,android-app-v1
+3253,Asking about black gram sowing season,Cultivation,en,android-app-v1
+2643,"Asked about Foliar spray for Tomato ,Chilli and Brinjal (Growth increase)   ",Cultivation,,ussd-sms
+1933,asked about top dressing fertilizer management in castor,Fertilizer,en,ussd-sms
+2024,paddy Seed availability contact number,Cultivation,en,
+2155,Asked  about foliar spray for maize (yield increase),Fertilizer,en,ussd-sms
+2784,   Asked about planting season for drum stick,Weather,en,android-app-v1
+2648,Asking about Dindigul today weather Report,Weather,en,android-app-v2
+2901,   Asking about Crop insurance claim information,General Agriculture,,web
+1588,Asking About Tapioca Irrigation Management,Cultivation,,web
+2937,Top  dressing fertilizer management for Maize,Fertilizer,en,ussd-sms
+2483,leaf foder in paddy,General Agriculture,en,
+3186,   Asked about soil test information,Soil,en,
+1354,   asking about root rot in groundnut,Crop Disease,en,android-app-v1
+1053,Asking about Yellow mosaic disease management for Banana (Fungicides given through driplines?),Crop Disease,en,android-app-v1
+2515,Asking About Kancheepuram Weather Report,Weather,en,android-app-v1
+2267,Basal fertilizer management for rice,Fertilizer,en,android-app-v1
+2620,total duration of ADT 39   ,Cultivation,en,ussd-sms
+2503,asked about yield of ASD 16 Paddy variety,Cultivation,en,android-app-v2
+3063,asking about Theni weather today Report for the reason irrigation,Weather,en,android-app-v1
+2158,   Asked about stem borer management in paddy   ,Pest Management,en,android-app-v1
+1998,amla post harvest technalogy   ,Harvesting,en,web
+2425,Good breed of cow,Crop Disease,en,android-app-v1
+2836,Asked  about Pesticide subsidy details   ,Cultivation,en,android-app-v1
+3305,Asked about Prevent pest in Cucumber,Pest Management,en,android-app-v2
+2428,asking about chilli Leaf curl virus management,Crop Disease,en,
+1072,Stem borer in Brinjal   ,Pest Management,,web
+1021,asked about gangavalli cotton market infoirmation,General Agriculture,,android-app-v2
+2204,Asking  about Pink disease management in Cashewnut,Crop Disease,en,android-app-v2
+2887,Asked about Water management in Maize,Irrigation,en,web
+1253,ASKED ABOUT PADDY SOWING SEASON AND VARIETIES,Crop Information,en,web
+1414,tree seedlings availability details,Cultivation,en,
+3100,thrips control in paddy,General Agriculture,en,ussd-sms
+3066,ASKED ABOUT AED CONTACT NUMBER FOR KRISHNAGIRI,General Agriculture,en,android-app-v1
+1639,KVK (Krishi Vigyan Kendra) contact number   ,Cultivation,en,android-app-v2
+1673,   onion basal fertilizer management details,Fertilizer,,ussd-sms
+1907,Asking about peacock management in field,Cultivation,,ussd-sms
+1773,asking about suitable cotton varieties for erode district,Crop Information,en,android-app-v2
+2057,asking about marigold fertilizer (MN) management,Fertilizer,en,
+2181,Asking about Paddy Variety Poongar duration,Crop Information,en,web
+2727,Asking about Groundnut Seeds availability information,Crop Information,en,android-app-v2
+2047,asking about address for Cuddalore soil testing laboratory   ,Soil,en,web
+2694,Asked about suitable sowing season for Snake Gourd,Cultivation,en,ussd-sms
+1784,Paddy navarai varieties,Crop Information,,android-app-v1
+1396,   PRE CONTROL OF ROOT ROT IN MARIGOLD,Crop Disease,en,android-app-v1
+1870,Asking about sowing season for black gram   ,Cultivation,,web
+2287,   pumpkin growth regulators,Fertilizer,,ussd-sms
+2304,Asking about maize sowing season and Variety,Weather,en,android-app-v2
+2956,asking  about basal fertilizer management for cumbu   ,Fertilizer,,android-app-v2
+3211,weather report for virudhunagar   ,Weather,en,ussd-sms
+3233,Asked about pest and disease prevention management in cotton,Cultivation,en,android-app-v1
+1394,    Asked about Blackgram basal fertilizer management   ,Fertilizer,,
+2365,asked about paddy arupadham kuruvai variety sowing season,Crop Information,en,web
+2174,Asking about soil sample collecting procedure   ,Soil,en,android-app-v2
+2904,stem borer in sugarcane,General Agriculture,en,ussd-sms
+1080,soil test details,Soil,en,android-app-v1
+2364,Asking about ADT 53 and ADT 51 paddy varieties detail,Crop Information,,ussd-sms
+1702,Asking about Paddy stem borer management in paddy   ,Pest Management,,
+2097,asking about cashew disease managment,Crop Disease,,android-app-v1
+2086,Asked about paddy moth adult pest managment,Pest Management,en,web
+2890,ASKING ABOUT WATER MANAGEMENT FOR COTTON(HUMIC ACID SPRAYING TIME),Irrigation,,ussd-sms
+3106,Asking about flower shed in cashew,Fertilizer,en,web
+2043,control measure for fruit borer in brinjal,General Agriculture,en,
+3047,    Asking about sesame varieties,Crop Information,,
+2386,asking about tomato early blight management   ,Crop Disease,en,
+2578,Asking  about Namakkal district rainfall information,Weather,en,ussd-sms
+1729,asked about crop loan complaint information,General Agriculture,en,web
+1009,BACTERIAL  WILT IN BRINJAL,Crop Disease,,android-app-v1
+1625,   Asked about paddy ADT54 variety yield details   ,Crop Information,en,android-app-v2
+1715,   Jack stem borer management details,Pest Management,en,android-app-v1
+3163,ASKING ABOUT ILUPPUR WEATHER REPORT,Weather,,android-app-v1
+3280,asking about rat management in paddy field   ,General Agriculture,en,android-app-v2
+1688,TIRUPUR WEATHER REPORT,Weather,en,
+2869,ASKED  ABOUT SUNFLOWER SOWING SEASON AND VARIETY,Crop Information,en,ussd-sms
+2168,    fusarium wilt in ixora coccinea,Crop Disease,en,
+2404,   black gram sowing season and variety 1,Crop Information,en,ussd-sms
+1884,ariyalur weather report   ,Weather,en,
+2859,   Asking about ragi organic disease control,Fertilizer,en,
+3016,paddy seed rate,Cultivation,en,ussd-sms
+2373,   Asking about groundnut foliar application,Fertilizer,en,android-app-v2
+1820,tirunelveli weather report details,Weather,en,android-app-v1
+2612,ASKING ABOUT ROSE SUCKING PEST MANAGEMENT,Pest Management,en,
+2048,Asking  about Sucking Pest management in Groundnut,Pest Management,en,ussd-sms
+2067,asking about root rot management in paddy   ,Crop Disease,en,
+1816,asked about required seed rate for dhaincha,Fertilizer,en,android-app-v2
+2712,Asking About Need For Mulching Sheets,General Agriculture,en,android-app-v2
+1833,   weather detail for eode dist,Weather,en,ussd-sms
+3329,Asking about sesame seeds availability information,,,
+2203,"asking about Blackgram variety VBN 8 special features, duration and yield information",Crop Information,,android-app-v1
+2821,ASKED ABOUT ASH GOURD MOSAIC VIRUS MANAGEMENT,Crop Disease,en,android-app-v2
+2607,   CHILIES ROOT ROT CONTROL   ,Crop Disease,en,web
+3259,asked about fertigation schedule for tapioca (151 to 240 days ),Fertilizer,en,android-app-v2
+3203,HORSE GRAM GERMINATION AFFECTED   ,Weather,en,ussd-sms
+2518,Asked about Coffee first harvesting time period   ,Cultivation,,android-app-v1
+2498,"ASKED ABOUT BLACKGRAM SOWING SEASON ,SEED RATE AND TOTAL DURATION INFORMATION",Weather,en,android-app-v1
+1222,ASKING ABOUT COTTON WILT MANAGEMENT,Crop Disease,en,android-app-v2
+2202,asked about scab disease management for acid lime   ,Crop Disease,en,android-app-v2
+2180,"Asked  about sowing season , duration & specification for traditional paddy variety poongar , thuyamalli",Crop Information,en,
+2006,Asking  About Shoot And Fruit Borer In Brinjal,Pest Management,,
+2379,Asked about suitable direction for installation of drip irrigation,Irrigation,en,
+2914,   Asking about Soil sampling procedure (how many samples can collect/acre?),Soil,en,ussd-sms
+2490,Asked about foliar application in brinjal,Fertilizer,en,
+2708,ASKED ABOUT LEAF FOLDER AND STEM BORER CONTROL MANAGEMENT IN PADDY,Pest Management,en,
+1575,Asking about Virudhunagar weather report,Weather,en,android-app-v1
+2770,Asking about adult insect management in paddy,Pest Management,en,android-app-v1
+1018,paddy SRI time of Transplanting,Crop Information,,android-app-v1
+1954,ASKING ABOUT GUAVA TOP FERTILIZER MANAGEMENT,Fertilizer,en,android-app-v1
+2295,PADDY IN BLAST,General Agriculture,en,
+3126,   Asked about well maintenance from blue green algae   ,Irrigation,en,web
+1527,   asking about root rot in mulberry,Crop Disease,en,web
+2130,ASKED  ABOUT SOWING SEASON & DURATION (KARUNKURUVAI) FOR PADDY   ,Crop Information,en,
+3084,NAVARAI  SEASON SOWING PADDY VARIETIES   ,Crop Information,,android-app-v1
+1800,   Asking about Prevent root rot and leaf shed in Jasmine plant,Crop Disease,,
+3025,Asking  about ADT 46 paddy variety total duration,Crop Information,en,android-app-v1
+2614,    Asking about navarai season varieties grain type,Crop Information,en,web
+2462,cowpea  booster application,Fertilizer,,web
+1292,   kancheepuram weather report details,Weather,,ussd-sms
+2811,   Asking About Button Shed In Coconut,General Agriculture,en,ussd-sms
+1825,Asked about ASD 16 paddy variety,Crop Information,,android-app-v1
+1105,    leaf spot management in turmeric,General Agriculture,,web
+2739,ASKING ABOUT SUITABLE PADDY VARIETIES FOR THANJAVUR DISTRICT (KURUVAI)   ,Crop Information,en,
+2730,Asking about weather report for thiruvannamalai,Weather,en,web
+3051,Asking about Yellowing of paddy leaves (after flood )   ,Fertilizer,en,web
+1698,   asked about pest management in cotton,Pest Management,en,ussd-sms
+1960,   Asking About Flower Shed In Tuberose   ,Cultivation,en,android-app-v2
+1449,Asked  about drip irrigation information,Irrigation,en,web
+3358,???...!!,Weather,,
+1641,suitable paddy varieties of thiruvannamalai   ,Crop Information,en,android-app-v1
+2199,Asked  about availability of biofertilizers information   ,Pest Management,en,web
+2121,top dressing for coconut   ,Fertilizer,en,ussd-sms
+2948,Asking  About Root Rot In Water Melon,Crop Disease,en,
+2719,Asking about suitable traditional paddy varieties for Navarai season,Crop Information,en,android-app-v2
+3034,Asking about weed management for sesame crop,Pest Management,en,android-app-v1
+3136,Asked about banana fertilizer management,Fertilizer,en,web
+1316,asked about drip fertigation information,Fertilizer,en,
+2218,weed management for paddy,Pest Management,en,android-app-v1
+2661,Asking about weather report for pondicherry,Weather,,android-app-v1
+2589,"Asked about maize sowing season ,varieties and yield",Crop Information,en,android-app-v1
+1813,Asking about Suitable red gram varieties in Adipattam   ,Crop Information,en,
+1240,Asking about perambalur today weather Report,Weather,en,android-app-v1
+3027,asking about sowing season for vegetable crops in may months,Cultivation,en,web
+1337,    Heading stage fertilizer management for paddy,Fertilizer,en,
+1970,   asking about chembarambakkam lake level today information   ,Irrigation,en,android-app-v1
+2031,suitable sowing season for Pulse   ,Crop Information,,android-app-v2
+1601,Asked about sucking pest management in brinjal,Pest Management,en,web
+3116,Asking about flower increases in black gram,Fertilizer,en,web
+3258,Stem Borer Control In Cotton   ,Pest Management,en,android-app-v2
+1891,   ASKED ABOUT DAMPING OFF MANAGEMENT IN SESAME   ,General Agriculture,,android-app-v1
+2690,   Asked about management of wilt in watermelon,Crop Disease,en,ussd-sms
+2455,asking about sowing season & varieties for maize,Weather,en,android-app-v2
+1937,SALEM  WEATHER REPORT DETAILS,Weather,en,android-app-v1
+2585,asking  about tirupur weather Report,Weather,en,android-app-v1
+3323,Asking about sucking pest management in cucumber,,,
+1357,   algae under farm pond,Irrigation,,
+1066,ASKING  ABOUT WEATHER REPORT FOR GANGAVALLI,Weather,en,android-app-v1
+1367,asked about cowpea and black gram sowing season,Weather,en,web
+2791,weather report for krishnakiri,Weather,en,android-app-v2
+2447,Asked about Days interval between Glyphosate herbicide spray and Paddy sowing   ,Pest Management,en,android-app-v2
+1897,asking about subsidy detail for mini tractor   ,General Agriculture,en,android-app-v1
+2792,maize market rate   ,General Agriculture,en,android-app-v2
+2664,   asked about adt 5 black gram sowing season,Crop Information,en,android-app-v2
+3206,Asked about Powdery mildew management in bhendi,General Agriculture,en,
+2129,asking about Cuddalore district rain details   ,Weather,en,web
+3191,ASKING ABOUT WEATHER REPORT FOR CUDDALORE   ,Weather,en,web
+1930,Asked about Sunflower seed rate details   ,Cultivation,en,
+1382,   ASKED ABOUT BANANA BUNCHY TOP VIRUS MANAGEMENT IN BANANA,Crop Disease,en,android-app-v2
+1164,Asking about paddy top dressing fertilizer management(direct sowing),Fertilizer,,web
+1275,Asking  about tungro virus special detection technique in paddy,Crop Disease,,
+1391,    Asking about suitable hybrids for sunflower   ,Crop Information,en,
+1792,asked about sucking pest management in tapioca,Pest Management,en,web
+2588,Asking about agri engineering department contact number   ,General Agriculture,en,web
+1082,Soil testing details   ,Soil,,ussd-sms
+2117,Weather details about rainfall,Weather,en,android-app-v2
+2934,    co 51 paddy sowing season   ,Cultivation,en,ussd-sms
+3160,asked  about foliar spray application for bhendi   ,Fertilizer,en,ussd-sms
+1111,Asked  about goat disease management,Crop Disease,,ussd-sms
+2065,Fusarium wilt in banana,Crop Disease,en,
+2075,   asking about paddy storage pest control,Harvesting,en,web
+3093,   Asked about disease prevention for turmeric,Crop Disease,en,android-app-v1
+2011,Asking about Thrips pest management in paddy,Pest Management,en,android-app-v1
+1763,asked about basal fertilizer management in blackgram,Fertilizer,en,android-app-v2
+2962,   Asking about Paddy crop insurance amount claiming information (2019-2020),General Agriculture,en,android-app-v2
+1114,asking about early blight management in tomato,Crop Disease,,ussd-sms
+1270,   thiruvallur weather report details,Weather,en,web
+2828,ASKED  ABOUT SNAKE GOURD FERTILIZER MANAGEMENT,Fertilizer,en,ussd-sms
+2857,   ASKED ABOUT DIEBACK MANAGEMENT IN MANGO,General Agriculture,en,android-app-v1
+1029,   asking about weather detail for trichy dist,Weather,en,android-app-v1
+1566,   tiruppur district rainfall information   ,Weather,,web
+1913,"Asking about Paddy stem borer ,leaf folder management",Pest Management,en,android-app-v2
+1422,ASKING ABOUT TIRUVANNAMALAI WEATHER REPORT,Weather,,android-app-v1
+1543,Early shoot borer in sugarcane,Pest Management,en,ussd-sms
+2433,Asking about paddy navarai season varieties,Crop Information,en,ussd-sms
+2422,Weather report for Villupuram,Weather,,android-app-v1
+3111,asking about transplanting age for try 3 paddy variety,Cultivation,en,android-app-v2
+2442,"Asked about sowing season , Average yield & lodging for NLR 34449 Paddy variety",Crop Information,en,android-app-v1
+2095,   Asking about vellore today weather Report   ,Weather,,web
+1988,Rhizome rot in turmeric,General Agriculture,en,android-app-v2
+3099,   Asked about water management in paddy (direct sowing),Irrigation,,android-app-v2
+2293,asking  about navarai season paddy varieties,Crop Information,en,android-app-v2
+2459,   Asked about Sucking Pest management in Groundnut,Pest Management,,
+2045,ASKING ABOUT CHILLI ROOT ROT MANAGEMENT,Crop Disease,en,web
+1594,Asked about MSP rate for cotton information   ,General Agriculture,en,android-app-v2
+1741,ASKING ABOUT GROUNDNUT LEAF SPOT PREVENTION MANAGEMENT   ,General Agriculture,en,android-app-v2
+1755,Asked about red spider management in bhendi crop,General Agriculture,en,android-app-v1
+1025,Asked about drumstick flower induced and drop management,Fertilizer,en,
+1875,Asked about Sesame sowing season and varieties   ,Weather,,web
+2286,   Asked about Groundnut sowing season and varieties   ,Crop Information,en,android-app-v2
+2399,"   department of post harvest technology centre, tnau, coimbatore",Harvesting,en,android-app-v2
+1390,Asked about flower drop management in brinjal crop   ,Fertilizer,en,ussd-sms
+1149,Asked about Leaf blight management in Turmeric,Crop Disease,,
+1531,top fertilizer management in cashew,Fertilizer,en,android-app-v2
+2085,    asking about Erode today weather Report,Weather,en,android-app-v2
+2390,top  dressing in paddy,Fertilizer,en,ussd-sms
+2891,Pre  - emergence weed management for Maize,Pest Management,en,android-app-v1
+2449,ASKING ABOUT MAIZE ROOT ROT CONTROL   ,Crop Disease,en,android-app-v2
+3064,   asking about regulated market contact details,General Agriculture,en,ussd-sms
+3310,Asked about sowing season for TPS 5 paddy variety,Crop Information,en,android-app-v1
+1136,    Asking about suitable Tenai varieties,Crop Information,en,android-app-v1
+1251,Asked About Blackgram Water Managment   ,Irrigation,en,
+1968,asking about onion suitable spacing,Cultivation,en,
+1451,Asking about Periyakulam horticultural college and research institute contact number   ,Cultivation,en,android-app-v1
+2882,Asking about Weed management for direct sowing paddy,Pest Management,en,web
+3020,"Asked  about Mushroom Research and Training Centre,Dept. of Plant Pathology contact number",General Agriculture,en,
+1538,   asking about villupuram weather report,Weather,en,ussd-sms
+1846,    Groundnut Seed Rate   ,Cultivation,en,web
+2214,Asked about CO 55 paddy variety,Crop Information,en,android-app-v1
+1881,   Asked about PM kisan samman nidhi yojana scheme 11&12 th Installment status,General Agriculture,,web
+2273,Asked about management of tanjore wilt in coconut,Crop Disease,en,android-app-v2
+1976,   Asked about Top dressing fertilizer management for Groundnut,Fertilizer,en,android-app-v1
+2091,asking about Bacterial leaf blight control in paddy,Crop Disease,en,
+2450,Asked about ragi sowing season,Weather,,
+1088,Asked about Mite management for Paddy,Pest Management,en,
+2487,CHILLI IN LEAF CURL VIRUS,Crop Disease,en,android-app-v2
+1887,Snake Gourd Top Dressing Fertilizer Management,Fertilizer,en,android-app-v1
+1666,   Asking about Weed management for transplanting paddy (21 days ),Pest Management,en,ussd-sms
+2452,Asking  about Villupuram weather for sowing,Weather,,
+1821,   ASKED ABOUT BLACK GRAM WEED MANAGEMENT ( 5 DAYS)   ,Pest Management,en,
+3032,asked  about root rot management in blackgram   ,Crop Disease,,
+1701,   Asked About Suitable Cotton Varieties For This Season,Crop Information,en,
+2715,Asking  about sowing season & varieties for sesame   ,Crop Information,,ussd-sms
+2141,Asking  about season for green gram,Fertilizer,en,android-app-v1
+2600,"asking  about krishi vigyan kendra, papparappatti, dharmapuri contact no.   ",Cultivation,en,ussd-sms
+3289,   Weather report for Thirupur   ,Weather,en,ussd-sms
+2957,Anthracnose Control In Cotton,Pest Management,en,android-app-v2
+1418,Asking about Pradhan Mantri Kisan Samman Nithi ( New registration ),Cultivation,en,web
+2022,Asked about paddy ADT36 and ADT37 variety details,Crop Information,en,web
+2605,Asked about market price for timber price   ,General Agriculture,en,ussd-sms
+1321,coimbatore weather report,Weather,en,ussd-sms
+3343,     ,Fertilizer,,
+2301,   ASKING ABOUT PADDY BASAL FERTILIZER MANAGEMENT,Fertilizer,en,android-app-v2
+1863,Asked about sowing season for maize,Cultivation,en,android-app-v1
+2598,asked about sucking pest management in black gram,Pest Management,en,web
+1597,Asking about suitable black gram varieties in Adipattam,Crop Information,,
+2967,   Asking about onion seeds availability information,Cultivation,,web
+2315,Asked about Flower size increase for Jasmine plant,Fertilizer,en,ussd-sms
+1036,ASKING ABOUT WEATHER DETAIL IN LALKUDI,Weather,,
+1844,   Asked about subsidy details for castor seed separator,Cultivation,en,
+3385,???...!!,Cultivation,,
+2971,    Asked about prevention mosaic virus management in chilli & Brinjal crop,Crop Disease,en,
+2458,Asking About Pseudostem Borer Management In Banana   ,Pest Management,,web
+3388,,Fertilizer,,
+2559,"Asking about Stem borer , Leaf folder and Sucking pest control management in Paddy",Pest Management,,
+1670,asking about suitable varieties for late paddy samba season,Crop Information,en,web
+2320,   ASKED ABOUT SETTS RATE OF CUMBU NAPIER,Cultivation,en,android-app-v2
+1529,   Asking about Cotton sucking pest management,Pest Management,,android-app-v2
+3040,asking about gingelly season and varieties,Crop Information,en,web
+2716,Asked about fruit rot management for Chilli,Crop Disease,en,
+2500,perambalur today weather Report,Weather,en,android-app-v1
+3019,ASKED ABOUT SUITABLE SOWING SEASON FOR CHILLI,Cultivation,en,ussd-sms
+2212,asked about weed management for paddy (21 dap),Pest Management,,web
+1719,Thanjavur weather Report,Weather,en,web
+2330,Asked about fertigation schedule for papaya information,Fertilizer,,
+2752,   Asked about coimbatore today weather Report   ,Fertilizer,en,android-app-v1
+2695,asked about salem weather report information,Weather,en,android-app-v1
+1676,Asked about Sesame Irrigation management,Irrigation,,android-app-v1
+2312,   ASKING ABOUT PADDY TOP DRESSING FERTILIZERS,Fertilizer,en,android-app-v2
+1227,control measure for fruit borer i bhendi,General Agriculture,,web
+3199,WEATHER REPORT IN CUDDALORE DISTRICT,Weather,en,ussd-sms
+2562,asking about Bellary onion sowing season,Cultivation,en,
+2360,   Villupuram weather report details,Weather,en,android-app-v2
+2672,   Bitter gourd sowing season,Fertilizer,,ussd-sms
+1027,Asked  about Seed rate for Dhaincha,Cultivation,,android-app-v1
+2098,asking about cashew disease managment,Crop Disease,,web
+3181,Asked about sorghum seeds availability information,Cultivation,en,android-app-v1
+2743,Asking about Induce flowering in Brinjal,Fertilizer,en,
+2140,   asking about groundnut market rate   ,General Agriculture,en,ussd-sms
+1461,kanchepuram paddy variety details,Cultivation,en,android-app-v2
+3091,Asking about Preparation method of Panjakaviyam and water mixing level,General Agriculture,en,android-app-v1
+3326,,Cultivation,,
+2639,Asked about weed management in dewgram,Pest Management,en,android-app-v2
+2003,basal fertilizer for sunflower,Fertilizer,en,
+1183,root rot management for Brinjal   ,Crop Disease,,
+3367,,General Agriculture,,
+2159,ASKED ABOUT SUCKING PEST AND LEAF CATER PILLAR MANAGEMENT IN COTTON   ,Pest Management,en,
+2270,VARIETIES FOR BLACK GRAM,Crop Information,en,web
+3312,ASKED ABOUT AGRICULTURE DRONE AVAILABILITY CONTACT,General Agriculture,en,
+2799,Tuberose stem blight   ,Crop Disease,en,ussd-sms
+3180,paddy varieties for kancheepuram,Crop Information,en,android-app-v1
+1020,Asking about ulundurpet assistant horticulture department contact number   ,Cultivation,,android-app-v1
+1600,   Asking about control army worm in maize,General Agriculture,en,ussd-sms
+1790,asking  about sucking pest management in cucumber,Pest Management,,ussd-sms
+2994,asked about fruit borer mangement (organic ),Pest Management,,ussd-sms
+1326,   Asking about nano urea application paddy   ,Fertilizer,en,android-app-v2
+1050,Asked about TPS 3 and ADT 51 paddy variety information,Crop Information,en,ussd-sms
+2327,asked about coconut fertilizer management for 15 years old tree,Fertilizer,en,web
+2800,Asked about fruit borer management in chilly,Pest Management,en,web
+3024,ASKED ABOUT TRICHY UZHAVAR SANTHAI ADDRESS INFORMATION,General Agriculture,en,ussd-sms
+1703,   storage pest in paddy   ,Pest Management,,web
+3362,,Crop Disease,,
+1920,   asking about perambalur weather report,Weather,en,android-app-v2
+2658,asking about thrips & powdery mildew disease management in chilli crop,Crop Disease,en,android-app-v2
+2215,Asked  about Watermelon season and varieties,Cultivation,en,android-app-v1
+2778,   cowpea root rot management   ,Crop Disease,,android-app-v2
+2411,asking about sowing season of paddy mpr 606,Weather,,web
+1236,Co51 paddy availability,Crop Information,en,android-app-v2
+3090,   ASKING ABOUT CO (ON)5 ONION SEEDS AVAILABILITY,Cultivation,en,web
+1089,fruit flies in snack gourd,General Agriculture,en,android-app-v2
+2092,Asking about Biofertilizer liquid application for Paddy,Pest Management,en,android-app-v2
+2308,   timber trees nursery availability,Weather,en,web
+3117,   gram pod borer in blackgram   ,Crop Information,,ussd-sms
+1191,   suitable varieties of black gram,Crop Information,en,android-app-v2
+2682,Asked about groundnut market price information,General Agriculture,en,ussd-sms
+1314,asking about root rot management in brinjal   ,Crop Disease,en,android-app-v2
+1842,Tomato top dressing fertilizer,Fertilizer,en,
+2195,   ASKING ABOUT AZADIRACTIN APPLICATION METHOD FOR BHENDI,Pest Management,en,android-app-v2
+1904,Asked about fertilizer management in banana (coirpith & poultry waste ),Fertilizer,en,
+2463,Asked about Leaf spot and Leaf blight disease management for Blacknight shade plant and Pseudomonas fluorescens availability,Crop Disease,en,
+1217,asked about fertilizer management in cotton,Cultivation,en,
+1110,Asking  about Paddy transplanting machine -hiring center phone number,General Agriculture,en,android-app-v2
+1610,Asking about paddy new varieties,Crop Information,en,web
+2654,ASKED ABOUT POTASSIUM NITRATE AND MAGNESIUM SULPHATE CAN BE USED FOR COTTON,Fertilizer,,ussd-sms
+1482,asking about mushroom training information   ,General Agriculture,en,android-app-v2
+1346,asking about green leaf hopper in paddy,General Agriculture,en,web
+2488,   asking about sesame sowing season and varieties,Crop Information,en,android-app-v2
+1291,asked about transplanting age for chilli,Cultivation,en,android-app-v2
+1005,   Asked about weed management in casuarina,Cultivation,en,android-app-v1
+3336,???...!!,Harvesting,,
+1071,Dharmarpuri district weather forecast,Weather,en,web
+2610,asking about onion weed management,Pest Management,en,android-app-v2
+1406,asking about chembarambakkam lake water level today information   ,Irrigation,en,android-app-v1
+1554,Asking About Weather Report For Cuddalore District   ,Weather,en,web
+1119,   Asking about Coconut Basal fertilizers   ,Cultivation,en,android-app-v2
+2232,Asking about weather report for pudukottai district,Weather,en,web
+1000,SOWING SEASON FOR MAIZE   ,Weather,en,android-app-v1
+1935,"asking about soil testing lab in TNAU, coimbatore",Soil,,android-app-v2
+3228,   Asked About Flower Drops (Fusarium Wilt) In Chilli,Crop Disease,en,android-app-v1
+2927,Asked about Yellow mosaic disease management for Ribbed gourd,Crop Disease,,
+1628,fruit fly in mango   ,General Agriculture,en,web
+2089,Asked about sucking pest management in green gram,Pest Management,en,android-app-v2
+1173,coconut  nutrient management,Fertilizer,en,web
+2495,   asked about bacterial blights management in lab lab,Crop Disease,en,
+2472,weed management in coconut,Pest Management,en,web
+1194,Asked about ADT 46 paddy variety information,Crop Information,,web
+2060,ASKING ABOUT BROWN PLANT HOPPER IN PADDY,Fertilizer,,android-app-v2
+1228,ASKING ABOUT GROWTH REGULATOR FOR MAIZE,Fertilizer,en,android-app-v2
+2591,   weather report for tiruppur   ,Weather,en,
+2922,   Asked about mahogani tree seedlings availability,Cultivation,en,
+2058,asking about root rot control management in brinjal (precautions),Crop Disease,,android-app-v1
+1544,   Asking about weed management in sesame   ,Pest Management,en,android-app-v1
+2628,ASKED ABOUT GREEN GRAM SOWING SEASON AND VARIETIES   ,Crop Information,en,ussd-sms
+2762,"   Asking about Executive Engineer (AE), Cuddalore contact no.",General Agriculture,en,
+1918,ASKING ABOUT CHILIES PLANTING SPACING FOR VARIETIES AND HYBRIDS,Cultivation,en,android-app-v2
+2317,   weed management for horse gram,Pest Management,,
+1235,   Asked about water application for coconut tree,Irrigation,en,ussd-sms
+3297,   ASKING ABOUT TERMITE MANAGEMENT IN MANGO,General Agriculture,en,
+2082,sowing  season for ragi,Crop Information,en,ussd-sms
+2169,asking about spider mite control in black gram   ,Pest Management,,web
+2479,Asking about Turmeric Rhizome rot Management,General Agriculture,en,android-app-v2
+3356,,Weather,,
+3220,asking about average yield for adt 53 paddy variety,Crop Information,en,android-app-v1
+1008,ASKED ABOUT RED GRAM SPACING INFORMATION,Crop Information,en,web
+1106,BITTER GOURD ROOT ROT,Crop Disease,,ussd-sms
+2177,Asked about Mango sucking pest management management   ,Pest Management,,android-app-v1
+1086,salem veterinary department   ,Crop Disease,en,web
+1727,Asked About Dual Purpose Fruit Crops Information,Cultivation,en,ussd-sms
+2186,weather report for tooththukudi district,Weather,en,web
+2421,Ratoon Stunting in sugarcane,General Agriculture,en,web
+3170,Asked about pod borer and Bug management in Lab lab,Pest Management,en,android-app-v2
+1387,Aduthurai research station contact number   ,Cultivation,en,android-app-v1
+3140,ASKING ABOUT WATER TESTING LABORATORY PHONE NUMBER   ,Irrigation,en,ussd-sms
+1193,asked about sowing season of bitter gourd,Cultivation,,android-app-v1
+1328,Asking  about water management in sesame,Irrigation,en,android-app-v2
+2266,asked about guava planting spacing and plant population,General Agriculture,en,android-app-v2
+1359,paddy fertilizer recommended,Fertilizer,en,android-app-v2
+2291,When can it rain after spraying herbicides?,Pest Management,en,ussd-sms
+1788,top  dressing fertilizer managment for turmeric,Fertilizer,en,web
+2311,Asking about suitable paddy varieties for Ariyalur District   ,Crop Information,en,
+3048,    Asked about bio fertilizer management in maize   ,Pest Management,,ussd-sms
+2264,Asked About Fruit Borer & Flower Shed Management For Chilli   ,Pest Management,en,web
+2056,   Asked about Information on spraying maize crops insecticide and sticking agent,Pest Management,en,android-app-v2
+2419,"   asking about horticultural college and research institute, periyakulam contact number",General Agriculture,en,web
+2151,Asking About Budworm Management In Jasmine,General Agriculture,,ussd-sms
+2238,foliar spray for tomato   ,Fertilizer,en,web
+1348,   Asked about CR 1009 paddy sowing season information   ,Crop Information,en,web
+2103,ASKED  ABOUT FOR WHICH CROP SHOULD BE USED TO INHIBIT PHOSPHOBACTERIUM AND ACETOBACTER ?,Fertilizer,en,web
+2951,asked  about organic farming training   ,General Agriculture,en,android-app-v2
+1868,   Asked about ADT 51 Paddy seeds availability contact   ,Cultivation,en,ussd-sms
+2741,"Asked about leaf folder, horned caterpillar and tungro virus management in paddy   ",Crop Disease,en,android-app-v1
+2673,Asking about jasmine red spider mites management,Pest Management,en,
+2666,Asked about Mapillai samba paddy variety age and health benefits information,Crop Information,en,android-app-v2
+2875,   Asking about leaf blight management in coconut,Crop Disease,en,android-app-v2
+1679,Asking about Termite control in Banana,General Agriculture,en,android-app-v1
+2549,    Asking about paddy sowing season and varieties,Weather,en,web
+2055,   SUITABLE PADDY VARIETIES FOR VILLUPURAM,Crop Information,en,android-app-v1
+2023,soil tesing technique,Soil,en,android-app-v2
+1401,ASKING ABOUT SOWING SEASON AND VARIETIES OF BLACK GRAM,Crop Information,en,web
+1345,Asking about watermelon seeds availability and variety,Cultivation,en,ussd-sms
+2847,Mango Varieties suiable for Tamil Nadu,Cultivation,,web
+1872,Asked about Private and Government Cotton Varieties information,Crop Information,,web
+2776,Asked about suitable agriculture crops cultivation for chithiraipattam,Weather,en,android-app-v1
+2253,contact number for veterinary training in thirupur district   ,Crop Disease,en,web
+1131,   contact number for national research station,General Agriculture,en,web
+1629,Asking about Suitable high yielding Paddy variety for this season,Crop Information,en,
+2895,   Asking about Fruit borer in Brinjal   ,Pest Management,en,
+2561,Asking about fertilizer management for Red banana & Crop duration,Fertilizer,,
+2676,top dressing fertilizer mangement for paddy   ,Fertilizer,en,android-app-v1
+3175,ASKING ABOUT SOIL TESTING LABORATORY AVAILABILITY INFORMATION   ,Soil,en,android-app-v1
+2309,   Groundnut Top Dressing Fertiliizer,Fertilizer,en,android-app-v1
+1175,Asking about Vellore Agricultural Engineering Department contact number,General Agriculture,,android-app-v1
+1113,Asked about Can be used for Nano urea to vegetable crops,Fertilizer,en,ussd-sms
+2774,   Asking about sugarcane trashes decomposing detail,Fertilizer,en,android-app-v2
+2655,farmer asked price detail of black gram (urd beans)(whole) in kallakurichi mandi.,General Agriculture,en,android-app-v2
+3192,Asked about Minor Millets Sowing Season,Weather,,android-app-v2
+2917,ASKING ABOUT BLACK GRAM SOWING SEASON AND SUITABLE VARIETIES FOR MARKAZHI – THAIPATTAM   ,Weather,en,web
+1735,Asked about Weed management in Beet root,Pest Management,en,
+2102,Asking about Spiny beetle pest management in paddy   ,Pest Management,,android-app-v2
+3273,   asking about erode district today weather report,Weather,en,web
+1271,Asked about Prevent root rot in Groundnut   ,Crop Disease,en,web
+1209,   Asking about ADA office contact details,Cultivation,en,android-app-v2
+2344,Asking about poultry diseases management   ,Crop Disease,en,web
+3145,Asked about TPS 5 paddy variety information,Crop Information,,ussd-sms
+2052,"    Asked about Tea mosquito bug and Fruit borer management for Cashew plant ,Fipronil pesticide availability",Pest Management,en,
+1902,   sunflower top dressing fertilizer management,Fertilizer,en,android-app-v1
+3268,   Asking about Thiruvallur today weather Report,Weather,en,web
+3287,asking about water management for melia dubia,Irrigation,en,android-app-v1
+2537,Castor hairy caterpillar in banana   ,General Agriculture,en,ussd-sms
+3257,ragi  variety details,Cultivation,en,android-app-v2
+3022,ASKING ABOUT PANRUTI WEATHER REPORT,Weather,en,android-app-v1
+2783,   Asking about azolla seeds availability information,Cultivation,en,android-app-v2
+1720,   Asked about Kisan Call Centre working hours information,General Agriculture,en,
+1982,asking about cuddalore today weather Report,Weather,en,android-app-v1
+2732,Asked about paddy nursery Bacterial Leaf Blight,Crop Disease,en,android-app-v2
+2630,   Asked about water management in cotton crop,Irrigation,,
+3365,Asking about Small onion sowing season,,,
+1070,paddy season and varieties,Crop Information,en,ussd-sms
+1805,asking for paddy brown plant hopper management,Irrigation,en,web
+3158,Beans Rust Management   ,Crop Disease,,web
+3043,ASKING ABOUT VIRALIMALAI WEATHER REPORT   ,Weather,en,web
+2434,   Asking about Thrips management in small onion   ,General Agriculture,,android-app-v1
+3194,Asked About Need For Bamboo Tree Saplings   ,Cultivation,en,
+3148,Asked  about Farmers grievance day meeting related information,General Agriculture,en,android-app-v2
+1371,asking about panama wilt management,Crop Disease,en,android-app-v2
+1560,Mulberry planting varieties,Cultivation,en,ussd-sms
+2797,sucking pest attack in radish,Pest Management,en,
+2427,   Asked about banana panama wilt management,Crop Disease,,android-app-v2
+3159,"thrips, Stem borer in paddy",Pest Management,en,android-app-v1
+1929,Asked about groundnut prevent soil born pathogen,Soil,,
+1541,Asking about banana fertigation schedule ( 157 - 242 ) days,Fertilizer,,android-app-v1
+2113,Asked about Prevention for Sugarcane internode borer,Pest Management,,android-app-v1
+2418,Asked about Leaf curl disease and Leaf blight management for Chilli plant,Crop Disease,en,android-app-v1
+2923,asked about biofertilizer management in coconut,Fertilizer,en,ussd-sms
+3324,     ,Harvesting,,
+1696,Asked about TPS 5 & ADT 43 paddy crop duration,Crop Information,,ussd-sms
+2321,Asked about Mealy bug management in Papaya and Herbal plant extract preparation,General Agriculture,,web
+2896,Red Gram pod borer management details   ,Pest Management,en,web
+2417,Asking  about Perambalur Regulator market contact number .,General Agriculture,en,android-app-v2
+2485,Asked about root rot management for cotton,Crop Disease,,android-app-v2
+2477,Asking About Weather Report For Tirupur District,Weather,en,web
+2424,Rice Tungro Virus In Paddy   ,Crop Information,en,ussd-sms
+2077,asked about weed management for snake gourd,Cultivation,en,ussd-sms
+3214,Asking  about Groundnut seed availability,Crop Information,,web
+1343,control measure for anthracnose in papaya   ,General Agriculture,en,android-app-v2
+2945,crossandra basal fertilizer   ,Fertilizer,en,android-app-v2
+2767,banana leaf spot,General Agriculture,en,web
+3097,PADDY SEASON AND VARIETIES FOR TIRUVANNAMALAI DIST.,Crop Information,,android-app-v2
+1033,Blackgram Root Rot management   ,Crop Disease,en,android-app-v2
+1374,Asking  about foliar spray in mango,Fertilizer,en,
+2018,    ASKING ABOUT SUITABLE RED GRAM VARIETIES IN CHITHIRAIPATTAM   ,Crop Information,en,android-app-v2
+1063,   asked about management of stem rot in coconut,Fertilizer,en,
+1312,   ASKING ABOUT BLAST DISEASE MANAGEMENT FOR PADDY,Crop Disease,en,ussd-sms
+2675,   Asking about rotavator with green gram crop in land there after black gram sowing detail,Cultivation,en,web
+1573,asked about soil testing lab contact information   ,Soil,,web
+1967,   Asking about Sesame sowing season   ,Weather,en,android-app-v1
+2039,asking about navarai season paddy varieties,Cultivation,en,ussd-sms
+3321,   asking about coconut intercropping detail,Cultivation,,ussd-sms
+1549,Asking about weather detail in thanjavur,Weather,,ussd-sms
+1905,Farmer  asked price detail of Paddy(Dhan)(Common) in Kilpennathur mandi.,General Agriculture,,ussd-sms
+2068,Asked about suitable paddy varieties for vellore district,Crop Information,,web
+2844,Asking about cut warm management in banana,Weather,en,web
+2881,Asking About Paddy Co 51 And Adt 45 Variety Yield Information,Crop Information,en,ussd-sms
+2163,asking about neem plant nursery availability,Cultivation,en,web
+1445,Asking about cuddalore KVK contact details,Cultivation,en,
+1041,ASKED  ABOUT FOLIAR SPRAY FOR CHILLI PLANT,Fertilizer,en,web
+1411,Asking about weather information ..?,Weather,,android-app-v2
+1723,asking about cumbu season,Weather,en,android-app-v1
+2603,asking about soil test laboratory inforamtion   ,Soil,en,android-app-v2
+1065,   sowing season of onion,Cultivation,,android-app-v2
+3361,     ,Crop Information,,
+1040,Asking about Papaya foliar spray,Fertilizer,,web
+2049,    Paddy foliar spray,Fertilizer,en,android-app-v2
+1585,Asked about caterpillar/stem borer management in maize   ,Pest Management,en,android-app-v2
+2292,Asking About Pm Kisan Samman Nidhi Yojana Scheme New Registration Information,General Agriculture,en,android-app-v2
+1300,asked about water management for mullai   ,Irrigation,en,ussd-sms
+1244,Asking about leaf spot disease management in groundnut,Crop Disease,en,web
+1028,   asking about weather detail for trichy dist,Weather,en,
+2845,duration for ADT39 paddy,Crop Information,en,web
+3265,Asking  about blackgram foliar application,General Agriculture,en,ussd-sms
+2249,ASKED ABOUT DURATION & SUITABLE SOWING SEASON FOR MAIZE HYBRID 11,Crop Information,en,android-app-v2
+2587,asking about polur weather report,Weather,en,android-app-v1
+2300,Asked  about Fruit Rot and Die Back management for Chilli plant (Copper oxy chloride and Nativo fungicide can be spray),Crop Disease,en,ussd-sms
+1638,Blackgram weed management   ,Pest Management,en,web
+2536,ash gourd market information,General Agriculture,,ussd-sms
+1952,   Asking about sucking pest management in jasmine,Pest Management,en,android-app-v1
+1475,Asked about Water management for Paddy,Irrigation,en,ussd-sms
+1360,paddy fertilizer recommended,Fertilizer,en,android-app-v2
+2893,Leaf Blight In Colocasia,Crop Disease,,android-app-v2
+2402,   Bacteria leaf blight in paddy,Crop Disease,,
+1621,Asking about Blister blight management in Tea   ,Crop Disease,en,web
+1969,asking about Teak seedlings availability information,Cultivation,en,android-app-v2
+2416,   paddy ADT 45 duration (Days)   ,Crop Information,en,ussd-sms
+2255,Asking about Paddy Shoot and stem borer management,Pest Management,,android-app-v2
+2622,   Stem Borer In Paddy,Pest Management,en,android-app-v2
+2120,asking about perambalur district rain details   ,Weather,en,android-app-v1
+1398,ASKING ABOUT ASH GOURD SEEDS AVAILABILITY DETAILS CONTACT NUMBER,Cultivation,en,android-app-v1
+1811,   Asked about management of leaf and bud blight in rose,Crop Disease,en,ussd-sms
+1603,   Asking about thungro disease and rust management in paddy,Crop Disease,en,web
+1551,   Asking about Wilt management in Coriander,Crop Disease,en,android-app-v1
+2850,Cono  weeder contact number   ,Pest Management,,web
+1380,asked about sugarcane intercropping information,Cultivation,en,
+1980,Asked about leaf caterpillar management for Chilli,General Agriculture,en,android-app-v1
+2749,Asked about Panchagavya preparation,General Agriculture,en,android-app-v2
+3364,     ,Pest Management,,
+1182,   asked about sesame tmv 7 variety details,Crop Information,en,web
+3315,Asked about vegetables suitable for December,Cultivation,en,android-app-v2
+1230,asked about leaf roller & leaf blight disease in groundnut crop   ,Crop Disease,en,
+2920,    Asked about Can mixing with spray for Copper oxy chloride & Micronutrient mixture   ,Cultivation,,
+1743,ASKING ABOUT LABLAB FRUIT BORER MANAGMENT,Pest Management,en,ussd-sms
+1091,   rice basal fertilizer,Fertilizer,en,
+2871,ASKED ABOUT WEED MANAGEMENT IN SSI,Pest Management,,
+2470,PADDY GALL MIDGE MANAGEMENT DETAILS   ,General Agriculture,en,
+2034,   Asked about humic acid application time & dosage information for tapioca crop   ,Fertilizer,en,ussd-sms
+2236,Asked about suitable paddy varieties for saline soil,Crop Information,en,web
+2619,asked about button shed management for coconut,Fertilizer,,android-app-v1
+2709,   Foliar application in paddy,Fertilizer,en,android-app-v1
+2383,Asked about Weed management for Tapioca and Pendimethalin herbicide price information,Cultivation,en,ussd-sms
+2768,ASKING ABOUT ROOT ROT MANAGEMENT IN TUBEROSE   ,Crop Disease,en,
+2820,asking about pandal type lab lab basal fertilizers applications   ,Fertilizer,,web
+3001,jamun induce flowering,Fertilizer,en,android-app-v2
+1873,   asking about paddy foliar spray,Fertilizer,en,
+2795,   Soil test Nagapattanam   ,Soil,en,android-app-v1
+1690,Top dressing Fertilizer Management for paddy,Fertilizer,en,android-app-v2
+3218,asked about kattuyanam paddy variety information   ,Crop Information,en,web
+2326,Asked about Problematic Soil reclamation information,Soil,en,web
+2306,   ASKING ABOUT WATER MANAGEMENT FOR CHILLI PLANT (BEFORE SPRAYING FUNGICIDE),Irrigation,en,ussd-sms
+2645,   Villupuram Weather Report,Weather,en,web
+1038,Asked about Green manure and sugarcane mill waste application,Fertilizer,en,web
+1170,Asked about paddy KKL1 and KKL 2 variety details   ,Crop Information,en,
+1323,Asking About Gummy Stem Blight Management In Watermelon,Crop Disease,en,web
+1669,Asked about foliar application in maize,Fertilizer,en,
+3182,   asking about veterinary department no of karur,General Agriculture,en,android-app-v2
+2517,asked  about weed management for direct sowing paddy (15th day),Pest Management,,ussd-sms
+1721,asking about foliar nutrient spray for pomegranate   ,Cultivation,en,android-app-v1
+1317,asking about soil testing,Soil,en,web
+2314,   ASKED ABOUT PREVENT WILD BOERS IN AGRICULTURE FILD,Cultivation,en,android-app-v1
+2996,ASKING  ABOUT SPACING FOR COCONUT (DWARF VARIETIES),Cultivation,en,android-app-v2
+2990,Weather  report for cuddalore,Weather,en,
+3322,    weed management for wasteland,Pest Management,,android-app-v1
+1313,asking about root rot management in brinjal   ,Crop Disease,en,android-app-v1
+2310,jasmine root rot,Crop Disease,en,ussd-sms
+2659,WEATHER REPORT FOR PERAMBALUR   ,Weather,en,
+2223,Asking about premature fruit drop management in chilli,Fertilizer,en,android-app-v2
+2671,asking about stem borer management in paddy   ,Pest Management,en,
+1964,rodent management in field,Pest Management,en,ussd-sms
+2377,   Asking about coconut fertilizer management information (Trichoderma),Fertilizer,en,web
+2210,   Asking about Veterinary University Training and Research Centre phone number   ,Crop Disease,,web
+2546,Asked about fruit borer and aphids management in vegetable cowpea,Pest Management,en,
+2128,Suitable paddy varieties for villupuram district,Crop Information,en,android-app-v2
+2657,asking about tomato seed availability,Cultivation,en,android-app-v2
+2926,ASKED ABOUT MAHYCO MRM 4065 MAIZE VARIETY DURATION INFORMATION   ,Crop Information,en,
+2444,   asked about brinjal basal fertilizer management   ,Fertilizer,en,ussd-sms
+2669,asking about sugarcane press mud application in banana   ,Cultivation,en,
+1823,asking about tuberose leaf blight management   ,Crop Disease,en,android-app-v2
+2268,Asked  about sowing season for ASD 21 information,Crop Information,en,android-app-v1
+1713,ASKED ABOUT BOTTLE GOURD PLANTING SEASON   ,General Agriculture,en,
+2388,Asked about Mosaic disease management for Tomato (Fipronil can be spray)   ,Crop Disease,en,ussd-sms
+2986,asking about paddy season and varieties details,Crop Information,en,android-app-v2
+3285,ASKED  ABOUT PLANTING SEASON OF CROSSANDRA,Cultivation,,android-app-v2
+2244,Asked about Leaf folder management in Paddy,General Agriculture,,web
+1483,ASKING ABOUT KOLLIDAM WEATHER REPORT   ,Weather,en,web
+2154,paddy varieties for Tiruvannamalai   ,Crop Information,en,ussd-sms
+1383,   Asking about sowing season for marigold   ,Cultivation,en,android-app-v2
+2663,Asking about Beauveria bassiana and pesticide using days interval information,Pest Management,en,android-app-v2
+3346,     ,Cultivation,,
+2305,   greengram flowering stage   ,Weather,en,android-app-v2
+1754,Asked  about calcium deficiency management in bitter gourd   ,Cultivation,en,android-app-v1
+1785,Asking  about boron deficiency in tuberose,Fertilizer,en,web
+3167,Asking about Suitable varieties for Crossandra,Cultivation,en,ussd-sms
+1125,Asking about coimbatore today weather Report for tomatoplant protection   ,Weather,en,web
+2501,Perambalur district soil testing lab contact number,Soil,en,android-app-v1
+2107,asked  about brinjal flower drop management,Fertilizer,en,android-app-v1
+3076,Asking about paddy CO 51 variety duration (days)   ,Crop Information,en,web
+1910,basal fertilizer management for chilli,Fertilizer,en,web
+1653,   Bacterial leaf blight in paddy,Crop Disease,en,android-app-v2
+1007,Asking about Flower and Pod setting management for Drumstick   ,Fertilizer,en,android-app-v2
+2436,Root  rot in paddy,Crop Disease,en,
+2138,asking about onion basal rot management   ,General Agriculture,en,android-app-v1
+2973,asking about fruit borer in cotton,Pest Management,en,android-app-v2
+3373,???...!!,Irrigation,,
+2063,Asking About Pm Kisan Samman Nidhi Aadhar Otp Ekyc Information,General Agriculture,en,
+1051,ASKED  ABOUT BIO FERTILIZER MANAGEMENT IN PADDY   ,Pest Management,en,android-app-v1
+2979,Asked abour Private Paddy variety information,Crop Information,en,android-app-v2
+2991,ASKED ABOUT AVAILABLE OF GUINEA GRASS SEEDS   ,Cultivation,en,
+2911,   Asked about Ribbed Gourd cultivation practice( sowing season),Cultivation,en,web
+1210,Asking about Contact number of Soil Science & Agrl.Chemistry department,Soil,en,ussd-sms
+3166,   sugarcane fertilizer managemen,General Agriculture,en,
+2073,market rate for paddy,General Agriculture,en,android-app-v1
+2677,   yellow muranai mite in chilli,Pest Management,en,
+2251,asked about red spider mite management in tapioca,Pest Management,en,
+1436,Asking about G9 Banana suitable season,Cultivation,en,web
+2680,Asking about Stem borer and Leaf folder control management in Paddy,Pest Management,en,android-app-v2
+2793,maize market rate   ,General Agriculture,en,web
+1582,   Asked about Maize market information,General Agriculture,,web
+3271,groundnut seed availability   ,Cultivation,en,ussd-sms
+1132,Asked about Management of Rhinoceros beetle in Coconut,General Agriculture,en,android-app-v1
+1231,Bhendi in yellow mosaic virus   ,Crop Disease,en,web
+2325,ASKING ABOUT MEALY BUG & ANTHRACNOSE DISEASE MANAGEMENT IN MANGO TREE,Crop Disease,en,
+2718,asking about black spot in rose,General Agriculture,,android-app-v1
+3128,Asked about pomegranate leaf spot disease managment,Crop Disease,en,android-app-v1
+3143,   Top Dressing Fertilizer Management For Cotton,Fertilizer,en,android-app-v2
+2533,Asked about Paddy white ponni seed problem information,Crop Information,en,web
+1747,asked about fertilizer management in maize,Fertilizer,en,web
+1797,Asked about Pirandai growth development information,Fertilizer,en,android-app-v2
+1362,black gram leaf caterpillar,General Agriculture,en,android-app-v2
+3112,NAGAPATINAM PADDY VARIETY DETAILS,Cultivation,en,android-app-v1
+2435,Asking about Bacterial leaf Blight control management in Paddy,Crop Disease,en,web
+1684,ASKED ABOUT GREENGRAM SOWING SEASON AND VARIETIES,Weather,en,ussd-sms
+2604,asking about soil test laboratory inforamtion   ,Soil,en,web
+2012,    POST EMERGENCE WEED MANAGEMENT FOR GREEN GRAM,Pest Management,en,
+1677,Asked about Bacterial leaf Blight management in Paddy   ,Crop Disease,en,web
+3021,   foliar spray for black gram   ,Fertilizer,,android-app-v2
+1856,paddy  short duration seed rate,Cultivation,en,ussd-sms
+1659,asked about nrcb trichy contact number,Cultivation,en,android-app-v2
+1426,Asking about soil sample collection procedure information   ,Soil,en,android-app-v1
+1745,Asking about weather report for Coimbatore district   ,Weather,en,android-app-v2
+1798,weather report for peramablur district,Weather,en,ussd-sms
+2858,asking  about jack fruit plants nursery availability,Cultivation,,android-app-v2
+1883,   Asked About Pesticides Spray After Vam Biofertilizer Application,Pest Management,en,android-app-v1
+2328,KRISHNAGIRI SOIL TEST LAB NUMBER,Soil,en,android-app-v1
+1780,asked about spacing of peas   ,Cultivation,,ussd-sms
+1366,asked about improved white ponni seed character related information,Cultivation,en,
+2100,ASKED ABOUT PM KISAN 14TH INSTALLMENT STATUS CHECKING DETAIL (NOT REGISTERED IN EKYC),General Agriculture,,android-app-v1
+2228,Asked about Paddy Stem borer and Leaf folder management in Paddy,Pest Management,en,android-app-v1
+1799,Asked  About Tomato Serpentine Leaf Miner Management Information   ,General Agriculture,en,
+2625,   ASKED ABOUT FRUIT DROP MANAGEMENT IN GUAVA,Fertilizer,en,web
+2514,Thiruvananmaal soil test lab,Soil,,android-app-v2
+1786,total yield of RICE CO 51,Crop Information,en,ussd-sms
+2519,Jasmine root rot managment,Crop Disease,en,ussd-sms
+2040,ASKING ABOUT ACID LIME BIO FERTILIZER MANAGEMENT,Pest Management,en,ussd-sms
+3350,???...!!,Harvesting,,
+1587,Asking About Tapioca Irrigation Management,Cultivation,,android-app-v1
+3105,Asking about flower shed in cashew,Fertilizer,en,android-app-v1
+1608,   Rice case worm,General Agriculture,en,android-app-v1
+1502,Asked  about vegetable garden kit subsidy scheme registration,Cultivation,en,
+1148,Asking about root rot management in Chilli,Crop Disease,en,ussd-sms
+1950,Asking about Which types of Feed used for Poultry,General Agriculture,en,
+2959,Flower Shed In Brinjal,Fertilizer,,
+1744,Asked about Yellow Mite management in Chilli,Pest Management,en,ussd-sms
+2706,   ASKIGN ABOUT TIRUPUR TODAY WEATHER REPORT,Weather,en,
+3125,   asking about black gram thrips management   ,General Agriculture,en,web
+1932,   farmer asked about pradhanmantri kisan sanman nidhi yojana status & helpline number ?,General Agriculture,en,android-app-v1
+2744,Asking about weather report for thanjavur,Weather,en,ussd-sms
+1189,Bean Aphids in green gram,General Agriculture,en,ussd-sms
+3241,onion top fertilizer management,Fertilizer,en,android-app-v1
+1889,Asked about sucking pest management in gourds   ,Pest Management,en,web
+1752,Asking About Chilli Leafspot Disease Management,Crop Disease,,android-app-v2
+3011,   fertilizer management for paddy nursery,Fertilizer,,android-app-v2
+1485,asked about ragi varieties,Crop Information,en,android-app-v1
+3009,"Asked About Paddy Variety Co 51, Co 54, Adt 51 Duration Information   ",Crop Information,en,web
+1866,Asked  about Paddy leaf blight management information,Crop Disease,,
+1632,Asking about Foliar nutrient spray for tomato   ,Fertilizer,en,android-app-v2
+1466,weather report for viluppuram,Weather,en,android-app-v2
+1997,ASKED ABOUT PADDY WEED MANAGEMENT,Irrigation,en,
+2918,Black Gram Season And Variety,Crop Information,en,web
+3302,   Asking about fertilizer management for coconut (20:20:0:13),Fertilizer,en,android-app-v1
+3085,Asked about Root rot management for Groundnut,Crop Disease,en,
+1931,Asking about Regulated market committee phone number(Villupuram district)   ,General Agriculture,,android-app-v1
+3086,ASKED ABOUT BASAL STEM ROT DISEASE MANGEMENT IN COCONUT   ,Crop Disease,en,ussd-sms
+2145,Sowing season of beetroot,Cultivation,,web
+2372,   Asking About Suitable Variety Of Sesame,Crop Information,en,web
+1232,Asking about Nematode management in tuberose flower,Pest Management,en,android-app-v2
+2782,Asking  about 8 loculed sesame varieties information,Cultivation,en,android-app-v2
+1386,   cotton cultivation soil,Soil,,web
+3286,ASKING ABOUT PM KISAN SAMMAN NIDHI SCHEME INSTALLMENT NOT CREDITED IN MY ACCOUNT,General Agriculture,en,ussd-sms
+1250,Asking About Weather Report For Erode,Weather,,web
+1013,Asking about weather forecasting for dharmapuri,Weather,en,ussd-sms
+2010,ASKING ABOUT FLOWER SHED MANAGEMENT IN MORINGA,General Agriculture,en,android-app-v2
+1642,BRINJAL FRUIT BORER ORGANIC MANAGEMENT   ,Pest Management,en,
+2461,Asking about leaf blight in paddy,Crop Disease,en,android-app-v2
+1179,Asking For Coconut Flowering Improvement,Fertilizer,,
+1501,   VILLUPURAM VETERNARY DEPARTMRNT CONTACT NUMBER DETAISL,General Agriculture,,web
+1946,Asked about fruit borer management in brinjal   ,Pest Management,en,android-app-v2
+1777,asked about water management in jasmine,Irrigation,en,ussd-sms
+1001,   Thirunelveli weather report details,Weather,en,
+2717,   Asking about LRG 41 red gram seeds availability   ,Cultivation,en,web
+1273,Asked About Groundnut Market Information,General Agriculture,en,android-app-v1
+2842,asking about celosia blooming time,Cultivation,en,android-app-v2
+3202,Asked about TNAU Demic department contact number (cotton price forecast)   ,General Agriculture,en,web
+1067,asked  about nutrient management in acrecanut,Fertilizer,,ussd-sms
+3335,Asking about leaf caterpillar and sucking pests management in black gram,,,
+2020,asked about fruit rot management in jackfruit   ,Crop Disease,en,ussd-sms
+2613,Vellore district weather forecast   ,Weather,,ussd-sms
+2894,asking about erode weather,Weather,en,android-app-v1
+1446,Asking about cuddalore KVK contact details,Cultivation,en,web
+2456,ASKING ABOUT ROOT ROT IN TUBEROSE   ,Crop Disease,en,android-app-v2
+3172,asking about water management in cotton   ,Irrigation,en,ussd-sms
+1775,ASKING ABOUT ROOT GRUB & NEMATODE MANAGEMENT IN COTTON CROP,Pest Management,en,web
+1115,   Fertilizer Management for paddy   ,Fertilizer,en,web
+1118,Asking  about Cotton Stem Weevil management,Fertilizer,,android-app-v2
+2288,asking about Bacterial Wilt in watermelon,Crop Disease,en,ussd-sms
+3238,    asking about suitable varieties of tapioca   ,Crop Information,en,android-app-v1
+1425,    Asked about foliar spray for sesame   ,Fertilizer,en,android-app-v2
+3033,Asking about Suitable Black gram varieties for this season,Crop Information,en,android-app-v1
+2980,ASKED ABOUT SOIL TESTING INFORMATION,Soil,en,web
+3029,asked about sowing season and suitable varieties of paddy,Weather,en,web
+1246,   Asking about bacterial leaf blight management in paddy,Fertilizer,en,android-app-v2
+2200,Asked about Paddy Top Dressing fertilizer application (MN),Fertilizer,en,android-app-v1
+3330,,General Agriculture,,
+1888,Asking about weather report for Dindigul,Weather,en,android-app-v1
+2640,Asked about suitable paddy varieties for samba season   ,Crop Information,,android-app-v2
+2476,asking about sowing season of agriculture crops (millets),Weather,,android-app-v2
+3135,"FARMER ASKED PRICE DETAIL OF SESAMUM(SESAME,GINGELLY,TIL) IN THIRUKOVILUR MANDI.",General Agriculture,,android-app-v2
+2933,   Tirunelveli weather Report,Weather,,android-app-v1
+1995,ASKING ABOUT GROUNDNUT ROOT ROT MANAGEMENT,Crop Disease,en,ussd-sms
+2815,"ASKED ABOUT SUCKING PESTS, SHOOT AND FRUIT BORER MANAGEMENT FOR BRINJAL",Pest Management,en,android-app-v1
+3230,asking about tuberose nematodes management,Pest Management,en,android-app-v2
+3069,"    Asked about PM kisan samman nidhi yojana scheme 11,12,13 & 14 th installment status",General Agriculture,en,web
+1103,Onion top dressing,Fertilizer,en,android-app-v2
+2965,    ASKING ABOUT GROUNDNUT G7 VARIETY DURATION   ,Crop Information,,
+1454,asked about sowing information of vegetables,Cultivation,en,ussd-sms
+1376,Asking about coconut bio fertilizer management,Pest Management,,
+1499,Asked about Pseudostem borer management in banana,Pest Management,en,
+1290,asked about bhendi sowing seed rate and spacing information,Cultivation,en,
+2785,asking about weather detail for Pudukottai dist,Weather,en,web
+2641,Dindukal horticulture department,General Agriculture,en,
+3036,Asking about Severity of mottle streak diseases management in Ragi,Crop Disease,en,
+1939,Asked about navarai season paddy varieties,Crop Information,,ussd-sms
+2609,red gram sowing season and variety,Cultivation,en,web
+3311,   Asking about Fodder sorghum leaf blight management,Crop Disease,,web
+1156,FUSARIUM WILT IN CHILLI   ,Crop Disease,en,android-app-v2
+3139,    Asking about TPS 5 paddy variety total duration,Crop Information,,web
+1310,Maize pre emergence herbicide   ,Pest Management,en,web
+1692,asking about maize market rate,General Agriculture,en,android-app-v2
+1068,varieties of paddy,Crop Information,en,android-app-v1
+2611,   Root rots bio fungicide application for groundnut,Pest Management,,ussd-sms
+3254,   BETTER BUNCHY FRUIT SIZE INCREASE IN BANANA,Fertilizer,en,
+1218,Asked about top dressing fertilizer for paddy ?????? :,Fertilizer,,
+2736,tobacco cutworm in chillies,General Agriculture,en,
+1734,   Asked about Mango tree maintenance   ,Cultivation,en,web
+3210,ASKING ABOUT STEM BORER AND LEAF FOLDER MANAGEMENT IN PADDY (ADULT)   ,Pest Management,en,
+1710,Asked about paddy direct post emergence sown weed management,Pest Management,en,web
+1925,Viruthunagar veterinary department   ,Crop Disease,en,
+1514,Cotton market price,General Agriculture,en,ussd-sms
+1195,ASKING ABOUT PADDY VARIETY ADT 53 HABIT,Cultivation,en,android-app-v2
+2665,Banana bunchy top virus management,Crop Disease,en,android-app-v1
+1782,   Asked About Paddy Tillering Information,Fertilizer,en,web
+1097,Asking about sugarcane Fertigation schedule,Fertilizer,en,web
+1917,   Asked about traditional paddy varieties for Kuruvai season,Crop Information,en,
+3366,Asked about preventive pesticide spray for paddy,,,
+3275,control  measure fruit borer in brinjal   ,General Agriculture,en,android-app-v1
+3304,Asked about Prevent pest in Cucumber,Pest Management,en,ussd-sms
+1462,Asked about Soil testing laboratory phone number   ,Soil,en,android-app-v2
+3187,   Asked about TNAU Soil Testing and Technology Advisory Centre,Soil,en,
+1652,   Bacterial leaf blight in paddy,Crop Disease,en,web
+1412,Paddy bacterial blight   ,Crop Disease,en,ussd-sms
+1916,asked about sowing season and suitable variety of sesame,Crop Information,en,web
+1565,   Asking about weather report Villupuram   ,Weather,en,ussd-sms
+3276,fusarium wilt in tomato,Crop Disease,en,android-app-v2
+2817,   Asking about Can mixing with DAP & Zinc sulphate,Cultivation,en,android-app-v2
+1026,Asked about Animal disease management,Crop Disease,,
+3380,???...!!,General Agriculture,,
+1843,Tomato top dressing fertilizer,Fertilizer,en,android-app-v2
+1174,ASKED ABOUT AZOLLA MOTHER SPAWN AND AZOLLA BED AVAILABILITY,Cultivation,en,
+1547,Asked about Red gram sowing season and suitable intercrops information,Crop Information,en,web
+2566,    suitable blackgram variety,Crop Information,en,web
+1202,ASKED ABOUT TRY 1 PADDY VARIETY RELATED DETAILS,Weather,en,ussd-sms
+2061,   asked about bhendi thrips & aphids management,General Agriculture,en,web
+1828,guinea grass seed availability,Weather,en,android-app-v1
+2541,Asked about Whitefly and Yellow mosaic disease management for Tapioca,Crop Disease,en,
+2513,Thiruvananmaal soil test lab,Soil,,android-app-v1
+3248,nematode pest in groundnut,General Agriculture,en,web
+2482,Asked about ADT 37 planting season information,Crop Information,en,android-app-v1
+2868,    ASKED ABOUT WATER REQUIREMENT IN BANANA /DAY & PLANTING SPACING,Irrigation,en,ussd-sms
+2713,Asking  about TNAU Department of Fruit Crops contact number (citrus flowering),Fertilizer,en,android-app-v1
+2921,    Asked about Can mixing with spray for Copper oxy chloride & Micronutrient mixture   ,Cultivation,,android-app-v1
+1163,ASKING ABOUT ECULEPTOUS SEEDLINGS AVAILABILITY,General Agriculture,,android-app-v2
+2552,Asked about flower increase in papaya   ,Cultivation,en,web
+3348,     ,General Agriculture,,
+2987,asking about cotton season and varieties,Crop Information,en,web
+2742,   asked about weed management in ragi crop   ,Pest Management,,android-app-v1
+1031,ASKING  ABOUT SUITABLE PADDY VARIETIES FOR KAR SEASON (BOLD),Crop Information,en,ussd-sms
+2380,Asked about Sucking pest and Leaf curl disease management in Cotton   ,Crop Disease,en,ussd-sms
+1685,Asked about Suitable varieties for Paddy (August month),Crop Information,,
+2356,ASKED ABOUT SESAME VARIETY,Crop Information,en,android-app-v2
+1604,   asking about stem borer management in maize,Pest Management,en,android-app-v2
+1440,asking  about duration of bpt and white ponni,Crop Information,en,android-app-v2
+1738,   asking about paddy weed management,Pest Management,,ussd-sms
+1794,Asked about increase maize yield information,Fertilizer,,ussd-sms
+2789,ASKING ABOUT WATER TESTING INFORMATION   ,Soil,en,android-app-v1
+1120,asked about top dressing fertilizer management in groundnut,General Agriculture,en,
+1665,asked about water infiltration in paddy field,Crop Information,en,ussd-sms
+2615,   Asked about Leaf caterpillar management for Sesame,Cultivation,en,web
+1878,    paddy pest control measure,Pest Management,en,android-app-v2
+1748,Asked about Manila tamarind organic fertilizer management,Fertilizer,,web
+2167,Krishnagiri  Navarai Paddy Varieties,Crop Information,en,web
+1221,Asking About Red Spider Mite In Cotton,Pest Management,,android-app-v2
+1712,Asked about CSV 41 sorghum Variety information,Crop Information,en,ussd-sms
+1184,Asking about Mosaic management in cucumber (sucking pest- aphids)   ,Pest Management,en,ussd-sms
+2263,   Asking about Vegetable seed availability,Cultivation,en,
+2877,weather report for tuticorin,Weather,en,web
+2227,control measure for shoot borer in sugarcane   ,General Agriculture,en,ussd-sms
+1171,Asking about nano urea spraying quantity,Cultivation,en,android-app-v2
+2805,Asked about suitable vegetable crops for April month   ,Cultivation,en,web
+1295,Asked About Mdu 6 Paddy Variety Duration & Grain Type Information   ,Crop Information,en,ussd-sms
+1423,ASKING ABOUT TIRUVANNAMALAI WEATHER REPORT,Weather,,android-app-v2
+1457,   Asking about Address for Erode soil testing laboratory,Soil,en,ussd-sms
+1581,Asking about farmer identity card registration,Cultivation,en,web
+1301,   Asking About Weather Report For Thiruvallur   ,Weather,en,
+1200,Asked about Sucking Pest management in Paddy,Pest Management,en,android-app-v1
+3328,???...!!,Crop Information,,
+2221,Asked  about sowing season for banana (Garden lands),Cultivation,en,android-app-v1
+1951,banana foliar spray details   ,Cultivation,en,
+2385,asked  about fertigation schedule in cotton,Fertilizer,en,android-app-v1
+2790,asking about whitefly management in brinjal,General Agriculture,en,android-app-v2
+3239,TAPIOCA ROOT ROT MANAGEMENT,Crop Disease,en,android-app-v1
+2685,Asked about leaf spot management for management,General Agriculture,en,web
+1434,Asked about benefits of azospirrillum & Phosphobacteria application for paddy crop,Pest Management,en,ussd-sms
+1620,   Suitable paddy varieties for Tiruvannamalai,Crop Information,en,android-app-v1
+2394,Asked about Suitable vegetables for December planting season   ,Cultivation,en,
+2599,Asking about leaf blight management in cucumber,Crop Disease,,
+1431,    asked about leaf caterpillar & leaf blight disease management in paddy nursery crop,Crop Disease,en,android-app-v1
+3002,   Asking about basal fertilizer management for black gram,Fertilizer,en,android-app-v1
+2527,asking about root rot management in blackgram   ,Crop Disease,en,web
+1145,Asking about Red spider mite in jasmine,Pest Management,en,ussd-sms
+1561,   Asked about spacing for chilli (varieties),Fertilizer,en,
+2457,Asking about Ribbed gourd season and variety details   ,General Agriculture,en,ussd-sms
+3249,sowing season of watermelon   ,Cultivation,en,ussd-sms
+2511,   Asked about Eucalyptus planting,Weather,en,
+1448,Asked  about drip irrigation information,Irrigation,en,web
+3237,   banana bio fertilizer application,Pest Management,en,ussd-sms
+2504,Asked About Caterpillar And Sucking Pest Management In Mullai,Pest Management,en,ussd-sms
+2357,   Asking about Suitable agriculture crops cultivation for this season,Weather,,android-app-v1
+1545,   asking about Documents required for crop insurance information,General Agriculture,,ussd-sms
+3298,Asking about tomato sowing season   ,Cultivation,en,
+1512,Asking about sowing season for vegetable crops in April months   ,Cultivation,en,ussd-sms
+2466,Asking about forest department phone number,Cultivation,en,android-app-v1
+2662,weed management for wetland,Pest Management,,android-app-v1
+2323,   paddy varieties for vellore,Crop Information,en,ussd-sms
+1249,Asked about wound management in teak timber,General Agriculture,,android-app-v2
+1075,    Asking about Required seed rate for Ragi,Cultivation,en,web
+1048,Asking about weather detail for vellore dist,Weather,,android-app-v1
+1938,   cumbu planting season,Weather,en,android-app-v2
+1476,intercropping in coconut,Cultivation,,
+1981,asking about Boron Deficiency in jasmine,Fertilizer,en,ussd-sms
+1322,   Asked about root rot management in mango,Crop Disease,en,
+1256,Asking about basal fertilizer management for paddy,Fertilizer,en,web
+3114,Asked about leaf caterpillar management in citrus tree   ,General Agriculture,en,
+2691,    Asked about Sugarcane yield per acre,Crop Information,en,
+2583,   asking about paddy leaf folder and mealy bug management,General Agriculture,en,android-app-v1
+2925,Asked About Adt 5 Blackgram Variety Sowing Season,Crop Information,en,android-app-v2
+3095,SOWING SEASON FOR (C0 4 )NAPIER GRASS,Weather,en,ussd-sms
+2044,control measure for fruit borer in brinjal,General Agriculture,en,android-app-v2
+3331,,Fertilizer,,
+1181,   Asked about brinjal harvest information   ,Cultivation,en,android-app-v2
+2995,Asking about Sudden Wilt management in watermelon,Crop Disease,en,android-app-v2
+1458,   Asking about Address for Erode soil testing laboratory,Soil,en,web
+1507,Asking about Cheyyar weather report,Weather,en,ussd-sms
+1042,    wooly aphids in sugarcane,General Agriculture,en,android-app-v2
+1330,Farmer Asked Price Detail Of Maize In Oddunchairum Mandi.,General Agriculture,en,android-app-v1
+1146,Asking about Red spider mite in jasmine,Pest Management,en,android-app-v1
+1836,Asking about suitable paddy varieties for Sornavari season& duration,Crop Information,en,web
+2825,cashew nut fertilizer management,Fertilizer,en,web
+1486,Asking about sesame sowing season and suitable varieties for erode district,Weather,en,android-app-v2
+1757,   Root rot in beans,Crop Disease,en,
+1166,    Asked about Weed management for paddy (21 days ),Pest Management,,web
+3103,Asked about stem borer & Blast disease Management for Paddy,Crop Disease,,web
+3383,,Crop Disease,,
+1388,Asking about banana weed management   ,Cultivation,en,web
+3074,Asking about green gram varieties,Crop Information,,web
+2564,Soil testing techniques,Soil,,web
+1973,SESAME LEAF HOPPER MANAGEMENT   ,General Agriculture,en,ussd-sms
+2198,asked about accident information of cow,Crop Disease,en,
+2178,ASKED ABOUT PADDY ADT53 AND ADT54 VARIETY DETAILS   ,Crop Information,en,web
+1288,Asking about blast disease management in paddy,Crop Disease,en,android-app-v2
+2197,Maize sowing season   ,Weather,,web
+2993,Asking  about paddy stem borer and sucking pests management   ,Pest Management,en,android-app-v1
+2464,asking about paddy top dressing fertilizer management,Fertilizer,en,
+1961,Asking about Leaf caterpillar and hopper management in mango   ,General Agriculture,en,android-app-v1
+2538,ASKING ABOUT BOTRYTIS BLIGHT MANAGEMENT IN ROSE,Crop Disease,,
+1756,ASKED ABOUT MAIZE VARIETIES AND DURATIONS,Weather,en,web
+2161,Asked about stem borer mangaement in brinjal,Pest Management,,ussd-sms
+1885,    soil test technique   ,Soil,en,ussd-sms
+1203,ASKED ABOUT TRY 1 PADDY VARIETY RELATED DETAILS,Weather,en,web
+2964,   ASKING ABOUT EARLY BLIGHT IN TOMATO,Crop Disease,en,ussd-sms
+1336,   Asking about shoot borer management in brinjal,Pest Management,en,android-app-v1
+1306,asked about prevent termite in coconut   ,General Agriculture,en,android-app-v1
+2781,CONTROL MEASURE FOR ROOT ROT IN BRINJAL,General Agriculture,,
+2906,ASKED  ABOUT STEM ROT DISEASE MANAGEMENT FOR PAPAYA,Crop Disease,,
+1534,goat feeding management,General Agriculture,en,
+2497,papaya seedling availability   ,Cultivation,en,
+2070,   Asking about Suitable varieties for Paddy (April-May)   ,Crop Information,en,ussd-sms
+1570,Asked  about PM Kisan Samman Nidhi scheme new registration,General Agriculture,,web
+1611,Asking  about Pest pre control in Chilli   ,Pest Management,en,web
+1546,Asked about weed management for blackgram,Pest Management,en,android-app-v1
+1979,   Asking about paddy stem borer management,Pest Management,en,ussd-sms
+1429,Asking about Goat diseases management,Crop Disease,en,android-app-v1
+2471,Asking about Department of Agrl. Entomology contact number,General Agriculture,en,
+2726,asked  about sucking pest management in lab lab,Pest Management,,
+2960,Asking about weed management in maize   ,Pest Management,,android-app-v2
+2205,asking about need for blackgram seeds,Cultivation,,web
+2982,Asked about Groundnut GG-7 and GJG-9 yield,Crop Information,,android-app-v1
+2864,asking about villupuram horti. Dept contact number,Cultivation,en,web
+2260,onion top dressing fertilizer management,Fertilizer,en,ussd-sms
+1506,asking about govt.schemes details,Cultivation,,
+1157,   ASKING ABOUT SUITABLE VARIETIES FOR PADDY SAMBA SEASON,Crop Information,en,
+1285,CROP  LOAN DETAILS,General Agriculture,en,android-app-v1
+1695,   Asked about Jassid and Aphid management for Cotton,Fertilizer,en,android-app-v1
+1307,Rainfall information for thirupur district   ,Weather,en,android-app-v2
+2831,GROUND NUT MARKET RATE DETAILS   ,General Agriculture,,ussd-sms
+2802,Asked about flower blight disease management in brinjal & ribbed gourd crop,Crop Disease,en,android-app-v2
+1963,asked about fruit rot management in tomato,Crop Disease,en,web
+1226,Pomegranate Fruit Borer Mangement,Pest Management,en,ussd-sms
+1900,agri clinic training at erode dist,Crop Information,en,android-app-v2
+2369,   details about azolla cultivation,Cultivation,,android-app-v1
+2633,planting spacing of sri method paddy,Cultivation,en,android-app-v2
+1420,Asking  about Kudumiyanmalai Agricultural College and Research Institute,General Agriculture,en,
+1826,Asked about Maize top dressing fertilizer management,Fertilizer,en,web
+2016,paiyur  research statio0n contact no.,General Agriculture,en,ussd-sms
+1439,Fruit borer in cotton,Pest Management,en,android-app-v2
+1140,Asked About Paddy Try5 Variety Details   ,Crop Information,en,android-app-v2
+1818,asked about mealybug management for chilli plant,Fertilizer,en,
+2748,Asking about Kallakurichi black gram market rate   ,General Agriculture,en,web
+2410,Asking about Sirugamani Krishi Vigyan Kendra contact number,Cultivation,en,
+2707,Rainfall information for thiruvarur district   ,Weather,en,
+1851,asking about coimbatore weather report today,Weather,en,
+2593,asking about bhendi suitable season   ,Cultivation,en,android-app-v2
+1122,Asking about Ash gourd foliar nutrient application information,Fertilizer,en,android-app-v2
+2532,Asking  about bitter gourd fruit fly management,General Agriculture,en,
+1841,Asked  about live fence crop suitable for jasmine,Cultivation,en,ussd-sms
+2110,ASKING ABOUT SOIL TESTING DETAILS,Soil,en,android-app-v2
+2544,Asked about Weed management for Cotton   ,Pest Management,en,android-app-v1
+2554,Asking  about Root grub and root worms control in Beans   ,Pest Management,,
+1847,Asked about maize sowing season and variety   ,Weather,en,android-app-v1
+1349,ASKED ABOUT PADDY ADT 57 VARIETY DETAILS   ,Crop Information,en,
+2046,Asked  about PM kisan samman nidhi yojana scheme 13th Installment status   ,General Agriculture,en,web
+2940,Asking about Water Management for wheat information,Irrigation,en,android-app-v1
+1077,Papaya Top Dressing Fertilizer Details   ,Fertilizer,,android-app-v2
+3264,asking about red spider mite in tapioca,Pest Management,,
+2892,   SUGARCANE WEED MANAGEMENT,Pest Management,en,ussd-sms
+2746,Asking About Stem Borer In Paddy,Pest Management,en,web
+2400,   Aphids in citrus   ,General Agriculture,en,web
+1822,Ground nut sowing season   ,General Agriculture,,ussd-sms
+1555,PADDY SEEDS AVAILABILITY,Crop Information,en,web
+2237,   COW PRODUCTION DETAILS,General Agriculture,en,
+1196,Asking about sowing season & suitable groundnut varieties for Tiruvannamalai district,Weather,en,ussd-sms
+3209,Asking about Mango hopper & caterpillar management,Cultivation,en,ussd-sms
+1839,Asked  about Irrigation management in Sugarcane   ,Irrigation,en,web
+3082,asking about department of post harvest technology phone number,Harvesting,en,android-app-v2
+2378,"preparation method of garlic,chilli,ginger extract",Pest Management,en,android-app-v1
+1956,Foliar application in Brinjal,Fertilizer,,android-app-v1
+3041,Asked about paddy active tillering stage fertilizer management,Fertilizer,en,web
+1225,Coimbatore district weather forecast   ,Weather,en,
+1879,Cuddalore  district weather forecast,Weather,en,
+2970,Asked about nutrient management in tapioca,Fertilizer,en,web
+3008,"Asked About Paddy Variety Co 51, Co 54, Adt 51 Duration Information   ",Crop Information,en,ussd-sms
+1471,ASKING  ABOUT SUITABLE VARIETIES FOR PADDY IN KURUVAI SEASON,Crop Information,en,ussd-sms
+2332,Beetles in watermelon,General Agriculture,en,android-app-v2
+2631,asking for the tungro virus management in paddy,Crop Disease,en,
+1208,Asking about Fruit Borer control management in Tomato,Pest Management,en,
+1562,"Asked about Leaf folder , Earhead bug and Sucking pests management for Paddy (Malathion can be mixed with Lambda Cyhalothrin and Acephate)",Pest Management,en,android-app-v1
+2069,Asked about weed management for tapioca,Pest Management,en,ussd-sms
+1492,"asked about paddy sowing season ,varieties and duration   ",Crop Information,en,android-app-v2
+1990,   asking about groundnut sucking pest management,Pest Management,en,ussd-sms
+1187,pest management in paddy,Pest Management,en,
+1361,black gram leaf caterpillar,General Agriculture,en,ussd-sms
+1459,Asking About Black Gram Sowing Season And Variety,Crop Information,en,ussd-sms
+3089,Asked about short duration fish varieties,Cultivation,en,android-app-v1
+2861,Asking about black gram basal fertilizer management,Fertilizer,en,android-app-v1
+1197,ASKING ABOUT SOWING SEASON FOR VEGETABLE CROPS IN AUGUST MONTHS,Cultivation,en,ussd-sms
+2733,   Asking About Castor Market Price,General Agriculture,en,
+1760,horticulture department no of krishnagiri,Cultivation,en,
+2617,Asking about The nilgiris horticultural department contact number,General Agriculture,en,android-app-v1
+1185,Asking about Cabrio top fungicide can spray another time separately?,General Agriculture,en,
+2468,asking for the counseling call letter,Weather,en,android-app-v2
+1635,Asked about leaf spot disease management for Chrysanthemum,Crop Disease,en,web
+2217,Asked about fertigation for tapioca crop   ,Fertilizer,en,
+2813,Asked about cotton RCH varieties information,Crop Information,en,web
+3168,asking about average yield of adt 45   ,Crop Information,,web
+2827,ASKING ABOUT FLOWER SHED IN CHILLI,Fertilizer,en,
+2353,asking  about cotton foliar spray,Fertilizer,en,android-app-v1
+1243,Asking about leaf spot disease management in groundnut,Crop Disease,en,web
+2173,    Asked about TNAU Rice ADT 50 Variety information,Crop Information,,ussd-sms
+1324,   Black gram sowing varieties   ,Crop Information,en,
+2729,   Asked about Panama wilt management in Banana information,Crop Disease,,
+2652,Chennai Cucumber Market Rate,General Agriculture,,android-app-v1
+2667,Asking about Required seed rate for Black gram   ,Cultivation,en,web
+3068,brinjal Shoot and fruit borer management,Cultivation,en,android-app-v1
+1489,panama wilt management for banana,Crop Disease,en,ussd-sms
+1095,Asking about Top fertilizer management for Paddy (Panicle initiation stage)   ,Fertilizer,en,android-app-v1
+2835,Fodder crop seed availability,Cultivation,en,ussd-sms
+1840,Asked  about azolla seeds availability in salem,Cultivation,,ussd-sms
+3059,   Asking about water management for cotton   ,Irrigation,en,web
+1419,asked about crop insurance information,General Agriculture,en,
+2574,Asking about weather detail for Erode dist   ,Weather,en,android-app-v1
+3225,   ASKED ABOUT PADDY VARIETY ADT 54 DURATION SPECIAL FEATURES AND YIELD INFORMATION,Weather,en,android-app-v2
+2341,Asked about Bacterial leaf blight symptoms for paddy   ,Crop Disease,en,android-app-v2
+2974,asking about groundnut sowing season and varieties,Crop Information,en,web
+1926,Viruthunagar veterinary department   ,Crop Disease,en,android-app-v1
+2763,"   Asking about Executive Engineer (AE), Cuddalore contact no.",General Agriculture,en,android-app-v2
+2017,   asking about weather report for Trichy district,Weather,en,android-app-v2
+3379,Asking about French bean sowing season,,,
+1739,Asking about market rate for jasmine   ,Cultivation,en,
+1518,   Suitable Paddy Varieties For Navarai Season,Crop Information,en,
+2302,asking about beta-cyfluthrin + imidacloprid 300 od pesticide details,Pest Management,en,android-app-v2
+2916,nendran banana fertilizer management,Fertilizer,en,ussd-sms
+1234,CITRUS CANKER DISEASE CONTROL   ,Crop Disease,,ussd-sms
+2303,asked about top dressing fertilizer management in cotton   ,Fertilizer,en,ussd-sms
+1732,sowing season for cauliflower,Cultivation,,
+2946,   Asked about Leaf curl disease and Aphid management for Chilli plant,Crop Disease,en,ussd-sms
+2407,Asked  about Paddy variety TKM 13 duration special features and yield information,Crop Information,en,web
+1205,    asking about root rot in brinjal   ,Crop Disease,,android-app-v1
+3296,asking about tapioca sucking pest management,Pest Management,en,
+1898,Asked about suitable soil & climate for cotton,Weather,en,android-app-v1
+1647,Asked  about Cotton sucking pest management,Pest Management,en,android-app-v2
+1699,   SUITABLE VARIETIES OF BLACKGRAM,Crop Information,en,android-app-v2
+3028,AGRICULTURAL DEPARTMENT CONTACT NUMBER   ,General Agriculture,en,android-app-v2
+1955,    ASKED ABOUT BRINJAL PLANTING SEASON,Cultivation,,
+1121,Asking about Ash gourd foliar nutrient application information,Fertilizer,en,
+3370,,Crop Disease,,
+1327,   Asked about foliar nutrient spray for soybean,Fertilizer,en,ussd-sms
+2883,Asking  about Panama Wilt management in banana,Crop Disease,en,android-app-v2
+2929,    ASKED ABOUT PADDY STEM BORER MANAGMENT,Pest Management,en,android-app-v1
+2349,   button shedding in coconut,Cultivation,en,android-app-v1
+2382,   ASKING ABOUT POD BORER MANAGEMENT FOR TAMARIND TREE,Pest Management,en,android-app-v1
+2528,"Asking  about small onion seed rate, time of transplanting in onion seedlings",Cultivation,,android-app-v1
+2885,SHOOT & FRUIT BORER IN BRINJAL,General Agriculture,en,android-app-v1
+3375,,Cultivation,,
+1160,Asking about Flood recover for Blackgram,General Agriculture,en,ussd-sms
+1880,   Asking about sowing season & suitable cotton varieties for tiruvarur district   ,Weather,en,web
+3014,"asking about Cotton Research Station, Veppanthattai, Perambalur district contact no.",Fertilizer,en,android-app-v1
+1247,Asking About Basal Fertilizer Management For Bhendi,Fertilizer,en,
+1569,Asked about Virus Disease Precaution management in brinjal,Crop Disease,en,android-app-v2
+1730,Asking about Black gram leaf caterpillar management,General Agriculture,en,android-app-v2
+2581,Asking about ADT 37 & ADT 46 paddy variety total duration,Crop Information,en,web
+2880,PUDUKKOTTAI  SESAME SOWING SEASON AND VARIETY,Cultivation,en,ussd-sms
+3339,Mulberry planting varieties,,,
+2496,PADDY SEASON FOR TIRUNELVELI   ,Cultivation,en,ussd-sms
+2913,Asked about Weed managementy in Paddy,Pest Management,en,ussd-sms
+3054,how control leaf spot in banana,General Agriculture,,ussd-sms
+3176,ASKING  ABOUT INFORMATION ON SVPR 2 VARIETY COTTON,Crop Information,,android-app-v1
+2096,asked about growth information of onion,Cultivation,en,android-app-v1
+1123,   Asked about ADT 51 variety information,Crop Information,en,android-app-v1
+1824,FERTILIZER MANAGEMENT IN MAIZE,Fertilizer,en,android-app-v2
+2737,GROUNDNUT SEED AVAILABILITY AND PEST MANAGEMENT IN PADDY,Pest Management,,
+1886,Root Rot in cotton   ,Crop Disease,en,web
+1996,ASKING ABOUT GROUNDNUT ROOT ROT MANAGEMENT,Crop Disease,en,android-app-v2
+3231,asked about top dressing fertilizer management in crossandra   ,Fertilizer,,
+1069,"Asked about black gram irrigation management , yield VBN 8 variety   ",Crop Information,en,android-app-v1
+1770,   prevention of root rot in maize,Crop Disease,en,web
+1627,fruit fly in mango   ,General Agriculture,en,
+2440,Asked about root rot disease management in jasmine,Crop Disease,en,android-app-v1
+2556,ASKED ABOUT FERTIGATION SCHEDULE FOR SUGARCANE   ,Fertilizer,en,android-app-v2
+2101,Asking about black gram seeds availability information,Cultivation,en,ussd-sms
+1133,Asked about PM kisan samman nidhi yojana scheme related information   ,General Agriculture,,
+1012,STEMBORER  IN SNAKEGOURD,General Agriculture,,web
+1774,Asking  about panchagavya spray dosage for crops   ,Pest Management,,android-app-v2
+1299,    Asked about Availability of Cowpea seeds,Cultivation,en,web
+3221,asking about need for onion storage details   ,Harvesting,en,
+2907,ASKED ABOUT PADDY SOWING SEASON AND SUITABLE VARIETIES INFORMATION,Crop Information,,android-app-v1
+1517,Asking  about weed management (organic ),Pest Management,en,ussd-sms
+1651,zinc deficiency in rose,Fertilizer,,android-app-v2
+1090,Asked about planting season of mullai,Cultivation,en,android-app-v2
+2698,   weed management in green gram,Pest Management,en,android-app-v2
+2983,Asked about Cotton foliar nutrition management   ,Fertilizer,en,android-app-v2
+1513,Asked about (medium slender)paddy suitable for samba season,Crop Information,en,web
+3156,ASKED ABOUT WATER MANAGEMENT FOR FERTILIZER APPLIED MAIZE FIELD,Irrigation,en,web
+1054,Asking about Yellow mosaic disease management for Banana (Fungicides given through driplines?),Crop Disease,en,android-app-v1
+3242,ASKING ABOUT FOLIAR NUTRIENT APPLICATION FOR BLACKGRAM,Fertilizer,,android-app-v1
+2521,   early shoot borer in maize,Pest Management,en,android-app-v1
+2201,   asking about kvk number of namakkal,Weather,en,android-app-v1
+2276,asking about suitable sesame varieties for tiruvannamalai district   ,Crop Information,en,web
+1261,co 46 paddy duration,Cultivation,en,
+2088,asking  about special features for co 52 paddy variety   ,Cultivation,en,
+3391,     ,General Agriculture,,
+1578,   asking about blackgram basal fertilizer requirement,Cultivation,en,
+1116,   asking about chilli sowing season and varieties,Cultivation,en,
+2256,   SUITABLE SEASON FOR SUGARCANE   ,General Agriculture,en,web
+2392,   paddy Bacterial leaf blight management details,Crop Disease,,
+2618,vegetable cowpea flower drop management,Fertilizer,en,android-app-v1
+3055,Asked  about soil sample collection information,Soil,en,ussd-sms
+2247,groundnut seed treatment information,Cultivation,en,ussd-sms
+2608,   asking about blackgram root rot management   ,Crop Disease,en,
+1985,asking about sapota fertilizer management 1st year tree,Fertilizer,en,web
+1634,Asked  about Banana Micronutrient deficiency management,Fertilizer,en,android-app-v2
+1477,Thulsi flower cutting,Cultivation,en,web
+2362,   Asking about TNAU agronomy Department contact number (waterlogged soil )   ,Cultivation,en,android-app-v2
+1287,   asking about Thirupur today weather Report,Weather,en,android-app-v2
+1599,Asking About Foliar Nutrient Spray For Mango Tree,Fertilizer,en,
+2281,   Alterneria Leaf Blight: Cotton,Crop Disease,en,ussd-sms
+2193,Asking about asking about villupuram today weather Report,Weather,,web
+1949,WEATHER REPORT FOR COIMBATORE DISTRICT,Weather,en,android-app-v2
+3219,asking about average yield for adt 53 paddy variety,Crop Information,en,ussd-sms
+2176,asking about sowing season of redgram,Weather,en,android-app-v2
+2505,   Asking about Pudukottai today weather Report,Weather,en,
+1278,details  about soil testing   ,Soil,en,android-app-v2
+1413,Asked about Bhendi sucking pest management,Pest Management,en,web
+2592,asked about contact details of water testing lab,General Agriculture,en,
+2720,   suitable black gram varieties,Crop Information,en,ussd-sms
+3042,Asked about Termite management in Groundnut,General Agriculture,en,
+2196,asked about thenneri water level today information,Irrigation,en,android-app-v2
+3171,tirupur weather report details,Weather,en,android-app-v2
+2438,ASKING ABOUT ORGANIC WEEDICIDE APPLICATION INFORMATION,Pest Management,en,android-app-v1
+2250,paddy varieties for,Crop Information,en,ussd-sms
+1542,Asking about bio fertilizer application detail,Pest Management,en,ussd-sms
+2841,asking about celosia blooming time,Cultivation,en,android-app-v2
+1687,   rose fertilizer management,Fertilizer,en,android-app-v2
+1829,asked about harvesting of pepper,Cultivation,en,android-app-v2
+2090,Asking About Banana Disease Managment   ,Cultivation,en,
+1882,Asking about blast in paddy,General Agriculture,en,android-app-v1
+1245,   Asking about weather detail for namakkal dist,Weather,en,
+2947,Asked About Coconut Grows In Rock Like Soil   ,Soil,en,android-app-v1
+2573,    Asked about Soil testing in Coconut field,Soil,en,web
+3137,   ASKING ABOUT LEAF CATERPILLAR MANAGEMENT IN CHRYSANTHEMUM,General Agriculture,en,web
+1922,Asked about sesame sowing season for cuddalore district & suitable varieties,Cultivation,en,web
+1772,Asked about rust management in tuberose,Crop Disease,en,android-app-v1
+1453,   Erode weather report   ,Weather,,android-app-v1
+3207,   Asked about need for crop loan details,General Agriculture,en,android-app-v1
+1463,Asking  about Suitable black gram varieties in Markazhi – Thaipattam,Crop Information,en,android-app-v1
+2081,asking  about foliar spray in guava,Fertilizer,en,
+1509,"Asking about Thrips,fruit fly and leaf blight control in Bitter gourd",Crop Disease,,android-app-v1
+1586,   Weed management in maize,Pest Management,,ussd-sms
+1352,Asking about CHEMBARAMBAKKAM water level information,Irrigation,en,ussd-sms
+3023,    Asked about Irrigation management in Coconut,Irrigation,en,android-app-v2
+1640,KVK (Krishi Vigyan Kendra) contact number   ,Cultivation,en,android-app-v1
+2413,Asking about kisan credit card information   ,General Agriculture,en,android-app-v1
+1648,black gram varieties   ,Crop Information,en,android-app-v2
+3288,asking about water management for melia dubia,Irrigation,en,web
+1901,   asking about green greengram and paddy season and varieties,Weather,en,
+3073,RUST IN CHRYSANTHEMUM,Crop Disease,,
+1552,   Asking about Wilt management in Coriander,Crop Disease,en,android-app-v2
+3252,asking about cow production training details,General Agriculture,,android-app-v1
+1496,"farmer asked price detail of sesamum(sesame,gingelly,til) in panruti mandi.",General Agriculture,en,web
+2093,    ASKED ABOUT MAIZE HYBRID SEEDS AVAILABILITY PLACE INFORMATION (CO 6),Cultivation,en,ussd-sms
+3131,   Asking about weather detail in trichy,Weather,en,ussd-sms
+2838,Asked  about solar bub related details   ,Harvesting,en,android-app-v1
+1441,leaf crinkle disease in green gram,Crop Disease,,
+2420,   Asking about 20 : 20 : 0 : 13 fertilizer Price (Rs/ 50 kgs),Fertilizer,en,
+1945,tuberose leaf blight management   ,Crop Disease,en,
+2779,Asking About Sowing Season For Sesamum   ,Fertilizer,en,android-app-v1
+2735,   Black gram aphid management   ,General Agriculture,en,
+2565,    suitable blackgram variety,Crop Information,en,web
+2451,control measure for leafspot in turmeric,Fertilizer,en,ussd-sms
+2272,groundnut  weed management,Pest Management,en,android-app-v1
+2656,farmer asked price detail of black gram (urd beans)(whole) in kallakurichi mandi.,General Agriculture,en,web
+1096,Asking about Top fertilizer management for Paddy (Panicle initiation stage)   ,Fertilizer,en,android-app-v2
+2153,   Asking about Water Technology Centre phone number   ,Irrigation,en,android-app-v2
+3162,"asked  about weed management for groundnut (pre-emergence,post-emergence herbicide)",Pest Management,en,android-app-v1
+1017,paddy SRI time of Transplanting,Crop Information,,
+2985,   fertilizer management in malligai,Fertilizer,en,android-app-v1
+2516,Asking About Kancheepuram Weather Report,Weather,en,web
+2162,   asking about redgram pod borer management,Pest Management,,android-app-v1

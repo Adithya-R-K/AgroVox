@@ -1,0 +1,7 @@
+pest_id,pest_name_en,pest_name_ta,affected_crops,pest_type,damage_symptoms,management
+P001,Brown Planthopper,பழுப்பு தத்துப்பூச்சி,Rice,Sap-sucking insect,Hopper burn: yellowing and drying of plants in circular patches,"Avoid excess nitrogen, use resistant varieties, encourage natural predators like spiders and mirid bugs."
+P002,Stem Borer,தண்டு துளைப்பான்,"Rice, Maize, Sugarcane",Larval boring insect,"Dead heart in vegetative stage, white ear head at reproductive stage","Use pheromone traps, remove and destroy affected tillers, encourage egg-parasitoid release (Trichogramma)."
+P003,Whitefly,வெள்ளை ஈ,"Cotton, Chilli, Tomato",Sap-sucking insect & virus vector,"Yellowing, sooty mould from honeydew, transmits leaf curl viruses","Use yellow sticky traps, avoid excess nitrogen, encourage natural predators; rotate non-host crops."
+P004,Fall Armyworm,இலை உண்ணும் புழு,Maize,Leaf/whorl feeding caterpillar,"Window-pane feeding damage on young leaves, ragged holes on whorl leaves","Scout fields regularly, hand-pick egg masses, encourage natural enemies, use pheromone traps for monitoring."
+P005,Pod Borer,காய் துளைப்பான்,"Groundnut, Blackgram, Pulses",Larval boring insect,"Circular holes bored into pods/flowers, larval frass visible","Deploy pheromone traps, encourage bird perches, avoid continuous monoculture."
+P006,Thrips,நுண்பூச்சி,"Chilli, Onion, Groundnut",Rasping-sucking insect,"Silvery streaks on leaves, curling and crinkling of young leaves","Use blue sticky traps, avoid moisture stress, encourage predatory mites and bugs."

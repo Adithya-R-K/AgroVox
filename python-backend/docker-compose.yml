@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  agrovox:
+    build: .
+    image: agrovox:latest
+    container_name: agrovox
+    ports:
+      - "8501:8501"
+    volumes:
+      # Persist the SQLite DB and trained model artifacts across container
+      # restarts/rebuilds instead of losing them each time.
+      - agrovox-db:/app/db-data
+      - agrovox-models:/app/models
+    environment:
+      # Optional feature flags - see .env.example. All default to false
+      # (fully offline mode) if unset.
+      - AGROVOX_ENABLE_NEURAL_MT=${AGROVOX_ENABLE_NEURAL_MT:-false}
+      - AGROVOX_ENABLE_NEURAL_QA=${AGROVOX_ENABLE_NEURAL_QA:-false}
+      - AGROVOX_ENABLE_WHISPER_ASR=${AGROVOX_ENABLE_WHISPER_ASR:-false}
+      - AGROVOX_ENABLE_TTS=${AGROVOX_ENABLE_TTS:-false}
+      - HUGGINGFACE_TOKEN=${HUGGINGFACE_TOKEN:-}
+      # Point the SQLite DB at the mounted, persistent volume below instead
+      # of the container's ephemeral filesystem.
+      - AGROVOX_DB_PATH=/app/db-data/agrovox.db
+    restart: unless-stopped
+
+volumes:
+  agrovox-db:
+  agrovox-models:

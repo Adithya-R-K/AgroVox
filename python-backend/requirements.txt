@@ -1,0 +1,28 @@
+# AgroVox - Core requirements (lightweight, CPU-friendly, no GPU required)
+streamlit>=1.32,<2.0
+pandas>=2.0,<3.0
+numpy>=1.24,<2.0
+scikit-learn>=1.3,<2.0
+scipy>=1.10,<2.0
+nltk>=3.8,<4.0
+spacy>=3.7,<3.8
+joblib>=1.3,<2.0
+matplotlib>=3.7,<4.0
+seaborn>=0.12,<1.0
+plotly>=5.18,<6.0
+sqlalchemy>=2.0,<3.0
+
+# Testing (see tests/ — run `pytest tests/ -v`)
+pytest>=7.4,<9.0
+
+# Optional / heavy (used only if the environment has internet + enough
+# RAM/GPU). AgroVox runs fully without these via the fallbacks documented
+# in README.md -> "Fallback Strategy". Uncomment to enable real
+# transformer-based classification, real neural MT and real Whisper ASR.
+# transformers>=4.38,<5.0
+# torch>=2.2,<3.0
+# sentence-transformers>=2.5,<3.0
+# datasets>=2.18,<3.0
+# openai-whisper
+# SpeechRecognition>=3.10
+# gTTS>=2.5

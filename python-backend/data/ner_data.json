@@ -1,0 +1,915 @@
+{
+  "labels": [
+    "CROP",
+    "DISEASE",
+    "SYMPTOM",
+    "PEST",
+    "FERTILIZER",
+    "LOCATION",
+    "SOIL_TYPE",
+    "FARMING_ACTIVITY",
+    "WEATHER_CONDITION"
+  ],
+  "patterns": [
+    {
+      "label": "CROP",
+      "pattern": "rice"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Rice"
+    },
+    {
+      "label": "CROP",
+      "pattern": "wheat"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Wheat"
+    },
+    {
+      "label": "CROP",
+      "pattern": "maize"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Maize"
+    },
+    {
+      "label": "CROP",
+      "pattern": "cotton"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Cotton"
+    },
+    {
+      "label": "CROP",
+      "pattern": "sugarcane"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Sugarcane"
+    },
+    {
+      "label": "CROP",
+      "pattern": "groundnut"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Groundnut"
+    },
+    {
+      "label": "CROP",
+      "pattern": "tomato"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Tomato"
+    },
+    {
+      "label": "CROP",
+      "pattern": "banana"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Banana"
+    },
+    {
+      "label": "CROP",
+      "pattern": "chilli"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Chilli"
+    },
+    {
+      "label": "CROP",
+      "pattern": "blackgram"
+    },
+    {
+      "label": "CROP",
+      "pattern": "Blackgram"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "bacterial leaf blight"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Bacterial leaf blight"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Bacterial Leaf Blight"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "rice blast"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Rice blast"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Rice Blast"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "late blight"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Late blight"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Late Blight"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "fusarium wilt"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Fusarium wilt"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Fusarium Wilt"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "powdery mildew"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Powdery mildew"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Powdery Mildew"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "panama wilt"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Panama wilt"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Panama Wilt"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "leaf curl virus"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Leaf curl virus"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Leaf Curl Virus"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "blackgram yellow mosaic"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Blackgram yellow mosaic"
+    },
+    {
+      "label": "DISEASE",
+      "pattern": "Blackgram Yellow Mosaic"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "yellow leaves"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Yellow leaves"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Yellow Leaves"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "yellowing leaves"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Yellowing leaves"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Yellowing Leaves"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "wilting"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Wilting"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "leaf curling"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Leaf curling"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Leaf Curling"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "brown spots"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Brown spots"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Brown Spots"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "white powdery growth"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "White powdery growth"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "White Powdery Growth"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "stunted growth"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Stunted growth"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Stunted Growth"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "dead heart"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Dead heart"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Dead Heart"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "water-soaked lesions"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Water-soaked lesions"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Water-Soaked Lesions"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "leaf blight"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Leaf blight"
+    },
+    {
+      "label": "SYMPTOM",
+      "pattern": "Leaf Blight"
+    },
+    {
+      "label": "PEST",
+      "pattern": "brown planthopper"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Brown planthopper"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Brown Planthopper"
+    },
+    {
+      "label": "PEST",
+      "pattern": "stem borer"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Stem borer"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Stem Borer"
+    },
+    {
+      "label": "PEST",
+      "pattern": "whitefly"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Whitefly"
+    },
+    {
+      "label": "PEST",
+      "pattern": "fall armyworm"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Fall armyworm"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Fall Armyworm"
+    },
+    {
+      "label": "PEST",
+      "pattern": "pod borer"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Pod borer"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Pod Borer"
+    },
+    {
+      "label": "PEST",
+      "pattern": "thrips"
+    },
+    {
+      "label": "PEST",
+      "pattern": "Thrips"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "urea"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Urea"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "DAP"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Dap"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "MOP"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Mop"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "zinc sulphate"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Zinc sulphate"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Zinc Sulphate"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "NPK complex"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Npk complex"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Npk Complex"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "vermicompost"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Vermicompost"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "single super phosphate"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Single super phosphate"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Single Super Phosphate"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "farmyard manure"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Farmyard manure"
+    },
+    {
+      "label": "FERTILIZER",
+      "pattern": "Farmyard Manure"
+    },
+    {
+      "label": "LOCATION",
+      "pattern": "Coimbatore"
+    },
+    {
+      "label": "LOCATION",
+      "pattern": "Madurai"
+    },
+    {
+      "label": "LOCATION",
+      "pattern": "Thanjavur"
+    },
+    {
+      "label": "LOCATION",
+      "pattern": "Salem"
+    },
+    {
+      "label": "LOCATION",
+      "pattern": "Trichy"
+    },
+    {
+      "label": "LOCATION",
+      "pattern": "Erode"
+    },
+    {
+      "label": "LOCATION",
+      "pattern": "Tamil Nadu"
+    },
+    {
+      "label": "LOCATION",
+      "pattern": "Tamil nadu"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "black cotton soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Black cotton soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Black Cotton Soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "red soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Red soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Red Soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "alluvial soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Alluvial soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Alluvial Soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "sandy loam"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Sandy loam"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Sandy Loam"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "clayey soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Clayey soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Clayey Soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "laterite soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Laterite soil"
+    },
+    {
+      "label": "SOIL_TYPE",
+      "pattern": "Laterite Soil"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "irrigation"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Irrigation"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "sowing"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Sowing"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "harvesting"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Harvesting"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "transplanting"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Transplanting"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "weeding"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Weeding"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "spraying"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Spraying"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "fertilizer application"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Fertilizer application"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Fertilizer Application"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "ploughing"
+    },
+    {
+      "label": "FARMING_ACTIVITY",
+      "pattern": "Ploughing"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "heavy rain"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "Heavy rain"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "Heavy Rain"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "drought"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "Drought"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "heatwave"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "Heatwave"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "frost"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "Frost"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "high humidity"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "High humidity"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "High Humidity"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "dry spell"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "Dry spell"
+    },
+    {
+      "label": "WEATHER_CONDITION",
+      "pattern": "Dry Spell"
+    }
+  ],
+  "eval_sentences": [
+    {
+      "text": "My rice crop has yellow leaves in Coimbatore.",
+      "entities": [
+        {
+          "start": 3,
+          "end": 7,
+          "label": "CROP",
+          "text": "rice"
+        },
+        {
+          "start": 17,
+          "end": 30,
+          "label": "SYMPTOM",
+          "text": "yellow leaves"
+        },
+        {
+          "start": 34,
+          "end": 44,
+          "label": "LOCATION",
+          "text": "Coimbatore"
+        }
+      ]
+    },
+    {
+      "text": "The tomato field shows late blight symptoms after heavy rain.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 10,
+          "label": "CROP",
+          "text": "tomato"
+        },
+        {
+          "start": 23,
+          "end": 34,
+          "label": "DISEASE",
+          "text": "late blight"
+        },
+        {
+          "start": 50,
+          "end": 60,
+          "label": "WEATHER_CONDITION",
+          "text": "heavy rain"
+        }
+      ]
+    },
+    {
+      "text": "I applied urea to my cotton crop near Salem yesterday.",
+      "entities": [
+        {
+          "start": 10,
+          "end": 14,
+          "label": "FERTILIZER",
+          "text": "urea"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "label": "CROP",
+          "text": "cotton"
+        },
+        {
+          "start": 38,
+          "end": 43,
+          "label": "LOCATION",
+          "text": "Salem"
+        }
+      ]
+    },
+    {
+      "text": "Whitefly is damaging the chilli plants in my field.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 8,
+          "label": "PEST",
+          "text": "Whitefly"
+        },
+        {
+          "start": 25,
+          "end": 31,
+          "label": "CROP",
+          "text": "chilli"
+        }
+      ]
+    },
+    {
+      "text": "The groundnut is growing in red soil with stunted growth this season.",
+      "entities": [
+        {
+          "start": 4,
+          "end": 13,
+          "label": "CROP",
+          "text": "groundnut"
+        },
+        {
+          "start": 28,
+          "end": 36,
+          "label": "SOIL_TYPE",
+          "text": "red soil"
+        },
+        {
+          "start": 42,
+          "end": 56,
+          "label": "SYMPTOM",
+          "text": "stunted growth"
+        }
+      ]
+    },
+    {
+      "text": "We are doing irrigation for the sugarcane field in Thanjavur.",
+      "entities": [
+        {
+          "start": 13,
+          "end": 23,
+          "label": "FARMING_ACTIVITY",
+          "text": "irrigation"
+        },
+        {
+          "start": 32,
+          "end": 41,
+          "label": "CROP",
+          "text": "sugarcane"
+        },
+        {
+          "start": 51,
+          "end": 60,
+          "label": "LOCATION",
+          "text": "Thanjavur"
+        }
+      ]
+    },
+    {
+      "text": "Bacterial leaf blight was found on rice leaves after a dry spell.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 21,
+          "label": "DISEASE",
+          "text": "Bacterial leaf blight"
+        },
+        {
+          "start": 35,
+          "end": 39,
+          "label": "CROP",
+          "text": "rice"
+        },
+        {
+          "start": 55,
+          "end": 64,
+          "label": "WEATHER_CONDITION",
+          "text": "dry spell"
+        }
+      ]
+    },
+    {
+      "text": "Banana plants in Madurai show wilting due to Panama wilt.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 6,
+          "label": "CROP",
+          "text": "Banana"
+        },
+        {
+          "start": 17,
+          "end": 24,
+          "label": "LOCATION",
+          "text": "Madurai"
+        },
+        {
+          "start": 30,
+          "end": 37,
+          "label": "SYMPTOM",
+          "text": "wilting"
+        },
+        {
+          "start": 45,
+          "end": 56,
+          "label": "DISEASE",
+          "text": "Panama wilt"
+        }
+      ]
+    },
+    {
+      "text": "Stem borer attack was noticed after spraying DAP on the maize crop.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 10,
+          "label": "PEST",
+          "text": "Stem borer"
+        },
+        {
+          "start": 45,
+          "end": 48,
+          "label": "FERTILIZER",
+          "text": "DAP"
+        },
+        {
+          "start": 56,
+          "end": 61,
+          "label": "CROP",
+          "text": "maize"
+        }
+      ]
+    },
+    {
+      "text": "Blackgram yellow mosaic is spreading in the blackgram field near Erode.",
+      "entities": [
+        {
+          "start": 0,
+          "end": 23,
+          "label": "DISEASE",
+          "text": "Blackgram yellow mosaic"
+        },
+        {
+          "start": 0,
+          "end": 9,
+          "label": "CROP",
+          "text": "Blackgram"
+        },
+        {
+          "start": 65,
+          "end": 70,
+          "label": "LOCATION",
+          "text": "Erode"
+        }
+      ]
+    }
+  ]
+}

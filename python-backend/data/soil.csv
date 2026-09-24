@@ -1,0 +1,7 @@
+soil_id,soil_name_en,soil_name_ta,suitable_crops,characteristics,notes
+S001,Alluvial Soil,வண்டல் மண்,"Rice, Wheat, Sugarcane, Maize","Fertile, well-drained, rich in potash, deposited by rivers",Most fertile Indian soil type found in river plains and deltas; good for a wide crop range.
+S002,Black Cotton Soil (Regur),கருப்பு பருத்தி மண்,"Cotton, Groundnut, Sugarcane, Sorghum","High clay content, high water-retention, cracks when dry","Rich in lime, iron, magnesium; retains moisture well but drains slowly, needs careful water management."
+S003,Red Soil,செம்மண்,"Groundnut, Millets, Pulses, Tobacco","Low nitrogen and organic matter, well-drained, red due to iron oxide",Common in Tamil Nadu uplands; responds well to organic manure and balanced fertilization.
+S004,Laterite Soil,லேட்டரைட் மண்,"Cashew, Tea, Coffee, Rubber","Acidic, low fertility, high iron/aluminium content",Found in high rainfall regions; needs liming and organic matter to improve fertility.
+S005,Sandy Loam,மணல் கலந்த களிமண்,"Groundnut, Vegetables, Chilli","Good drainage, moderate water-holding capacity, easy to till","Warms quickly in spring and is easy to work, but may need more frequent irrigation."
+S006,Clayey Soil,களிமண்,"Rice, Sugarcane","High water-retention, poor drainage, nutrient-rich",Suitable for standing-water crops like rice; needs good drainage management for other crops.
