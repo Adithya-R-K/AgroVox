@@ -243,10 +243,37 @@ def build_stats_export():
           f"cv acc={stats['cv_accuracy_mean']}±{stats['cv_accuracy_std']})")
 
 
+def build_data_blob():
+    blob = {
+        "classifier": json.load(open(os.path.join(OUT_DIR, "classifier.json"), encoding="utf-8")),
+        "qa": json.load(open(os.path.join(OUT_DIR, "qa_knowledge_base.json"), encoding="utf-8")),
+        "ner": json.load(open(os.path.join(OUT_DIR, "ner_gazetteer.json"), encoding="utf-8")),
+        "translations": json.load(open(os.path.join(OUT_DIR, "translation_dict.json"), encoding="utf-8")),
+        "stats": json.load(open(os.path.join(OUT_DIR, "stats.json"), encoding="utf-8")),
+    }
+    blob_path = os.path.join(OUT_DIR, "data_blob.json")
+    with open(blob_path, "w", encoding="utf-8") as f:
+        json.dump(blob, f)
+    print(f"[EXPORT] Bundled data_blob.json -> {blob_path}")
+
+    website_blob_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "website", "src", "data_blob.json")
+    if os.path.exists(os.path.dirname(website_blob_path)):
+        with open(website_blob_path, "w", encoding="utf-8") as f:
+            json.dump(blob, f)
+        print(f"[EXPORT] Copied data_blob.json -> {website_blob_path}")
+
+        # Assemble website/index.html
+        assemble_py = os.path.join(os.path.dirname(website_blob_path), "assemble.py")
+        if os.path.exists(assemble_py):
+            import subprocess
+            subprocess.run([sys.executable, "assemble.py"], cwd=os.path.dirname(assemble_py), check=True)
+
+
 if __name__ == "__main__":
     build_classifier_export()
     build_qa_export()
     build_ner_export()
     build_translation_export()
     build_stats_export()
+    build_data_blob()
     print("\nAll browser export artifacts written to:", OUT_DIR)

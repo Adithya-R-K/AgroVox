@@ -1,4 +1,4 @@
-const { porterStem } = require("./porter_stemmer.js");
+const { porterStem } = require("./porter_stemmer_node_version.js");
 
 // ---- Stopwords (same set the Python side uses, minus "not"/"no") ----
 const STOPWORDS = new Set([
