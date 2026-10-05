@@ -1,20 +1,31 @@
-# AgroVox — Project Code
+# 🌾 AgroVox — Voice-Driven Intelligence for Smarter Farming
 
-This zip contains two parts of the same project:
+AgroVox is an AI-powered agricultural conversational and voice intelligence platform supporting multilingual NLP in Tamil and English.
+
+## 🚀 Quick Launch (Modern UI / UX)
+
+Run the new modern UI with a single command:
+```bash
+python run_app.py
+```
+*(Or double-click `run.bat` on Windows)* — this immediately starts the server and opens the modern UI at **http://localhost:3000** in your browser.
+
+---
+
+## 📁 Project Architecture
 
 ```
 agrovox-project/
-├── python-backend/   The original NLP project: ETL, EDA, text classifier,
-│                      NER, QA engine, translator, speech engine, chatbot,
-│                      evaluation scripts, tests, and a Streamlit app (app.py).
-│                      This is the "real" implementation and where the six
-│                      NLP concepts are actually implemented/trained.
+├── run_app.py         Primary launcher: serves the Modern UI platform on port 3000
+├── run.bat            One-click Windows batch launcher
+├── frontend/          Modern UI / UX platform (React / Vite, responsive design)
+│   └── dist/          Production-optimized modern web build
 │
-└── website/           A self-contained, static demo site (index.html) that
-                        runs a genuine subset of the backend's NLP logic
-                        (classification, NER, translation, QA retrieval)
-                        directly in the browser — exported from the trained
-                        Python model, not re-implemented from scratch.
+├── python-backend/    Core NLP backend: ETL, text classification, NER, QA engine,
+│                      translation, speech processing, multi-turn chatbot, and tests
+│
+└── website/           Self-contained web deployment (index.html) running the full
+                       AgroVox client-side NLP pipeline
 ```
 
 ## python-backend/
